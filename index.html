@@ -88,6 +88,7 @@
     letter-spacing:5px; color:var(--gold-soft); margin-top:5px; text-transform:uppercase;}
   header .spacer{flex:1;}
   .hright{display:flex; align-items:center; gap:12px;}
+  .hbtns{display:flex; align-items:center; gap:12px;}
   .hbtn{width:42px;height:42px;border-radius:11px;border:1px solid var(--line);
     background:transparent;color:var(--muted);cursor:pointer;
     display:flex;align-items:center;justify-content:center;
@@ -309,6 +310,8 @@
   @media (max-width:760px){
     :root{--header-h:auto; --pad:16px;}
     header{flex-wrap:wrap; gap:10px 14px; padding:14px 16px;}
+    .hbtns{position:absolute; top:14px; right:16px; z-index:30;}
+    .hright{width:100%;}
     .brand{gap:14px;}
     .brand .logo-img,.brand .badge{height:54px;width:54px;flex-basis:54px;}
     .brand .word .nm{font-size:24px; letter-spacing:1.5px;}
@@ -358,10 +361,12 @@
       <div class="spacer"></div>
       <div class="hright">
         <nav class="langs" id="langbar"></nav>
-        <button class="hbtn" id="playBtn" onclick="startShow()" aria-label="Slideshow" title="Slideshow">
-          <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M8 5.14v13.72a1 1 0 0 0 1.54.84l10.29-6.86a1 1 0 0 0 0-1.68L9.54 4.3A1 1 0 0 0 8 5.14z"/></svg>
-        </button>
-        <button class="hbtn" id="fsBtn" onclick="toggleFS()" aria-label="Fullscreen"></button>
+        <div class="hbtns">
+          <button class="hbtn" id="playBtn" onclick="startShow()" aria-label="Slideshow" title="Slideshow">
+            <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M8 5.14v13.72a1 1 0 0 0 1.54.84l10.29-6.86a1 1 0 0 0 0-1.68L9.54 4.3A1 1 0 0 0 8 5.14z"/></svg>
+          </button>
+          <button class="hbtn" id="fsBtn" onclick="toggleFS()" aria-label="Fullscreen"></button>
+        </div>
       </div>
     </header>
 
