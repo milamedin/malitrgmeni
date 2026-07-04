@@ -48,7 +48,7 @@ const FOOD = [
 
 /* ---------- ДОРУЧАК / BREAKFAST ---------- */
 {cat:"breakfast",price:"8.90€",img:"images/dorucak-mali-trg.jpg",t:{
-  me:{n:"Доручак „Мали Трг“",d:"Кросан, кајгана, печурке, кобасица, помфрит, микс зелене салате, сос"},
+  me:{n:"Доручак „Мали Трг“",d:"Кроасан, кајгана, печурке, кобасица, помфрит, микс зелене салате, сос"},
   en:{n:"„Mali Trg“ Breakfast",d:"Croissant, scrambled eggs, mushrooms, sausage, fries, mixed green salad, sauce"},
   ru:{n:"Завтрак «Мали Трг»",d:"Круассан, яичница-болтунья, грибы, колбаски, картофель фри, микс зелёного салата, соус"},
   fr:{n:"Petit-déjeuner « Mali Trg »",d:"Croissant, œufs brouillés, champignons, saucisse, frites, salade verte, sauce"},
@@ -57,7 +57,7 @@ const FOOD = [
   es:{n:"Desayuno «Mali Trg»",d:"Cruasán, huevos revueltos, champiñones, salchicha, patatas fritas, ensalada verde mixta, salsa"}}},
 
 {cat:"breakfast",price:"9.80€",img:"images/losos.jpg",t:{
-  me:{n:"Доручак са димљеним лососом",d:"Кросан, кајгана, димљени лосос, шпаргле, помфрит, микс зелене салате"},
+  me:{n:"Доручак са димљеним лососом",d:"Кроасан, кајгана, димљени лосос, шпаргле, помфрит, микс зелене салате"},
   en:{n:"Breakfast with smoked salmon",d:"Croissant, scrambled eggs, smoked salmon, asparagus, fries, mixed green salad"},
   ru:{n:"Завтрак с копчёным лососем",d:"Круассан, яичница-болтунья, копчёный лосось, спаржа, картофель фри, микс салата"},
   fr:{n:"Petit-déjeuner au saumon fumé",d:"Croissant, œufs brouillés, saumon fumé, asperges, frites, salade verte"},
@@ -102,7 +102,7 @@ const FOOD = [
   es:{n:"Tortilla con jamón",d:"Huevos, jamón, gouda, ajvar, pan de maíz, queso, ensalada verde mixta"}}},
 
 {cat:"breakfast",price:"9.40€",img:"images/avokado.jpg",t:{
-  me:{n:"Авокадо",d:"Кајгана, авокадо, интегрални хљеб, сирни намаз, микс салате, шери, сос"},
+  me:{n:"Авокадо",d:"Кајгана, авокадо, интегрални хлеб, сирни намаз, микс салате, шери, сос"},
   en:{n:"Avocado",d:"Scrambled eggs, avocado, whole grain bread, cream cheese, salad, cherry tomatoes, sauce"},
   ru:{n:"Авокадо",d:"Яичница-болтунья, авокадо, цельнозерновой хлеб, сливочный сыр, салат, черри, соус"},
   fr:{n:"Avocat",d:"Œufs brouillés, avocat, pain complet, fromage frais, salade, tomates cerises, sauce"},
@@ -111,7 +111,7 @@ const FOOD = [
   es:{n:"Aguacate",d:"Huevos revueltos, aguacate, pan integral, queso crema, ensalada, tomates cherry, salsa"}}},
 
 {cat:"breakfast",price:"9.80€",img:"images/proteinski.jpg",t:{
-  me:{n:"Протеински доручак",d:"Бјеланца, пилећи филе, парадајз, моцарела, интегрални хљеб"},
+  me:{n:"Протеински доручак",d:"Бјеланца, пилећи филе, парадајз, моцарела, интегрални хлеб"},
   en:{n:"Protein breakfast",d:"Egg whites, chicken fillet, tomato, mozzarella, whole grain bread"},
   ru:{n:"Протеиновый завтрак",d:"Яичные белки, куриное филе, помидор, моцарелла, цельнозерновой хлеб"},
   fr:{n:"Petit-déjeuner protéiné",d:"Blancs d'œufs, filet de poulet, tomate, mozzarella, pain complet"},
@@ -120,7 +120,7 @@ const FOOD = [
   es:{n:"Desayuno proteico",d:"Claras de huevo, filete de pollo, tomate, mozzarella, pan integral"}}},
 
 {cat:"breakfast",price:"6.80€",img:"images/priganice-dzem.jpg",t:{
-  me:{n:"Пригањице са џемом",d:"Домаће пригањице са домаћим џемом"},
+  me:{n:"Приганице са џемом",d:"Домаће приганице са домаћим џемом"},
   en:{n:"Fritters with jam",d:"Homemade fritters with homemade jam"},
   ru:{n:"Пышки с джемом",d:"Домашние пышки с джемом"},
   fr:{n:"Beignets à la confiture",d:"Beignets maison à la confiture"},
@@ -129,7 +129,7 @@ const FOOD = [
   es:{n:"Buñuelos con mermelada",d:"Buñuelos caseros con mermelada"}}},
 
 {cat:"breakfast",price:"6.80€",img:"images/priganice-krem.jpg",t:{
-  me:{n:"Пригањице са кремом",d:"Домаће пригањице са слатким кремом"},
+  me:{n:"Приганице са кремом",d:"Домаће приганице са слатким кремом"},
   en:{n:"Fritters with cream",d:"Homemade fritters with sweet cream"},
   ru:{n:"Пышки с кремом",d:"Домашние пышки со сладким кремом"},
   fr:{n:"Beignets à la crème",d:"Beignets maison à la crème sucrée"},
@@ -138,7 +138,7 @@ const FOOD = [
   es:{n:"Buñuelos con crema",d:"Buñuelos caseros con crema dulce"}}},
 
 {cat:"breakfast",price:"6.80€",img:"images/priganice-pistaci.jpg",t:{
-  me:{n:"Пригањице са пистаћима",d:"Домаће пригањице са кремом од пистаћа"},
+  me:{n:"Приганице са пистаћима",d:"Домаће приганице са кремом од пистаћа"},
   en:{n:"Fritters with pistachio",d:"Homemade fritters with pistachio cream"},
   ru:{n:"Пышки с фисташками",d:"Домашние пышки с фисташковым кремом"},
   fr:{n:"Beignets à la pistache",d:"Beignets maison à la crème de pistache"},
@@ -147,7 +147,7 @@ const FOOD = [
   es:{n:"Buñuelos con pistacho",d:"Buñuelos caseros con crema de pistacho"}}},
 
 {cat:"breakfast",price:"6.80€",img:"images/priganice-sir.jpg",t:{
-  me:{n:"Пригањице са сиром",d:"Домаће пригањице са сиром"},
+  me:{n:"Приганице са сиром",d:"Домаће приганице са сиром"},
   en:{n:"Fritters with cheese",d:"Homemade fritters with cheese"},
   ru:{n:"Пышки с сыром",d:"Домашние пышки с сыром"},
   fr:{n:"Beignets au fromage",d:"Beignets maison au fromage"},
@@ -156,7 +156,7 @@ const FOOD = [
   es:{n:"Buñuelos con queso",d:"Buñuelos caseros con queso"}}},
 
 {cat:"breakfast",price:"6.80€",img:"images/priganice-med.jpg",t:{
-  me:{n:"Пригањице са медом",d:"Домаће пригањице са медом"},
+  me:{n:"Приганице са медом",d:"Домаће приганице са медом"},
   en:{n:"Fritters with honey",d:"Homemade fritters with honey"},
   ru:{n:"Пышки с мёдом",d:"Домашние пышки с мёдом"},
   fr:{n:"Beignets au miel",d:"Beignets maison au miel"},
@@ -192,7 +192,7 @@ const FOOD = [
   es:{n:"Cruasán con prosciutto",d:"Cruasán, prosciutto, mozzarella, pesto, tomate, ensalada verde mixta"}}},
 
 {cat:"breakfast",price:"9.90€",img:"images/sendvic-piletina.jpg",t:{
-  me:{n:"Сендвич са поханом пилетином",d:"Интегрална лепиња, похана пилетина, јаја, сирни намаз, гауда, помфрит, парадајз, сос"},
+  me:{n:"Сендвич са похованом пилетином",d:"Интегрална лепиња, похана пилетина, јаја, сирни намаз, гауда, помфрит, парадајз, сос"},
   en:{n:"Fried chicken sandwich",d:"Whole grain bun, fried chicken, eggs, cream cheese, gouda, fries, tomato, sauce"},
   ru:{n:"Сэндвич с курицей в панировке",d:"Цельнозерновая булочка, курица в панировке, яйца, сливочный сыр, гауда, картофель фри, помидор, соус"},
   fr:{n:"Sandwich au poulet pané",d:"Pain complet, poulet pané, œufs, fromage frais, gouda, frites, tomate, sauce"},
