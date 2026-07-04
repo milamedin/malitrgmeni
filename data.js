@@ -267,7 +267,7 @@ const FOOD = [
   es:{n:"Halloumi a la parrilla",d:"Queso halloumi a la parrilla"}}},
 
 {cat:"hot",price:"9.00€",unit:"200 g",t:{
-  me:{n:"Похани сир",d:"Сир у презлама, пржен"},
+  me:{n:"Поховани сир",d:"Сир у презлама, пржен"},
   en:{n:"Fried cheese",d:"Breaded fried cheese"},
   ru:{n:"Сыр в панировке",d:"Жареный сыр в панировке"},
   fr:{n:"Fromage pané",d:"Fromage pané et frit"},
