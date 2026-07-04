@@ -56,7 +56,7 @@ const FOOD = [
   it:{n:"Colazione „Mali Trg“",d:"Croissant, uova strapazzate, funghi, salsiccia, patatine fritte, insalata mista, salsa"},
   es:{n:"Desayuno «Mali Trg»",d:"Cruasán, huevos revueltos, champiñones, salchicha, patatas fritas, ensalada verde mixta, salsa"}}},
 
-{cat:"breakfast",price:"9.80€",t:{
+{cat:"breakfast",price:"9.80€",img:"images/losos.jpg",t:{
   me:{n:"Доручак са димљеним лососом",d:"Кросан, кајгана, димљени лосос, шпаргле, помфрит, микс зелене салате"},
   en:{n:"Breakfast with smoked salmon",d:"Croissant, scrambled eggs, smoked salmon, asparagus, fries, mixed green salad"},
   ru:{n:"Завтрак с копчёным лососем",d:"Круассан, яичница-болтунья, копчёный лосось, спаржа, картофель фри, микс салата"},
@@ -74,7 +74,7 @@ const FOOD = [
   it:{n:"Colazione montenegrina",d:"Due uova, salsiccia fatta in casa, prosciutto, formaggio, ajvar, pane di mais, patatine, insalata mista"},
   es:{n:"Desayuno montenegrino",d:"Dos huevos, salchicha casera, prosciutto, queso, ajvar, pan de maíz, patatas fritas, ensalada mixta"}}},
 
-{cat:"breakfast",price:"7.80€",t:{
+{cat:"breakfast",price:"7.80€",img:"images/omlet-povrce.jpg",t:{
   me:{n:"Омлет са поврћем",d:"Јаја, тиквице, плави патлиџан, црвена и зелена паприка, проја, ајвар, рукола, сос"},
   en:{n:"Vegetable omelette",d:"Eggs, zucchini, eggplant, red and green peppers, cornbread, ajvar, arugula, sauce"},
   ru:{n:"Овощной омлет",d:"Яйца, цукини, баклажан, красный и зелёный перец, кукурузный хлеб, айвар, руккола, соус"},
