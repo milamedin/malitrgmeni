@@ -47,7 +47,7 @@ window.MENU_GROUPS = {
 const FOOD = [
 
 /* ---------- ДОРУЧАК / BREAKFAST ---------- */
-{cat:"breakfast",price:"8.90€",t:{
+{cat:"breakfast",price:"8.90€",img:"images/dorucak-mali-trg.jpg",t:{
   me:{n:"Доручак „Мали Трг“",d:"Кросан, кајгана, печурке, кобасица, помфрит, микс зелене салате, сос"},
   en:{n:"„Mali Trg“ Breakfast",d:"Croissant, scrambled eggs, mushrooms, sausage, fries, mixed green salad, sauce"},
   ru:{n:"Завтрак «Мали Трг»",d:"Круассан, яичница-болтунья, грибы, колбаски, картофель фри, микс зелёного салата, соус"},
@@ -65,7 +65,7 @@ const FOOD = [
   it:{n:"Colazione con salmone affumicato",d:"Croissant, uova strapazzate, salmone affumicato, asparagi, patatine, insalata mista"},
   es:{n:"Desayuno con salmón ahumado",d:"Cruasán, huevos revueltos, salmón ahumado, espárragos, patatas fritas, ensalada mixta"}}},
 
-{cat:"breakfast",price:"8.90€",t:{
+{cat:"breakfast",price:"8.90€",img:"images/crnogorski-dorucak.jpg",t:{
   me:{n:"Црногорски доручак",d:"Два јаја, домаћа кобасица, пршут, сир, ајвар, проја, помфрит, микс зелене салате"},
   en:{n:"Montenegrin breakfast",d:"Two eggs, homemade sausage, prosciutto, cheese, ajvar, cornbread, fries, mixed green salad"},
   ru:{n:"Черногорский завтрак",d:"Два яйца, домашняя колбаса, прошутто, сыр, айвар, кукурузный хлеб, картофель фри, микс салата"},
@@ -83,7 +83,7 @@ const FOOD = [
   it:{n:"Omelette di verdure",d:"Uova, zucchine, melanzane, peperoni rossi e verdi, pane di mais, ajvar, rucola, salsa"},
   es:{n:"Tortilla de verduras",d:"Huevos, calabacín, berenjena, pimientos rojo y verde, pan de maíz, ajvar, rúcula, salsa"}}},
 
-{cat:"breakfast",price:"9.80€",t:{
+{cat:"breakfast",price:"9.80€",img:"images/omlet-burger.jpg",t:{
   me:{n:"Омлет бургер",d:"Бургер лепиња, гауда, јаја, пршут, сирни намаз, домаћа кобасица, чедар, помфрит, микс салате"},
   en:{n:"Omelette burger",d:"Burger bun, gouda, eggs, prosciutto, cream cheese, homemade sausage, cheddar, fries, salad"},
   ru:{n:"Омлет-бургер",d:"Булочка, гауда, яйца, прошутто, сливочный сыр, домашняя колбаса, чеддер, картофель фри, салат"},
@@ -92,7 +92,7 @@ const FOOD = [
   it:{n:"Burger omelette",d:"Pane da burger, gouda, uova, prosciutto, formaggio spalmabile, salsiccia, cheddar, patatine, insalata"},
   es:{n:"Hamburguesa omelette",d:"Pan de burger, gouda, huevos, prosciutto, queso crema, salchicha casera, cheddar, patatas, ensalada"}}},
 
-{cat:"breakfast",price:"6.90€",t:{
+{cat:"breakfast",price:"6.90€",img:"images/omlet-sunka.jpg",t:{
   me:{n:"Омлет са шунком",d:"Јаја, шунка, гауда, ајвар, проја, сир, микс зелене салате"},
   en:{n:"Ham omelette",d:"Eggs, ham, gouda, ajvar, cornbread, cheese, mixed green salad"},
   ru:{n:"Омлет с ветчиной",d:"Яйца, ветчина, гауда, айвар, кукурузный хлеб, сыр, микс салата"},
@@ -101,7 +101,7 @@ const FOOD = [
   it:{n:"Omelette al prosciutto cotto",d:"Uova, prosciutto cotto, gouda, ajvar, pane di mais, formaggio, insalata mista"},
   es:{n:"Tortilla con jamón",d:"Huevos, jamón, gouda, ajvar, pan de maíz, queso, ensalada verde mixta"}}},
 
-{cat:"breakfast",price:"9.40€",t:{
+{cat:"breakfast",price:"9.40€",img:"images/avokado.jpg",t:{
   me:{n:"Авокадо",d:"Кајгана, авокадо, интегрални хљеб, сирни намаз, микс салате, шери, сос"},
   en:{n:"Avocado",d:"Scrambled eggs, avocado, whole grain bread, cream cheese, salad, cherry tomatoes, sauce"},
   ru:{n:"Авокадо",d:"Яичница-болтунья, авокадо, цельнозерновой хлеб, сливочный сыр, салат, черри, соус"},
@@ -110,7 +110,7 @@ const FOOD = [
   it:{n:"Avocado",d:"Uova strapazzate, avocado, pane integrale, formaggio spalmabile, insalata, pomodorini, salsa"},
   es:{n:"Aguacate",d:"Huevos revueltos, aguacate, pan integral, queso crema, ensalada, tomates cherry, salsa"}}},
 
-{cat:"breakfast",price:"9.80€",t:{
+{cat:"breakfast",price:"9.80€",img:"images/proteinski.jpg",t:{
   me:{n:"Протеински доручак",d:"Бјеланца, пилећи филе, парадајз, моцарела, интегрални хљеб"},
   en:{n:"Protein breakfast",d:"Egg whites, chicken fillet, tomato, mozzarella, whole grain bread"},
   ru:{n:"Протеиновый завтрак",d:"Яичные белки, куриное филе, помидор, моцарелла, цельнозерновой хлеб"},
@@ -155,7 +155,16 @@ const FOOD = [
   it:{n:"Frittelle con formaggio",d:"Frittelle fatte in casa con formaggio"},
   es:{n:"Buñuelos con queso",d:"Buñuelos caseros con queso"}}},
 
-{cat:"breakfast",price:"6.80€",t:{
+{cat:"breakfast",price:"6.80€",img:"images/priganice-med.jpg",t:{
+  me:{n:"Пригањице са медом",d:"Домаће пригањице са медом"},
+  en:{n:"Fritters with honey",d:"Homemade fritters with honey"},
+  ru:{n:"Пышки с мёдом",d:"Домашние пышки с мёдом"},
+  fr:{n:"Beignets au miel",d:"Beignets maison au miel"},
+  de:{n:"Krapfen mit Honig",d:"Hausgemachte Krapfen mit Honig"},
+  it:{n:"Frittelle al miele",d:"Frittelle fatte in casa con miele"},
+  es:{n:"Buñuelos con miel",d:"Buñuelos caseros con miel"}}},
+
+{cat:"breakfast",price:"6.80€",img:"images/ovsena-kasa.jpg",t:{
   me:{n:"Овсена каша",d:"Овсене пахуљице, шумско воће, банана, мед, бадеми"},
   en:{n:"Oatmeal",d:"Oat flakes, forest fruits, banana, honey, almonds"},
   ru:{n:"Овсяная каша",d:"Овсяные хлопья, лесные ягоды, банан, мёд, миндаль"},
@@ -164,7 +173,7 @@ const FOOD = [
   it:{n:"Porridge d'avena",d:"Fiocchi d'avena, frutti di bosco, banana, miele, mandorle"},
   es:{n:"Avena (porridge)",d:"Copos de avena, frutos del bosque, plátano, miel, almendras"}}},
 
-{cat:"breakfast",price:"9.90€",t:{
+{cat:"breakfast",price:"9.90€",img:"images/pohovane-tortilje.jpg",t:{
   me:{n:"Поховане тортиље",d:"Пилетина, гауда, чедар, тортиље, микс зелене салате, сос"},
   en:{n:"Breaded tortillas",d:"Chicken, gouda, cheddar, tortillas, mixed green salad, sauce"},
   ru:{n:"Тортильи в панировке",d:"Курица, гауда, чеддер, тортильи, микс салата, соус"},
@@ -173,7 +182,7 @@ const FOOD = [
   it:{n:"Tortillas impanate",d:"Pollo, gouda, cheddar, tortillas, insalata mista, salsa"},
   es:{n:"Tortillas empanadas",d:"Pollo, gouda, cheddar, tortillas, ensalada verde mixta, salsa"}}},
 
-{cat:"breakfast",price:"9.90€",t:{
+{cat:"breakfast",price:"9.90€",img:"images/kroasan-prsut.jpg",t:{
   me:{n:"Кроасан са пршутом",d:"Кросан, пршут, моцарела, песто, парадајз, микс зелене салате"},
   en:{n:"Croissant with prosciutto",d:"Croissant, prosciutto, mozzarella, pesto, tomato, mixed green salad"},
   ru:{n:"Круассан с прошутто",d:"Круассан, прошутто, моцарелла, песто, помидор, микс салата"},
@@ -182,7 +191,7 @@ const FOOD = [
   it:{n:"Croissant con prosciutto",d:"Croissant, prosciutto, mozzarella, pesto, pomodoro, insalata mista"},
   es:{n:"Cruasán con prosciutto",d:"Cruasán, prosciutto, mozzarella, pesto, tomate, ensalada verde mixta"}}},
 
-{cat:"breakfast",price:"9.90€",t:{
+{cat:"breakfast",price:"9.90€",img:"images/sendvic-piletina.jpg",t:{
   me:{n:"Сендвич са поханом пилетином",d:"Интегрална лепиња, похана пилетина, јаја, сирни намаз, гауда, помфрит, парадајз, сос"},
   en:{n:"Fried chicken sandwich",d:"Whole grain bun, fried chicken, eggs, cream cheese, gouda, fries, tomato, sauce"},
   ru:{n:"Сэндвич с курицей в панировке",d:"Цельнозерновая булочка, курица в панировке, яйца, сливочный сыр, гауда, картофель фри, помидор, соус"},
@@ -191,7 +200,7 @@ const FOOD = [
   it:{n:"Sandwich con pollo impanato",d:"Panino integrale, pollo impanato, uova, formaggio spalmabile, gouda, patatine, pomodoro, salsa"},
   es:{n:"Sándwich de pollo empanado",d:"Pan integral, pollo empanado, huevos, queso crema, gouda, patatas, tomate, salsa"}}},
 
-{cat:"breakfast",price:"9.90€",t:{
+{cat:"breakfast",price:"9.90€",img:"images/sendvic-burata.jpg",t:{
   me:{n:"Сендвич бурата",d:"Бурата, песто сос, пршут, рукола, шери, босиљак, ајвар"},
   en:{n:"Burrata sandwich",d:"Burrata, pesto sauce, prosciutto, arugula, cherry tomatoes, basil, ajvar"},
   ru:{n:"Сэндвич с бурратой",d:"Буррата, соус песто, прошутто, руккола, черри, базилик, айвар"},
@@ -209,14 +218,14 @@ const FOOD = [
   it:{n:"Pancake americani",d:"Nutella o pistacchio"},
   es:{n:"Tortitas americanas",d:"Nutella o pistacho"}}},
 
-{cat:"breakfast",price:"1.90€",t:{
+{cat:"breakfast",price:"1.90€",img:"images/kroasan-badem.jpg",t:{
   me:{n:"Кроасан са бадемом и наранџом"},en:{n:"Croissant with almond & orange"},ru:{n:"Круассан с миндалём и апельсином"},
   fr:{n:"Croissant amande & orange"},de:{n:"Croissant Mandel & Orange"},it:{n:"Croissant mandorla e arancia"},es:{n:"Cruasán de almendra y naranja"}}},
 
-{cat:"breakfast",price:"1.90€",unit:"1 ком / pc",t:{
+{cat:"breakfast",price:"1.90€",unit:"1 ком / pc",img:"images/kroasan.jpg",t:{
   me:{n:"Кроасан"},en:{n:"Croissant"},ru:{n:"Круассан"},fr:{n:"Croissant"},de:{n:"Croissant"},it:{n:"Croissant"},es:{n:"Cruasán"}}},
 
-{cat:"breakfast",price:"1.00€",unit:"1 ком / pc",t:{
+{cat:"breakfast",price:"1.00€",unit:"1 ком / pc",img:"images/proja.jpg",t:{
   me:{n:"Проја"},en:{n:"Cornbread"},ru:{n:"Кукурузный хлеб"},fr:{n:"Pain de maïs"},de:{n:"Maisbrot"},it:{n:"Pane di mais"},es:{n:"Pan de maíz"}}},
 
 /* ---------- ХЛАДНА ПРЕДЈЕЛА / COLD ---------- */
