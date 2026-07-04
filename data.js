@@ -119,14 +119,41 @@ const FOOD = [
   it:{n:"Colazione proteica",d:"Albumi, filetto di pollo, pomodoro, mozzarella, pane integrale"},
   es:{n:"Desayuno proteico",d:"Claras de huevo, filete de pollo, tomate, mozzarella, pan integral"}}},
 
-{cat:"breakfast",price:"6.80€",t:{
-  me:{n:"Пригањице",d:"Домаће пригањице, два додатка по избору: мед, џем, чоколада или домаћи џем"},
-  en:{n:"Fritters",d:"Homemade fritters, two toppings of choice: honey, jam, chocolate or homemade jam"},
-  ru:{n:"Пышки (приганице)",d:"Домашние пышки, две добавки на выбор: мёд, джем, шоколад или домашнее варенье"},
-  fr:{n:"Beignets (priganice)",d:"Beignets maison, deux garnitures au choix : miel, confiture, chocolat ou confiture maison"},
-  de:{n:"Krapfen (Priganice)",d:"Hausgemachte Krapfen, zwei Toppings zur Wahl: Honig, Marmelade, Schokolade"},
-  it:{n:"Frittelle (priganice)",d:"Frittelle fatte in casa, due guarnizioni a scelta: miele, marmellata, cioccolato"},
-  es:{n:"Buñuelos (priganice)",d:"Buñuelos caseros, dos toppings a elegir: miel, mermelada, chocolate"}}},
+{cat:"breakfast",price:"6.80€",img:"images/priganice-dzem.jpg",t:{
+  me:{n:"Пригањице са џемом",d:"Домаће пригањице са домаћим џемом"},
+  en:{n:"Fritters with jam",d:"Homemade fritters with homemade jam"},
+  ru:{n:"Пышки с джемом",d:"Домашние пышки с джемом"},
+  fr:{n:"Beignets à la confiture",d:"Beignets maison à la confiture"},
+  de:{n:"Krapfen mit Marmelade",d:"Hausgemachte Krapfen mit Marmelade"},
+  it:{n:"Frittelle con marmellata",d:"Frittelle fatte in casa con marmellata"},
+  es:{n:"Buñuelos con mermelada",d:"Buñuelos caseros con mermelada"}}},
+
+{cat:"breakfast",price:"6.80€",img:"images/priganice-krem.jpg",t:{
+  me:{n:"Пригањице са кремом",d:"Домаће пригањице са слатким кремом"},
+  en:{n:"Fritters with cream",d:"Homemade fritters with sweet cream"},
+  ru:{n:"Пышки с кремом",d:"Домашние пышки со сладким кремом"},
+  fr:{n:"Beignets à la crème",d:"Beignets maison à la crème sucrée"},
+  de:{n:"Krapfen mit Creme",d:"Hausgemachte Krapfen mit süßer Creme"},
+  it:{n:"Frittelle con crema",d:"Frittelle fatte in casa con crema dolce"},
+  es:{n:"Buñuelos con crema",d:"Buñuelos caseros con crema dulce"}}},
+
+{cat:"breakfast",price:"6.80€",img:"images/priganice-pistaci.jpg",t:{
+  me:{n:"Пригањице са пистаћима",d:"Домаће пригањице са кремом од пистаћа"},
+  en:{n:"Fritters with pistachio",d:"Homemade fritters with pistachio cream"},
+  ru:{n:"Пышки с фисташками",d:"Домашние пышки с фисташковым кремом"},
+  fr:{n:"Beignets à la pistache",d:"Beignets maison à la crème de pistache"},
+  de:{n:"Krapfen mit Pistazie",d:"Hausgemachte Krapfen mit Pistaziencreme"},
+  it:{n:"Frittelle al pistacchio",d:"Frittelle fatte in casa con crema di pistacchio"},
+  es:{n:"Buñuelos con pistacho",d:"Buñuelos caseros con crema de pistacho"}}},
+
+{cat:"breakfast",price:"6.80€",img:"images/priganice-sir.jpg",t:{
+  me:{n:"Пригањице са сиром",d:"Домаће пригањице са сиром"},
+  en:{n:"Fritters with cheese",d:"Homemade fritters with cheese"},
+  ru:{n:"Пышки с сыром",d:"Домашние пышки с сыром"},
+  fr:{n:"Beignets au fromage",d:"Beignets maison au fromage"},
+  de:{n:"Krapfen mit Käse",d:"Hausgemachte Krapfen mit Käse"},
+  it:{n:"Frittelle con formaggio",d:"Frittelle fatte in casa con formaggio"},
+  es:{n:"Buñuelos con queso",d:"Buñuelos caseros con queso"}}},
 
 {cat:"breakfast",price:"6.80€",t:{
   me:{n:"Овсена каша",d:"Овсене пахуљице, шумско воће, банана, мед, бадеми"},
