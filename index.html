@@ -432,6 +432,7 @@ const CATEGORIES=[
   {id:"pizzasand",icon:"sandwich",t:{me:"Пица сендвичи",en:"Pizza sandwiches",ru:"Пицца-сэндвичи",fr:"Sandwichs pizza",de:"Pizza-Sandwiches",it:"Panini pizza",es:"Sándwiches de pizza"}},
   {id:"addons",icon:"plus",t:{me:"Додаци",en:"Add-ons",ru:"Добавки",fr:"Suppléments",de:"Beilagen",it:"Aggiunte",es:"Extras"}},
   {id:"cakes",icon:"cake",t:{me:"Колачи",en:"Cakes",ru:"Десерты",fr:"Pâtisseries",de:"Kuchen",it:"Dolci",es:"Pasteles"}},
+  {id:"kokteli",icon:"cocktail",t:{me:"Коктели",en:"Cocktails",ru:"Коктейли",fr:"Cocktails",de:"Cocktails",it:"Cocktail",es:"Cócteles"}},
   {id:"coffee",icon:"cup",t:{me:"Кафа",en:"Coffee",ru:"Кофе",fr:"Café",de:"Kaffee",it:"Caffè",es:"Café"}},
   {id:"drinks",icon:"glass",t:{me:"Сокови и пића",en:"Drinks",ru:"Напитки",fr:"Boissons",de:"Getränke",it:"Bevande",es:"Bebidas"}},
   {id:"spirits",icon:"bottle",t:{me:"Жестока пића",en:"Spirits",ru:"Крепкие напитки",fr:"Spiritueux",de:"Spirituosen",it:"Superalcolici",es:"Licores"}},
@@ -452,11 +453,12 @@ const ICONS={
   glass:'<path d="M6 3h12l-1.5 8a5 5 0 0 1-9 0z"/><path d="M12 16v4M8 21h8"/>',
   bottle:'<path d="M10 3h4v3l1 3v10a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2V9l1-3z"/><path d="M9.5 12h5"/>',
   wine:'<path d="M7 3h10c0 5-2 8-5 8S7 8 7 3z"/><path d="M12 11v7M8 21h8"/>',
+  cocktail:'<path d="M5 5h14l-7 8zM12 13v6M8 21h8M17 6l2.5-2.5"/><circle cx="19.5" cy="3.5" r="1.1"/>',
   dish:'<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5"/>',
 };
 
 /* kategorije sa fotografijama + auto-dodjela placeholder slika */
-const PHOTO_CATS=["breakfast","cold","hot","main","salads","pizza","pizzasand","addons","cakes"];
+const PHOTO_CATS=["breakfast","cold","hot","main","salads","pizza","pizzasand","addons","cakes","kokteli"];
 (function(){const cnt={};(window.MENU||[]).forEach(x=>{if(PHOTO_CATS.includes(x.cat)){
   cnt[x.cat]=(cnt[x.cat]||0)+1; if(!x._photo)x._photo=x.img||`images/${x.cat}-${cnt[x.cat]}.jpg`;}});})();
 const FLAT=(window.MENU||[]).filter(x=>PHOTO_CATS.includes(x.cat));
