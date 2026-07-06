@@ -173,16 +173,6 @@ const FOOD = [
   it:{n:"Pancake americani",d:"Nutella o pistacchio"},
   es:{n:"Tortitas americanas",d:"Nutella o pistacho"}}},
 
-{cat:"breakfast",price:"1.90€",img:"images/kroasan-badem.jpg",t:{
-  me:{n:"Кроасан са бадемом и наранџом"},en:{n:"Croissant with almond & orange"},ru:{n:"Круассан с миндалём и апельсином"},
-  fr:{n:"Croissant amande & orange"},de:{n:"Croissant Mandel & Orange"},it:{n:"Croissant mandorla e arancia"},es:{n:"Cruasán de almendra y naranja"}}},
-
-{cat:"breakfast",price:"1.90€",unit:"1 ком / pc",img:"images/kroasan.jpg",t:{
-  me:{n:"Кроасан"},en:{n:"Croissant"},ru:{n:"Круассан"},fr:{n:"Croissant"},de:{n:"Croissant"},it:{n:"Croissant"},es:{n:"Cruasán"}}},
-
-{cat:"breakfast",price:"1.00€",unit:"1 ком / pc",img:"images/proja.jpg",t:{
-  me:{n:"Проја"},en:{n:"Cornbread"},ru:{n:"Кукурузный хлеб"},fr:{n:"Pain de maïs"},de:{n:"Maisbrot"},it:{n:"Pane di mais"},es:{n:"Pan de maíz"}}},
-
 {cat:"breakfast",price:"6.80€",img:"images/priganice-dzem.jpg",t:{
   me:{n:"Приганице са џемом",d:"Домаће приганице са домаћим џемом"},
   en:{n:"Fritters with jam",d:"Homemade fritters with homemade jam"},
@@ -227,6 +217,16 @@ const FOOD = [
   de:{n:"Krapfen mit Honig",d:"Hausgemachte Krapfen mit Honig"},
   it:{n:"Frittelle al miele",d:"Frittelle fatte in casa con miele"},
   es:{n:"Buñuelos con miel",d:"Buñuelos caseros con miel"}}},
+
+{cat:"breakfast",price:"1.90€",img:"images/kroasan-badem.jpg",t:{
+  me:{n:"Кроасан са бадемом и наранџом"},en:{n:"Croissant with almond & orange"},ru:{n:"Круассан с миндалём и апельсином"},
+  fr:{n:"Croissant amande & orange"},de:{n:"Croissant Mandel & Orange"},it:{n:"Croissant mandorla e arancia"},es:{n:"Cruasán de almendra y naranja"}}},
+
+{cat:"breakfast",price:"1.90€",unit:"1 ком / pc",img:"images/kroasan.jpg",t:{
+  me:{n:"Кроасан"},en:{n:"Croissant"},ru:{n:"Круассан"},fr:{n:"Croissant"},de:{n:"Croissant"},it:{n:"Croissant"},es:{n:"Cruasán"}}},
+
+{cat:"breakfast",price:"1.00€",unit:"1 ком / pc",img:"images/proja.jpg",t:{
+  me:{n:"Проја"},en:{n:"Cornbread"},ru:{n:"Кукурузный хлеб"},fr:{n:"Pain de maïs"},de:{n:"Maisbrot"},it:{n:"Pane di mais"},es:{n:"Pan de maíz"}}},
 
 /* ---------- ХЛАДНА ПРЕДЈЕЛА / COLD ---------- */
 {cat:"cold",price:"24.00€",unit:"500 g",img:"images/veliki-trg.jpg",t:{
@@ -566,13 +566,86 @@ const FOOD = [
 {cat:"addons",price:"4.90€",unit:"30 g",t:{me:{n:"Бурата"},en:{n:"Burrata"},ru:{n:"Буррата"},fr:{n:"Burrata"},de:{n:"Burrata"},it:{n:"Burrata"},es:{n:"Burrata"}}},
 
 /* ---------- КОЛАЧИ / CAKES ---------- */
-{cat:"cakes",price:"4.80€",unit:"180 g",img:"images/coko-ljesnik.jpg",t:{me:{n:"Чоко љешник тарт"},en:{n:"Chocolate hazelnut tart"},ru:{n:"Шоколадно-ореховый тарт"},fr:{n:"Tarte chocolat-noisette"},de:{n:"Schoko-Haselnuss-Tarte"},it:{n:"Crostata cioccolato e nocciola"},es:{n:"Tarta de chocolate y avellana"}}},
-{cat:"cakes",price:"5.80€",unit:"200 g",img:"images/pistac-malina.jpg",t:{me:{n:"Пистаћ малина тарт"},en:{n:"Pistachio raspberry tart"},ru:{n:"Тарт фисташка-малина"},fr:{n:"Tarte pistache-framboise"},de:{n:"Pistazien-Himbeer-Tarte"},it:{n:"Crostata pistacchio e lampone"},es:{n:"Tarta de pistacho y frambuesa"}}},
-{cat:"cakes",price:"4.80€",unit:"180 g",img:"images/limun-tart.jpg",t:{me:{n:"Лимун тарт"},en:{n:"Lemon tart"},ru:{n:"Лимонный тарт"},fr:{n:"Tarte au citron"},de:{n:"Zitronentarte"},it:{n:"Crostata al limone"},es:{n:"Tarta de limón"}}},
-{cat:"cakes",price:"3.90€",unit:"140 g",img:"images/ekler-kikiriki.jpg",t:{me:{n:"Еклер кикирики"},en:{n:"Peanut butter éclair"},ru:{n:"Эклер с арахисовой пастой"},fr:{n:"Éclair au beurre de cacahuète"},de:{n:"Erdnussbutter-Éclair"},it:{n:"Éclair al burro d'arachidi"},es:{n:"Éclair de mantequilla de cacahuete"}}},
-{cat:"cakes",price:"3.90€",unit:"140 g",img:"images/ekler-vanila.jpg",t:{me:{n:"Еклер ванила"},en:{n:"Vanilla éclair"},ru:{n:"Эклер ваниль"},fr:{n:"Éclair vanille"},de:{n:"Vanille-Éclair"},it:{n:"Éclair alla vaniglia"},es:{n:"Éclair de vainilla"}}},
-{cat:"cakes",price:"3.00€",unit:"90 g",img:"images/su.jpg",t:{me:{n:"Шу"},en:{n:"Choux"},ru:{n:"Шу"},fr:{n:"Chou"},de:{n:"Windbeutel"},it:{n:"Bignè"},es:{n:"Petisú"}}},
-{cat:"cakes",price:"5.00€",unit:"200 g",img:"images/san-sebastian.jpg",t:{me:{n:"Сан Себастиан"},en:{n:"San Sebastián cheesecake"},ru:{n:"Чизкейк Сан-Себастьян"},fr:{n:"Cheesecake San Sebastián"},de:{n:"San-Sebastián-Käsekuchen"},it:{n:"Cheesecake San Sebastián"},es:{n:"Tarta de queso San Sebastián"}}},
+{cat:"cakes",price:"4.80€",unit:"200 g",img:"images/limun-tart.jpg",t:{
+  me:{n:"Лимун тарт",d:"Мак корица, лимун, меринга"},
+  en:{n:"Lemon tart",d:"Poppy seed crust, lemon, meringue"},
+  ru:{n:"Лимонный тарт",d:"Маковая основа, лимон, меренга"},
+  fr:{n:"Tarte au citron",d:"Pâte au pavot, citron, meringue"},
+  de:{n:"Zitronentarte",d:"Mohnboden, Zitrone, Baiser"},
+  it:{n:"Crostata al limone",d:"Base ai semi di papavero, limone, meringa"},
+  es:{n:"Tarta de limón",d:"Base de amapola, limón, merengue"}}},
+
+{cat:"cakes",price:"4.80€",unit:"180 g",img:"images/coko-ljesnik.jpg",t:{
+  me:{n:"Чоко љешник тарт",d:"Домаћа љешник паста, кекс, ганаж, млијечна чоколада, чоколадни крем"},
+  en:{n:"Chocolate hazelnut tart",d:"Homemade hazelnut paste, biscuit, milk chocolate, chocolate cream, ganache"},
+  ru:{n:"Шоколадно-ореховый тарт",d:"Домашняя ореховая паста, печенье, молочный шоколад, шоколадный крем, ганаш"},
+  fr:{n:"Tarte chocolat-noisette",d:"Pâte de noisette maison, biscuit, chocolat au lait, crème au chocolat, ganache"},
+  de:{n:"Schoko-Haselnuss-Tarte",d:"Hausgemachte Haselnusspaste, Keks, Milchschokolade, Schokocreme, Ganache"},
+  it:{n:"Crostata cioccolato e nocciola",d:"Pasta di nocciole fatta in casa, biscotto, cioccolato al latte, crema al cioccolato, ganache"},
+  es:{n:"Tarta de chocolate y avellana",d:"Pasta de avellana casera, galleta, chocolate con leche, crema de chocolate, ganache"}}},
+
+{cat:"cakes",price:"3.00€",unit:"90 g",img:"images/su.jpg",t:{
+  me:{n:"Шу",d:"Домаћи џем од малина, ванила крем"},
+  en:{n:"Choux",d:"Homemade raspberry jam, vanilla cream"},
+  ru:{n:"Шу",d:"Домашний малиновый джем, ванильный крем"},
+  fr:{n:"Chou",d:"Confiture de framboise maison, crème vanille"},
+  de:{n:"Windbeutel",d:"Hausgemachte Himbeermarmelade, Vanillecreme"},
+  it:{n:"Bignè",d:"Marmellata di lamponi fatta in casa, crema alla vaniglia"},
+  es:{n:"Petisú",d:"Mermelada de frambuesa casera, crema de vainilla"}}},
+
+{cat:"cakes",price:"5.80€",unit:"180 g",img:"images/pistac-malina.jpg",t:{
+  me:{n:"Пистаћ малина тарт",d:"Пистаћ франгипана, домаћи џем од малина, пистаћ ганаж"},
+  en:{n:"Pistachio raspberry tart",d:"Pistachio frangipane, homemade raspberry jam, pistachio ganache"},
+  ru:{n:"Тарт фисташка-малина",d:"Фисташковый франжипан, домашний малиновый джем, фисташковый ганаш"},
+  fr:{n:"Tarte pistache-framboise",d:"Frangipane à la pistache, confiture de framboise maison, ganache pistache"},
+  de:{n:"Pistazien-Himbeer-Tarte",d:"Pistazien-Frangipane, hausgemachte Himbeermarmelade, Pistazienganache"},
+  it:{n:"Crostata pistacchio e lampone",d:"Frangipane al pistacchio, marmellata di lamponi fatta in casa, ganache al pistacchio"},
+  es:{n:"Tarta de pistacho y frambuesa",d:"Frangipane de pistacho, mermelada de frambuesa casera, ganache de pistacho"}}},
+
+{cat:"cakes",price:"3.90€",unit:"140 g",img:"images/ekler-kikiriki.jpg",t:{
+  me:{n:"Сницкерс еклер",d:"Карамел крем, карамел сос, слани кикирики, млијечна чоколада"},
+  en:{n:"Snickers éclair",d:"Caramel cream, caramel sauce, salted peanuts, milk chocolate"},
+  ru:{n:"Эклер Сникерс",d:"Карамельный крем, карамельный соус, солёный арахис, молочный шоколад"},
+  fr:{n:"Éclair Snickers",d:"Crème caramel, sauce caramel, cacahuètes salées, chocolat au lait"},
+  de:{n:"Snickers-Éclair",d:"Karamellcreme, Karamellsauce, gesalzene Erdnüsse, Milchschokolade"},
+  it:{n:"Éclair Snickers",d:"Crema al caramello, salsa al caramello, arachidi salate, cioccolato al latte"},
+  es:{n:"Éclair Snickers",d:"Crema de caramelo, salsa de caramelo, cacahuetes salados, chocolate con leche"}}},
+
+{cat:"cakes",price:"3.90€",unit:"140 g",img:"images/ekler-vanila.jpg",t:{
+  me:{n:"Ванила еклер",d:"Ванила крем, бијела чоколада, домаћи џем од малина"},
+  en:{n:"Vanilla éclair",d:"Vanilla cream, white chocolate, homemade raspberry jam"},
+  ru:{n:"Эклер ваниль",d:"Ванильный крем, белый шоколад, домашний малиновый джем"},
+  fr:{n:"Éclair vanille",d:"Crème vanille, chocolat blanc, confiture de framboise maison"},
+  de:{n:"Vanille-Éclair",d:"Vanillecreme, weiße Schokolade, hausgemachte Himbeermarmelade"},
+  it:{n:"Éclair alla vaniglia",d:"Crema alla vaniglia, cioccolato bianco, marmellata di lamponi fatta in casa"},
+  es:{n:"Éclair de vainilla",d:"Crema de vainilla, chocolate blanco, mermelada de frambuesa casera"}}},
+
+{cat:"cakes",price:"5.00€",unit:"200 g",img:"images/san-sebastian-pistaci.jpg",t:{
+  me:{n:"Сан Себастиан – пистаћ",d:"Крем сир, павлака, јаја, пистаћ крем"},
+  en:{n:"San Sebastián – pistachio",d:"Cream cheese, heavy cream, eggs, pistachio cream"},
+  ru:{n:"Сан-Себастьян – фисташка",d:"Крем-сыр, сливки, яйца, фисташковый крем"},
+  fr:{n:"San Sebastián – pistache",d:"Fromage frais, crème, œufs, crème de pistache"},
+  de:{n:"San Sebastián – Pistazie",d:"Frischkäse, Sahne, Eier, Pistaziencreme"},
+  it:{n:"San Sebastián – pistacchio",d:"Formaggio spalmabile, panna, uova, crema al pistacchio"},
+  es:{n:"San Sebastián – pistacho",d:"Queso crema, nata, huevos, crema de pistacho"}}},
+
+{cat:"cakes",price:"5.00€",unit:"200 g",img:"images/san-sebastian-ljesnik.jpg",t:{
+  me:{n:"Сан Себастиан – љешник",d:"Крем сир, павлака, јаја, домаћи љешник крем"},
+  en:{n:"San Sebastián – hazelnut",d:"Cream cheese, heavy cream, eggs, homemade hazelnut cream"},
+  ru:{n:"Сан-Себастьян – фундук",d:"Крем-сыр, сливки, яйца, домашний ореховый крем"},
+  fr:{n:"San Sebastián – noisette",d:"Fromage frais, crème, œufs, crème de noisette maison"},
+  de:{n:"San Sebastián – Haselnuss",d:"Frischkäse, Sahne, Eier, hausgemachte Haselnusscreme"},
+  it:{n:"San Sebastián – nocciola",d:"Formaggio spalmabile, panna, uova, crema di nocciola fatta in casa"},
+  es:{n:"San Sebastián – avellana",d:"Queso crema, nata, huevos, crema de avellana casera"}}},
+
+{cat:"cakes",price:"5.00€",unit:"200 g",img:"images/san-sebastian-malina.jpg",t:{
+  me:{n:"Сан Себастиан – малина",d:"Крем сир, павлака, јаја, домаћи сос од малина"},
+  en:{n:"San Sebastián – raspberry",d:"Cream cheese, heavy cream, eggs, homemade raspberry sauce"},
+  ru:{n:"Сан-Себастьян – малина",d:"Крем-сыр, сливки, яйца, домашний малиновый соус"},
+  fr:{n:"San Sebastián – framboise",d:"Fromage frais, crème, œufs, sauce framboise maison"},
+  de:{n:"San Sebastián – Himbeere",d:"Frischkäse, Sahne, Eier, hausgemachte Himbeersauce"},
+  it:{n:"San Sebastián – lampone",d:"Formaggio spalmabile, panna, uova, salsa di lamponi fatta in casa"},
+  es:{n:"San Sebastián – frambuesa",d:"Queso crema, nata, huevos, salsa de frambuesa casera"}}},
 ];
 
 /* ============================== ПИЋА ============================== */
