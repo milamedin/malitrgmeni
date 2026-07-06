@@ -209,7 +209,7 @@ const FOOD = [
   it:{n:"Sandwich con burrata",d:"Burrata, salsa al pesto, prosciutto, rucola, pomodorini, basilico, ajvar"},
   es:{n:"Sándwich de burrata",d:"Burrata, salsa pesto, prosciutto, rúcula, tomates cherry, albahaca, ajvar"}}},
 
-{cat:"breakfast",price:"8.60€",t:{
+{cat:"breakfast",price:"8.60€",img:"images/americke-palacinke.jpg",t:{
   me:{n:"Америчке палачинке",d:"Нутела или пистаћи"},
   en:{n:"American pancakes",d:"Nutella or pistachio"},
   ru:{n:"Американские панкейки",d:"Нутелла или фисташка"},
@@ -229,7 +229,7 @@ const FOOD = [
   me:{n:"Проја"},en:{n:"Cornbread"},ru:{n:"Кукурузный хлеб"},fr:{n:"Pain de maïs"},de:{n:"Maisbrot"},it:{n:"Pane di mais"},es:{n:"Pan de maíz"}}},
 
 /* ---------- ХЛАДНА ПРЕДЈЕЛА / COLD ---------- */
-{cat:"cold",price:"24.00€",unit:"500 g",t:{
+{cat:"cold",price:"24.00€",unit:"500 g",img:"images/veliki-trg.jpg",t:{
   me:{n:"„Велики Трг“ предјело",d:"Пршут, мортадела, кулен, кувана шунка, маслине, микс сирева"},
   en:{n:"„Veliki Trg“ platter",d:"Prosciutto, mortadella, kulen, cooked ham, olives, cheese selection"},
   ru:{n:"Тарелка «Велики Трг»",d:"Прошутто, мортаделла, кулен, варёная ветчина, оливки, ассорти сыров"},
@@ -238,7 +238,7 @@ const FOOD = [
   it:{n:"Tagliere „Veliki Trg“",d:"Prosciutto, mortadella, kulen, prosciutto cotto, olive, selezione di formaggi"},
   es:{n:"Tabla « Veliki Trg »",d:"Prosciutto, mortadela, kulen, jamón cocido, aceitunas, selección de quesos"}}},
 
-{cat:"cold",price:"13.00€",unit:"250 g",t:{
+{cat:"cold",price:"13.00€",unit:"250 g",img:"images/mali-trg-predjelo.jpg",t:{
   me:{n:"„Мали Трг“ предјело",d:"Пршут 100 г, капрезе салата"},
   en:{n:"„Mali Trg“ platter",d:"Prosciutto 100 g, caprese salad"},
   ru:{n:"Тарелка «Мали Трг»",d:"Прошутто 100 г, салат капрезе"},
@@ -247,7 +247,7 @@ const FOOD = [
   it:{n:"Tagliere „Mali Trg“",d:"Prosciutto 100 g, insalata caprese"},
   es:{n:"Tabla « Mali Trg »",d:"Prosciutto 100 g, ensalada caprese"}}},
 
-{cat:"cold",price:"13.00€",unit:"250 g",t:{
+{cat:"cold",price:"13.00€",unit:"250 g",img:"images/burata-cold.jpg",t:{
   me:{n:"Бурата",d:"Бурата, свјежи босиљак, шери, песто ђеновезе, маслиново уље"},
   en:{n:"Burrata",d:"Burrata, fresh basil, cherry tomatoes, genovese pesto, olive oil"},
   ru:{n:"Буррата",d:"Буррата, свежий базилик, черри, песто дженовезе, оливковое масло"},
@@ -266,7 +266,7 @@ const FOOD = [
   it:{n:"Halloumi alla griglia",d:"Formaggio halloumi grigliato"},
   es:{n:"Halloumi a la parrilla",d:"Queso halloumi a la parrilla"}}},
 
-{cat:"hot",price:"9.00€",unit:"200 g",t:{
+{cat:"hot",price:"9.00€",unit:"200 g",img:"images/pohani-sir.jpg",t:{
   me:{n:"Поховани сир",d:"Сир у презлама, пржен"},
   en:{n:"Fried cheese",d:"Breaded fried cheese"},
   ru:{n:"Сыр в панировке",d:"Жареный сыр в панировке"},
@@ -275,7 +275,7 @@ const FOOD = [
   it:{n:"Formaggio impanato",d:"Formaggio impanato e fritto"},
   es:{n:"Queso empanado",d:"Queso empanado y frito"}}},
 
-{cat:"hot",price:"16.00€",unit:"200 g",t:{
+{cat:"hot",price:"16.00€",unit:"200 g",img:"images/crni-rizoto.jpg",t:{
   me:{n:"Црни рижото",d:"Сипа, рижа, црнило сипе, пармезан, зачини"},
   en:{n:"Black risotto",d:"Cuttlefish, rice, cuttlefish ink, parmesan, spices"},
   ru:{n:"Чёрное ризотто",d:"Каракатица, рис, чернила каракатицы, пармезан, специи"},
@@ -284,7 +284,7 @@ const FOOD = [
   it:{n:"Risotto al nero di seppia",d:"Seppia, riso, nero di seppia, parmigiano, spezie"},
   es:{n:"Risotto negro",d:"Sepia, arroz, tinta de sepia, parmesano, especias"}}},
 
-{cat:"hot",price:"15.00€",unit:"200 g",t:{
+{cat:"hot",price:"15.00€",unit:"200 g",img:"images/rizoto-spanac.jpg",t:{
   me:{n:"Рижото спанаћ и козји сир",d:"Козји сир, рижа, спанаћ, пармезан, зачини"},
   en:{n:"Spinach & goat cheese risotto",d:"Goat cheese, rice, spinach, parmesan, spices"},
   ru:{n:"Ризотто со шпинатом и козьим сыром",d:"Козий сыр, рис, шпинат, пармезан, специи"},
@@ -293,7 +293,7 @@ const FOOD = [
   it:{n:"Risotto spinaci e caprino",d:"Caprino, riso, spinaci, parmigiano, spezie"},
   es:{n:"Risotto de espinacas y queso de cabra",d:"Queso de cabra, arroz, espinacas, parmesano, especias"}}},
 
-{cat:"hot",price:"14.00€",unit:"300 g",t:{
+{cat:"hot",price:"14.00€",unit:"300 g",img:"images/pasta-pecurke.jpg",t:{
   me:{n:"Паста са печуркама",d:"Вргањ, лисичарка, шампињони"},
   en:{n:"Pasta with mushrooms",d:"Porcini, chanterelles, button mushrooms"},
   ru:{n:"Паста с грибами",d:"Белые грибы, лисички, шампиньоны"},
@@ -302,7 +302,7 @@ const FOOD = [
   it:{n:"Pasta ai funghi",d:"Porcini, finferli, champignon"},
   es:{n:"Pasta con setas",d:"Boletus, rebozuelos, champiñones"}}},
 
-{cat:"hot",price:"13.00€",unit:"300 g",t:{
+{cat:"hot",price:"13.00€",unit:"300 g",img:"images/pasta-piletina-kari.jpg",t:{
   me:{n:"Паста пилетина, тиквице, кари",d:"Пилетина, тиквице, кари"},
   en:{n:"Pasta chicken, zucchini, curry",d:"Chicken, zucchini, curry"},
   ru:{n:"Паста с курицей, цукини и карри",d:"Курица, цукини, карри"},
@@ -311,7 +311,7 @@ const FOOD = [
   it:{n:"Pasta pollo, zucchine, curry",d:"Pollo, zucchine, curry"},
   es:{n:"Pasta pollo, calabacín, curri",d:"Pollo, calabacín, curri"}}},
 
-{cat:"hot",price:"17.00€",unit:"300 g",t:{
+{cat:"hot",price:"17.00€",unit:"300 g",img:"images/pasta-burata.jpg",t:{
   me:{n:"Паста бурата, шери",d:"Бурата, шери парадајз"},
   en:{n:"Pasta burrata, cherry tomato",d:"Burrata, cherry tomatoes"},
   ru:{n:"Паста с бурратой и черри",d:"Буррата, помидоры черри"},
@@ -320,7 +320,7 @@ const FOOD = [
   it:{n:"Pasta burrata e pomodorini",d:"Burrata, pomodorini"},
   es:{n:"Pasta burrata y cherry",d:"Burrata, tomates cherry"}}},
 
-{cat:"hot",price:"16.00€",unit:"300 g",t:{
+{cat:"hot",price:"16.00€",unit:"300 g",img:"images/pasta-biftek-tartufi.jpg",t:{
   me:{n:"Паста са бифтеком и тартуфима",d:"Бифтек, тартуфи"},
   en:{n:"Pasta with steak & truffles",d:"Beef steak, truffles"},
   ru:{n:"Паста со стейком и трюфелями",d:"Говяжий стейк, трюфели"},
@@ -385,7 +385,7 @@ const FOOD = [
   es:{n:"Pollo vegano con patatas fritas",d:"Pollo vegetal, patatas fritas"}}},
 
 /* ---------- ОБРОК САЛАТЕ / SALADS ---------- */
-{cat:"salads",price:"16.00€",unit:"250 g",t:{
+{cat:"salads",price:"16.00€",unit:"250 g",img:"images/tuna-salata.jpg",t:{
   me:{n:"Туна салата",d:"Туна, ајсберг, ђумбир, црни сусам"},
   en:{n:"Tuna salad",d:"Tuna, iceberg, ginger, black sesame"},
   ru:{n:"Салат с тунцом",d:"Тунец, айсберг, имбирь, чёрный кунжут"},
@@ -394,7 +394,7 @@ const FOOD = [
   it:{n:"Insalata di tonno",d:"Tonno, iceberg, zenzero, sesamo nero"},
   es:{n:"Ensalada de atún",d:"Atún, iceberg, jengibre, sésamo negro"}}},
 
-{cat:"salads",price:"10.00€",unit:"350 g",t:{
+{cat:"salads",price:"10.00€",unit:"350 g",img:"images/cezar-salata.jpg",t:{
   me:{n:"Цезар салата",d:"Пилетина, панчета, крутони, шери, микс салате, пармезан, дресинг"},
   en:{n:"Caesar salad",d:"Chicken, pancetta, croutons, cherry tomatoes, mixed greens, parmesan, dressing"},
   ru:{n:"Салат Цезарь",d:"Курица, панчетта, крутоны, черри, микс салата, пармезан, заправка"},
@@ -403,7 +403,7 @@ const FOOD = [
   it:{n:"Insalata Caesar",d:"Pollo, pancetta, crostini, pomodorini, insalata mista, parmigiano, salsa"},
   es:{n:"Ensalada César",d:"Pollo, panceta, picatostes, cherry, hojas mixtas, parmesano, aderezo"}}},
 
-{cat:"salads",price:"9.00€",unit:"250 g",t:{
+{cat:"salads",price:"9.00€",unit:"250 g",img:"images/grcka-salata.jpg",t:{
   me:{n:"Грчка салата",d:"Парадајз, краставац, црвена и зелена паприка, маслине, фета, оригано"},
   en:{n:"Greek salad",d:"Tomato, cucumber, red and green peppers, olives, feta, oregano"},
   ru:{n:"Греческий салат",d:"Помидор, огурец, красный и зелёный перец, оливки, фета, орегано"},
@@ -412,7 +412,7 @@ const FOOD = [
   it:{n:"Insalata greca",d:"Pomodoro, cetriolo, peperoni rossi e verdi, olive, feta, origano"},
   es:{n:"Ensalada griega",d:"Tomate, pepino, pimientos rojo y verde, aceitunas, feta, orégano"}}},
 
-{cat:"salads",price:"9.00€",unit:"200 g",t:{
+{cat:"salads",price:"9.00€",unit:"200 g",img:"images/kapreze-salata.jpg",t:{
   me:{n:"Капрезе салата",d:"Моцарела, парадајз, песто"},
   en:{n:"Caprese salad",d:"Mozzarella, tomato, pesto"},
   ru:{n:"Салат капрезе",d:"Моцарелла, помидор, песто"},
