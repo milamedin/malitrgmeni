@@ -603,7 +603,7 @@ const FOOD = [
   es:{n:"Tarta de pistacho y frambuesa",d:"Frangipane de pistacho, mermelada de frambuesa casera, ganache de pistacho"}}},
 
 {cat:"cakes",price:"3.90€",unit:"140 g",img:"images/ekler-kikiriki.jpg",t:{
-  me:{n:"Сницкерс еклер",d:"Карамел крем, карамел сос, слани кикирики, млијечна чоколада"},
+  me:{n:"Сникерс еклер",d:"Карамел крем, карамел сос, слани кикирики, млијечна чоколада"},
   en:{n:"Snickers éclair",d:"Caramel cream, caramel sauce, salted peanuts, milk chocolate"},
   ru:{n:"Эклер Сникерс",d:"Карамельный крем, карамельный соус, солёный арахис, молочный шоколад"},
   fr:{n:"Éclair Snickers",d:"Crème caramel, sauce caramel, cacahuètes salées, chocolat au lait"},
