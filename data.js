@@ -119,51 +119,6 @@ const FOOD = [
   it:{n:"Colazione proteica",d:"Albumi, filetto di pollo, pomodoro, mozzarella, pane integrale"},
   es:{n:"Desayuno proteico",d:"Claras de huevo, filete de pollo, tomate, mozzarella, pan integral"}}},
 
-{cat:"breakfast",price:"6.80€",img:"images/priganice-dzem.jpg",t:{
-  me:{n:"Приганице са џемом",d:"Домаће приганице са домаћим џемом"},
-  en:{n:"Fritters with jam",d:"Homemade fritters with homemade jam"},
-  ru:{n:"Пышки с джемом",d:"Домашние пышки с джемом"},
-  fr:{n:"Beignets à la confiture",d:"Beignets maison à la confiture"},
-  de:{n:"Krapfen mit Marmelade",d:"Hausgemachte Krapfen mit Marmelade"},
-  it:{n:"Frittelle con marmellata",d:"Frittelle fatte in casa con marmellata"},
-  es:{n:"Buñuelos con mermelada",d:"Buñuelos caseros con mermelada"}}},
-
-{cat:"breakfast",price:"6.80€",img:"images/priganice-krem.jpg",t:{
-  me:{n:"Приганице са кремом",d:"Домаће приганице са слатким кремом"},
-  en:{n:"Fritters with cream",d:"Homemade fritters with sweet cream"},
-  ru:{n:"Пышки с кремом",d:"Домашние пышки со сладким кремом"},
-  fr:{n:"Beignets à la crème",d:"Beignets maison à la crème sucrée"},
-  de:{n:"Krapfen mit Creme",d:"Hausgemachte Krapfen mit süßer Creme"},
-  it:{n:"Frittelle con crema",d:"Frittelle fatte in casa con crema dolce"},
-  es:{n:"Buñuelos con crema",d:"Buñuelos caseros con crema dulce"}}},
-
-{cat:"breakfast",price:"6.80€",img:"images/priganice-pistaci.jpg",t:{
-  me:{n:"Приганице са пистаћима",d:"Домаће приганице са кремом од пистаћа"},
-  en:{n:"Fritters with pistachio",d:"Homemade fritters with pistachio cream"},
-  ru:{n:"Пышки с фисташками",d:"Домашние пышки с фисташковым кремом"},
-  fr:{n:"Beignets à la pistache",d:"Beignets maison à la crème de pistache"},
-  de:{n:"Krapfen mit Pistazie",d:"Hausgemachte Krapfen mit Pistaziencreme"},
-  it:{n:"Frittelle al pistacchio",d:"Frittelle fatte in casa con crema di pistacchio"},
-  es:{n:"Buñuelos con pistacho",d:"Buñuelos caseros con crema de pistacho"}}},
-
-{cat:"breakfast",price:"6.80€",img:"images/priganice-sir.jpg",t:{
-  me:{n:"Приганице са сиром",d:"Домаће приганице са сиром"},
-  en:{n:"Fritters with cheese",d:"Homemade fritters with cheese"},
-  ru:{n:"Пышки с сыром",d:"Домашние пышки с сыром"},
-  fr:{n:"Beignets au fromage",d:"Beignets maison au fromage"},
-  de:{n:"Krapfen mit Käse",d:"Hausgemachte Krapfen mit Käse"},
-  it:{n:"Frittelle con formaggio",d:"Frittelle fatte in casa con formaggio"},
-  es:{n:"Buñuelos con queso",d:"Buñuelos caseros con queso"}}},
-
-{cat:"breakfast",price:"6.80€",img:"images/priganice-med.jpg",t:{
-  me:{n:"Приганице са медом",d:"Домаће приганице са медом"},
-  en:{n:"Fritters with honey",d:"Homemade fritters with honey"},
-  ru:{n:"Пышки с мёдом",d:"Домашние пышки с мёдом"},
-  fr:{n:"Beignets au miel",d:"Beignets maison au miel"},
-  de:{n:"Krapfen mit Honig",d:"Hausgemachte Krapfen mit Honig"},
-  it:{n:"Frittelle al miele",d:"Frittelle fatte in casa con miele"},
-  es:{n:"Buñuelos con miel",d:"Buñuelos caseros con miel"}}},
-
 {cat:"breakfast",price:"6.80€",img:"images/ovsena-kasa.jpg",t:{
   me:{n:"Овсена каша",d:"Овсене пахуљице, шумско воће, банана, мед, бадеми"},
   en:{n:"Oatmeal",d:"Oat flakes, forest fruits, banana, honey, almonds"},
@@ -228,6 +183,51 @@ const FOOD = [
 {cat:"breakfast",price:"1.00€",unit:"1 ком / pc",img:"images/proja.jpg",t:{
   me:{n:"Проја"},en:{n:"Cornbread"},ru:{n:"Кукурузный хлеб"},fr:{n:"Pain de maïs"},de:{n:"Maisbrot"},it:{n:"Pane di mais"},es:{n:"Pan de maíz"}}},
 
+{cat:"breakfast",price:"6.80€",img:"images/priganice-dzem.jpg",t:{
+  me:{n:"Приганице са џемом",d:"Домаће приганице са домаћим џемом"},
+  en:{n:"Fritters with jam",d:"Homemade fritters with homemade jam"},
+  ru:{n:"Пышки с джемом",d:"Домашние пышки с джемом"},
+  fr:{n:"Beignets à la confiture",d:"Beignets maison à la confiture"},
+  de:{n:"Krapfen mit Marmelade",d:"Hausgemachte Krapfen mit Marmelade"},
+  it:{n:"Frittelle con marmellata",d:"Frittelle fatte in casa con marmellata"},
+  es:{n:"Buñuelos con mermelada",d:"Buñuelos caseros con mermelada"}}},
+
+{cat:"breakfast",price:"6.80€",img:"images/priganice-krem.jpg",t:{
+  me:{n:"Приганице са кремом",d:"Домаће приганице са слатким кремом"},
+  en:{n:"Fritters with cream",d:"Homemade fritters with sweet cream"},
+  ru:{n:"Пышки с кремом",d:"Домашние пышки со сладким кремом"},
+  fr:{n:"Beignets à la crème",d:"Beignets maison à la crème sucrée"},
+  de:{n:"Krapfen mit Creme",d:"Hausgemachte Krapfen mit süßer Creme"},
+  it:{n:"Frittelle con crema",d:"Frittelle fatte in casa con crema dolce"},
+  es:{n:"Buñuelos con crema",d:"Buñuelos caseros con crema dulce"}}},
+
+{cat:"breakfast",price:"6.80€",img:"images/priganice-pistaci.jpg",t:{
+  me:{n:"Приганице са пистаћима",d:"Домаће приганице са кремом од пистаћа"},
+  en:{n:"Fritters with pistachio",d:"Homemade fritters with pistachio cream"},
+  ru:{n:"Пышки с фисташками",d:"Домашние пышки с фисташковым кремом"},
+  fr:{n:"Beignets à la pistache",d:"Beignets maison à la crème de pistache"},
+  de:{n:"Krapfen mit Pistazie",d:"Hausgemachte Krapfen mit Pistaziencreme"},
+  it:{n:"Frittelle al pistacchio",d:"Frittelle fatte in casa con crema di pistacchio"},
+  es:{n:"Buñuelos con pistacho",d:"Buñuelos caseros con crema de pistacho"}}},
+
+{cat:"breakfast",price:"6.80€",img:"images/priganice-sir.jpg",t:{
+  me:{n:"Приганице са сиром",d:"Домаће приганице са сиром"},
+  en:{n:"Fritters with cheese",d:"Homemade fritters with cheese"},
+  ru:{n:"Пышки с сыром",d:"Домашние пышки с сыром"},
+  fr:{n:"Beignets au fromage",d:"Beignets maison au fromage"},
+  de:{n:"Krapfen mit Käse",d:"Hausgemachte Krapfen mit Käse"},
+  it:{n:"Frittelle con formaggio",d:"Frittelle fatte in casa con formaggio"},
+  es:{n:"Buñuelos con queso",d:"Buñuelos caseros con queso"}}},
+
+{cat:"breakfast",price:"6.80€",img:"images/priganice-med.jpg",t:{
+  me:{n:"Приганице са медом",d:"Домаће приганице са медом"},
+  en:{n:"Fritters with honey",d:"Homemade fritters with honey"},
+  ru:{n:"Пышки с мёдом",d:"Домашние пышки с мёдом"},
+  fr:{n:"Beignets au miel",d:"Beignets maison au miel"},
+  de:{n:"Krapfen mit Honig",d:"Hausgemachte Krapfen mit Honig"},
+  it:{n:"Frittelle al miele",d:"Frittelle fatte in casa con miele"},
+  es:{n:"Buñuelos con miel",d:"Buñuelos caseros con miel"}}},
+
 /* ---------- ХЛАДНА ПРЕДЈЕЛА / COLD ---------- */
 {cat:"cold",price:"24.00€",unit:"500 g",img:"images/veliki-trg.jpg",t:{
   me:{n:"„Велики Трг“ предјело",d:"Пршут, мортадела, кулен, кувана шунка, маслине, микс сирева"},
@@ -257,7 +257,7 @@ const FOOD = [
   es:{n:"Burrata",d:"Burrata, albahaca fresca, tomates cherry, pesto genovés, aceite de oliva"}}},
 
 /* ---------- ТОПЛА ПРЕДЈЕЛА / HOT ---------- */
-{cat:"hot",price:"16.00€",unit:"200 g",t:{
+{cat:"hot",price:"16.00€",unit:"200 g",img:"images/skripavac.jpg",t:{
   me:{n:"Гриловани сир шкрипавац",d:"Гриловани халуми сир"},
   en:{n:"Grilled halloumi",d:"Grilled halloumi cheese"},
   ru:{n:"Сыр халуми на гриле",d:"Сыр халуми, приготовленный на гриле"},
@@ -566,13 +566,13 @@ const FOOD = [
 {cat:"addons",price:"4.90€",unit:"30 g",t:{me:{n:"Бурата"},en:{n:"Burrata"},ru:{n:"Буррата"},fr:{n:"Burrata"},de:{n:"Burrata"},it:{n:"Burrata"},es:{n:"Burrata"}}},
 
 /* ---------- КОЛАЧИ / CAKES ---------- */
-{cat:"cakes",price:"4.80€",unit:"180 g",t:{me:{n:"Чоко љешник тарт"},en:{n:"Chocolate hazelnut tart"},ru:{n:"Шоколадно-ореховый тарт"},fr:{n:"Tarte chocolat-noisette"},de:{n:"Schoko-Haselnuss-Tarte"},it:{n:"Crostata cioccolato e nocciola"},es:{n:"Tarta de chocolate y avellana"}}},
-{cat:"cakes",price:"5.80€",unit:"200 g",t:{me:{n:"Пистаћ малина тарт"},en:{n:"Pistachio raspberry tart"},ru:{n:"Тарт фисташка-малина"},fr:{n:"Tarte pistache-framboise"},de:{n:"Pistazien-Himbeer-Tarte"},it:{n:"Crostata pistacchio e lampone"},es:{n:"Tarta de pistacho y frambuesa"}}},
-{cat:"cakes",price:"4.80€",unit:"180 g",t:{me:{n:"Лимун тарт"},en:{n:"Lemon tart"},ru:{n:"Лимонный тарт"},fr:{n:"Tarte au citron"},de:{n:"Zitronentarte"},it:{n:"Crostata al limone"},es:{n:"Tarta de limón"}}},
-{cat:"cakes",price:"3.90€",unit:"140 g",t:{me:{n:"Еклер кикирики"},en:{n:"Peanut butter éclair"},ru:{n:"Эклер с арахисовой пастой"},fr:{n:"Éclair au beurre de cacahuète"},de:{n:"Erdnussbutter-Éclair"},it:{n:"Éclair al burro d'arachidi"},es:{n:"Éclair de mantequilla de cacahuete"}}},
-{cat:"cakes",price:"3.90€",unit:"140 g",t:{me:{n:"Еклер ванила"},en:{n:"Vanilla éclair"},ru:{n:"Эклер ваниль"},fr:{n:"Éclair vanille"},de:{n:"Vanille-Éclair"},it:{n:"Éclair alla vaniglia"},es:{n:"Éclair de vainilla"}}},
-{cat:"cakes",price:"3.00€",unit:"90 g",t:{me:{n:"Шу"},en:{n:"Choux"},ru:{n:"Шу"},fr:{n:"Chou"},de:{n:"Windbeutel"},it:{n:"Bignè"},es:{n:"Petisú"}}},
-{cat:"cakes",price:"5.00€",unit:"200 g",t:{me:{n:"Сан Себастиан"},en:{n:"San Sebastián cheesecake"},ru:{n:"Чизкейк Сан-Себастьян"},fr:{n:"Cheesecake San Sebastián"},de:{n:"San-Sebastián-Käsekuchen"},it:{n:"Cheesecake San Sebastián"},es:{n:"Tarta de queso San Sebastián"}}},
+{cat:"cakes",price:"4.80€",unit:"180 g",img:"images/coko-ljesnik.jpg",t:{me:{n:"Чоко љешник тарт"},en:{n:"Chocolate hazelnut tart"},ru:{n:"Шоколадно-ореховый тарт"},fr:{n:"Tarte chocolat-noisette"},de:{n:"Schoko-Haselnuss-Tarte"},it:{n:"Crostata cioccolato e nocciola"},es:{n:"Tarta de chocolate y avellana"}}},
+{cat:"cakes",price:"5.80€",unit:"200 g",img:"images/pistac-malina.jpg",t:{me:{n:"Пистаћ малина тарт"},en:{n:"Pistachio raspberry tart"},ru:{n:"Тарт фисташка-малина"},fr:{n:"Tarte pistache-framboise"},de:{n:"Pistazien-Himbeer-Tarte"},it:{n:"Crostata pistacchio e lampone"},es:{n:"Tarta de pistacho y frambuesa"}}},
+{cat:"cakes",price:"4.80€",unit:"180 g",img:"images/limun-tart.jpg",t:{me:{n:"Лимун тарт"},en:{n:"Lemon tart"},ru:{n:"Лимонный тарт"},fr:{n:"Tarte au citron"},de:{n:"Zitronentarte"},it:{n:"Crostata al limone"},es:{n:"Tarta de limón"}}},
+{cat:"cakes",price:"3.90€",unit:"140 g",img:"images/ekler-kikiriki.jpg",t:{me:{n:"Еклер кикирики"},en:{n:"Peanut butter éclair"},ru:{n:"Эклер с арахисовой пастой"},fr:{n:"Éclair au beurre de cacahuète"},de:{n:"Erdnussbutter-Éclair"},it:{n:"Éclair al burro d'arachidi"},es:{n:"Éclair de mantequilla de cacahuete"}}},
+{cat:"cakes",price:"3.90€",unit:"140 g",img:"images/ekler-vanila.jpg",t:{me:{n:"Еклер ванила"},en:{n:"Vanilla éclair"},ru:{n:"Эклер ваниль"},fr:{n:"Éclair vanille"},de:{n:"Vanille-Éclair"},it:{n:"Éclair alla vaniglia"},es:{n:"Éclair de vainilla"}}},
+{cat:"cakes",price:"3.00€",unit:"90 g",img:"images/su.jpg",t:{me:{n:"Шу"},en:{n:"Choux"},ru:{n:"Шу"},fr:{n:"Chou"},de:{n:"Windbeutel"},it:{n:"Bignè"},es:{n:"Petisú"}}},
+{cat:"cakes",price:"5.00€",unit:"200 g",img:"images/san-sebastian.jpg",t:{me:{n:"Сан Себастиан"},en:{n:"San Sebastián cheesecake"},ru:{n:"Чизкейк Сан-Себастьян"},fr:{n:"Cheesecake San Sebastián"},de:{n:"San-Sebastián-Käsekuchen"},it:{n:"Cheesecake San Sebastián"},es:{n:"Tarta de queso San Sebastián"}}},
 ];
 
 /* ============================== ПИЋА ============================== */
