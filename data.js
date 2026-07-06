@@ -348,7 +348,7 @@ const FOOD = [
   it:{n:"Polpo alla griglia",d:"Polpo, purè, verdure, confettura di cipolle, burro, spezie"},
   es:{n:"Pulpo a la parrilla",d:"Pulpo, puré, verduras, mermelada de cebolla, mantequilla, especias"}}},
 
-{cat:"main",price:"18.00€",unit:"350 g",t:{
+{cat:"main",price:"18.00€",unit:"350 g",img:"images/burger-dry-aged.jpg",t:{
   me:{n:"Бургер Dry Aged у џему од лука",d:"Бургер, чедар, намаз, парадајз, џем од лука, ајсберг салата, помфрит"},
   en:{n:"Dry aged burger in onion jam",d:"Burger, cheddar, spread, tomato, onion jam, iceberg lettuce, fries"},
   ru:{n:"Бургер Dry Aged в луковом джеме",d:"Котлета, чеддер, соус, помидор, луковый джем, айсберг, картофель фри"},
