@@ -432,7 +432,7 @@ const FOOD = [
   es:{n:"Margarita",d:"Tomate San Marzano, mozzarella, albahaca fresca, harina Caputo"}}},
 
 {cat:"pizza",price:"13.50€",unit:"440 g",t:{
-  me:{n:"Капричоза",d:"Сан Марцано пелат, моцарела, Гранроса кувана шунка, артичоке, босиљак, Капуто брашно"},
+  me:{n:"Каприћоза",d:"Сан Марцано пелат, моцарела, Гранроса кувана шунка, артичоке, босиљак, Капуто брашно"},
   en:{n:"Capricciosa",d:"San Marzano tomato, mozzarella, Granrosa cooked ham, artichokes, basil"},
   ru:{n:"Капричоза",d:"Томаты Сан-Марцано, моцарелла, варёная ветчина Granrosa, артишоки, базилик"},
   fr:{n:"Capricciosa",d:"Tomate San Marzano, mozzarella, jambon cuit Granrosa, artichauts, basilic"},
