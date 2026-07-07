@@ -422,7 +422,7 @@ const FOOD = [
   es:{n:"Ensalada caprese",d:"Mozzarella, tomate, pesto"}}},
 
 /* ---------- ПИЦА / PIZZA  (440 g) ---------- */
-{cat:"pizza",price:"11.00€",unit:"440 g",t:{
+{cat:"pizza",price:"11.00€",unit:"440 g",img:"images/pizza-margarita.jpg",t:{
   me:{n:"Маргарита",d:"Сан Марцано пелат, моцарела, свјежи босиљак, Капуто брашно"},
   en:{n:"Margherita",d:"San Marzano tomato, mozzarella, fresh basil, Caputo flour"},
   ru:{n:"Маргарита",d:"Томаты Сан-Марцано, моцарелла, свежий базилик, мука Caputo"},
@@ -431,7 +431,7 @@ const FOOD = [
   it:{n:"Margherita",d:"Pomodoro San Marzano, mozzarella, basilico fresco, farina Caputo"},
   es:{n:"Margarita",d:"Tomate San Marzano, mozzarella, albahaca fresca, harina Caputo"}}},
 
-{cat:"pizza",price:"13.50€",unit:"440 g",t:{
+{cat:"pizza",price:"13.50€",unit:"440 g",img:"images/pizza-kapricoza.jpg",t:{
   me:{n:"Каприћоза",d:"Сан Марцано пелат, моцарела, Гранроса кувана шунка, артичоке, босиљак, Капуто брашно"},
   en:{n:"Capricciosa",d:"San Marzano tomato, mozzarella, Granrosa cooked ham, artichokes, basil"},
   ru:{n:"Капричоза",d:"Томаты Сан-Марцано, моцарелла, варёная ветчина Granrosa, артишоки, базилик"},
@@ -440,7 +440,7 @@ const FOOD = [
   it:{n:"Capricciosa",d:"Pomodoro San Marzano, mozzarella, prosciutto cotto Granrosa, carciofi, basilico"},
   es:{n:"Capricciosa",d:"Tomate San Marzano, mozzarella, jamón cocido Granrosa, alcachofas, albahaca"}}},
 
-{cat:"pizza",price:"15.00€",unit:"440 g",t:{
+{cat:"pizza",price:"15.00€",unit:"440 g",img:"images/pizza-diavolo.jpg",t:{
   me:{n:"Диаволо",d:"Сан Марцано пелат, моцарела, вентричина салама, феферони, Капуто брашно"},
   en:{n:"Diavolo",d:"San Marzano tomato, mozzarella, ventricina salami, hot peppers"},
   ru:{n:"Дьяволо",d:"Томаты Сан-Марцано, моцарелла, салями вентричина, острый перец"},
@@ -449,7 +449,7 @@ const FOOD = [
   it:{n:"Diavola",d:"Pomodoro San Marzano, mozzarella, salame ventricina, peperoncino"},
   es:{n:"Diavolo",d:"Tomate San Marzano, mozzarella, salami ventricina, guindillas"}}},
 
-{cat:"pizza",price:"15.00€",unit:"440 g",t:{
+{cat:"pizza",price:"15.00€",unit:"440 g",img:"images/pizza-prsuta.jpg",t:{
   me:{n:"Пршута",d:"Сан Марцано пелат, моцарела, Парма пршут, рукола, Капуто брашно"},
   en:{n:"Prosciutto",d:"San Marzano tomato, mozzarella, Parma prosciutto, arugula"},
   ru:{n:"Прошутто",d:"Томаты Сан-Марцано, моцарелла, пармская ветчина, руккола"},
@@ -458,7 +458,7 @@ const FOOD = [
   it:{n:"Prosciutto",d:"Pomodoro San Marzano, mozzarella, prosciutto di Parma, rucola"},
   es:{n:"Prosciutto",d:"Tomate San Marzano, mozzarella, prosciutto de Parma, rúcula"}}},
 
-{cat:"pizza",price:"16.00€",unit:"440 g",t:{
+{cat:"pizza",price:"16.00€",unit:"440 g",img:"images/pizza-mortadela.jpg",t:{
   me:{n:"Мортадела",d:"Проволоне сир, песто од пистаћа, моцарела, Мортадела Болоња, страћатела, Капуто брашно"},
   en:{n:"Mortadella",d:"Pistachio pesto, mozzarella, Mortadella Bologna, stracciatella"},
   ru:{n:"Мортаделла",d:"Фисташковый песто, моцарелла, мортаделла Болонья, страчателла"},
@@ -467,7 +467,7 @@ const FOOD = [
   it:{n:"Mortadella",d:"Pesto di pistacchio, mozzarella, mortadella di Bologna, stracciatella"},
   es:{n:"Mortadela",d:"Pesto de pistacho, mozzarella, mortadela Bolonia, stracciatella"}}},
 
-{cat:"pizza",price:"16.00€",unit:"440 g",t:{
+{cat:"pizza",price:"16.00€",unit:"440 g",img:"images/pizza-bresaola.jpg",t:{
   me:{n:"Бресаола",d:"Сан Марцано пелат, моцарела, Грана Падано, бресаола, рукола"},
   en:{n:"Bresaola",d:"San Marzano tomato, mozzarella, Grana Padano, bresaola, arugula"},
   ru:{n:"Брезаола",d:"Томаты Сан-Марцано, моцарелла, Грана Падано, брезаола, руккола"},
@@ -476,7 +476,7 @@ const FOOD = [
   it:{n:"Bresaola",d:"Pomodoro San Marzano, mozzarella, Grana Padano, bresaola, rucola"},
   es:{n:"Bresaola",d:"Tomate San Marzano, mozzarella, Grana Padano, bresaola, rúcula"}}},
 
-{cat:"pizza",price:"15.00€",unit:"440 g",t:{
+{cat:"pizza",price:"15.00€",unit:"440 g",img:"images/pizza-pesto-burata.jpg",t:{
   me:{n:"Песто бурата (бијела)",d:"Моцарела, песто, сушени шери, бурата"},
   en:{n:"Pesto burrata (white)",d:"Mozzarella, pesto, sun-dried cherry tomatoes, burrata"},
   ru:{n:"Песто буррата (белая)",d:"Моцарелла, песто, вяленые черри, буррата"},
@@ -485,7 +485,7 @@ const FOOD = [
   it:{n:"Pesto burrata (bianca)",d:"Mozzarella, pesto, pomodorini secchi, burrata"},
   es:{n:"Pesto burrata (blanca)",d:"Mozzarella, pesto, cherry secos, burrata"}}},
 
-{cat:"pizza",price:"12.00€",unit:"440 g",t:{
+{cat:"pizza",price:"12.00€",unit:"440 g",img:"images/pizza-vegan.jpg",t:{
   me:{n:"Веган",d:"Сан Марцано пелат, моцарела, пармезан, тиквице, патлиџан, црвена и зелена паприка, маслине"},
   en:{n:"Vegan",d:"San Marzano tomato, mozzarella, parmesan, zucchini, peppers, olives"},
   ru:{n:"Веган",d:"Томаты Сан-Марцано, моцарелла, пармезан, цукини, перец, оливки"},
@@ -494,7 +494,7 @@ const FOOD = [
   it:{n:"Vegana",d:"Pomodoro San Marzano, mozzarella, parmigiano, zucchine, peperoni, olive"},
   es:{n:"Vegana",d:"Tomate San Marzano, mozzarella, parmesano, calabacín, pimientos, aceitunas"}}},
 
-{cat:"pizza",price:"15.00€",unit:"440 g",t:{
+{cat:"pizza",price:"15.00€",unit:"440 g",img:"images/pizza-nduja.jpg",t:{
   me:{n:"Нџуџа кобасица",d:"Сан Марцано пелат, моцарела, пармезан, нџуџа"},
   en:{n:"Nduja sausage",d:"San Marzano tomato, mozzarella, parmesan, nduja"},
   ru:{n:"Колбаса ндуйя",d:"Томаты Сан-Марцано, моцарелла, пармезан, ндуйя"},
@@ -503,7 +503,7 @@ const FOOD = [
   it:{n:"Nduja",d:"Pomodoro San Marzano, mozzarella, parmigiano, nduja"},
   es:{n:"Salchicha nduja",d:"Tomate San Marzano, mozzarella, parmesano, nduja"}}},
 
-{cat:"pizza",price:"14.00€",unit:"440 g",t:{
+{cat:"pizza",price:"14.00€",unit:"440 g",img:"images/pizza-sremus.jpg",t:{
   me:{n:"Сремуш",d:"Сремуш, неутрална павлака, моцарела, пармезан, страћатела"},
   en:{n:"Wild garlic",d:"Wild garlic cream, mozzarella, parmesan, stracciatella"},
   ru:{n:"Черемша",d:"Крем из черемши, моцарелла, пармезан, страчателла"},
@@ -513,7 +513,7 @@ const FOOD = [
   es:{n:"Ajo de oso",d:"Crema de ajo de oso, mozzarella, parmesano, stracciatella"}}},
 
 /* ---------- ПИЦА СЕНДВИЧИ / PIZZA SANDWICHES (370 g) ---------- */
-{cat:"pizzasand",price:"10.00€",unit:"370 g",t:{
+{cat:"pizzasand",price:"10.00€",unit:"370 g",img:"images/pizzasand-sunka.jpg",t:{
   me:{n:"Шунка",d:"Гранроса кувана шунка, гауда, моцарела, микс салате, маслиново уље"},
   en:{n:"Ham",d:"Granrosa cooked ham, gouda, mozzarella, mixed greens, olive oil"},
   ru:{n:"Ветчина",d:"Варёная ветчина Granrosa, гауда, моцарелла, микс салата, оливковое масло"},
@@ -522,7 +522,7 @@ const FOOD = [
   it:{n:"Prosciutto cotto",d:"Prosciutto cotto Granrosa, gouda, mozzarella, insalata mista, olio d'oliva"},
   es:{n:"Jamón",d:"Jamón cocido Granrosa, gouda, mozzarella, ensalada mixta, aceite de oliva"}}},
 
-{cat:"pizzasand",price:"13.50€",unit:"370 g",t:{
+{cat:"pizzasand",price:"13.50€",unit:"370 g",img:"images/pizzasand-prsuta.jpg",t:{
   me:{n:"Пршута",d:"Пршут, гауда, моцарела, парадајз, рукола, маслиново уље"},
   en:{n:"Prosciutto",d:"Prosciutto, gouda, mozzarella, tomato, arugula, olive oil"},
   ru:{n:"Прошутто",d:"Прошутто, гауда, моцарелла, помидор, руккола, оливковое масло"},
@@ -531,7 +531,7 @@ const FOOD = [
   it:{n:"Prosciutto",d:"Prosciutto, gouda, mozzarella, pomodoro, rucola, olio d'oliva"},
   es:{n:"Prosciutto",d:"Prosciutto, gouda, mozzarella, tomate, rúcula, aceite de oliva"}}},
 
-{cat:"pizzasand",price:"12.00€",unit:"370 g",t:{
+{cat:"pizzasand",price:"12.00€",unit:"370 g",img:"images/pizzasand-mortadela.jpg",t:{
   me:{n:"Мортадела",d:"Мортадела Болоња, гауда, проволоне, песто од пистаћа, страчатела, маслиново уље"},
   en:{n:"Mortadella",d:"Mortadella Bologna, gouda, provolone, pistachio pesto, stracciatella, olive oil"},
   ru:{n:"Мортаделла",d:"Мортаделла Болонья, гауда, проволоне, фисташковый песто, страчателла, оливковое масло"},
@@ -540,7 +540,7 @@ const FOOD = [
   it:{n:"Mortadella",d:"Mortadella di Bologna, gouda, provolone, pesto di pistacchio, stracciatella, olio d'oliva"},
   es:{n:"Mortadela",d:"Mortadela Bolonia, gouda, provolone, pesto de pistacho, stracciatella, aceite de oliva"}}},
 
-{cat:"pizzasand",price:"13.00€",unit:"370 g",t:{
+{cat:"pizzasand",price:"13.00€",unit:"370 g",img:"images/pizzasand-diavolo.jpg",t:{
   me:{n:"Диаволо",d:"Вентричина салама, моцарела, гауда, микс салате, маслиново уље"},
   en:{n:"Diavolo",d:"Ventricina salami, mozzarella, gouda, mixed greens, olive oil"},
   ru:{n:"Дьяволо",d:"Салями вентричина, моцарелла, гауда, микс салата, оливковое масло"},
@@ -549,7 +549,7 @@ const FOOD = [
   it:{n:"Diavola",d:"Salame ventricina, mozzarella, gouda, insalata mista, olio d'oliva"},
   es:{n:"Diavolo",d:"Salami ventricina, mozzarella, gouda, ensalada mixta, aceite de oliva"}}},
 
-{cat:"pizzasand",price:"15.00€",unit:"370 g",t:{
+{cat:"pizzasand",price:"15.00€",unit:"370 g",img:"images/pizzasand-burata.jpg",t:{
   me:{n:"Бурата",d:"Бурата, моцарела, песто, шери, свјежи босиљак, маслиново уље"},
   en:{n:"Burrata",d:"Burrata, mozzarella, pesto, cherry tomatoes, fresh basil, olive oil"},
   ru:{n:"Буррата",d:"Буррата, моцарелла, песто, черри, свежий базилик, оливковое масло"},
@@ -559,11 +559,11 @@ const FOOD = [
   es:{n:"Burrata",d:"Burrata, mozzarella, pesto, cherry, albahaca fresca, aceite de oliva"}}},
 
 /* ---------- ДОДАЦИ / ADD-ONS ---------- */
-{cat:"addons",price:"4.40€",unit:"30 g",t:{me:{n:"Парма пршут"},en:{n:"Parma prosciutto"},ru:{n:"Пармская ветчина"},fr:{n:"Prosciutto de Parme"},de:{n:"Parmaschinken"},it:{n:"Prosciutto di Parma"},es:{n:"Prosciutto de Parma"}}},
-{cat:"addons",price:"3.70€",unit:"30 g",t:{me:{n:"Гранроса шунка"},en:{n:"Granrosa ham"},ru:{n:"Ветчина Granrosa"},fr:{n:"Jambon Granrosa"},de:{n:"Granrosa Schinken"},it:{n:"Prosciutto cotto Granrosa"},es:{n:"Jamón Granrosa"}}},
+{cat:"addons",price:"4.40€",unit:"30 g",img:"images/addon-parma.jpg",t:{me:{n:"Парма пршут"},en:{n:"Parma prosciutto"},ru:{n:"Пармская ветчина"},fr:{n:"Prosciutto de Parme"},de:{n:"Parmaschinken"},it:{n:"Prosciutto di Parma"},es:{n:"Prosciutto de Parma"}}},
+{cat:"addons",price:"3.70€",unit:"30 g",img:"images/addon-granrosa.jpg",t:{me:{n:"Гранроса шунка"},en:{n:"Granrosa ham"},ru:{n:"Ветчина Granrosa"},fr:{n:"Jambon Granrosa"},de:{n:"Granrosa Schinken"},it:{n:"Prosciutto cotto Granrosa"},es:{n:"Jamón Granrosa"}}},
 {cat:"addons",price:"3.50€",unit:"250 g",t:{me:{n:"Фокача"},en:{n:"Focaccia"},ru:{n:"Фокачча"},fr:{n:"Focaccia"},de:{n:"Focaccia"},it:{n:"Focaccia"},es:{n:"Focaccia"}}},
-{cat:"addons",price:"3.90€",unit:"30 g",t:{me:{n:"Вентричина салама"},en:{n:"Ventricina salami"},ru:{n:"Салями вентричина"},fr:{n:"Salami ventricina"},de:{n:"Ventricina-Salami"},it:{n:"Salame ventricina"},es:{n:"Salami ventricina"}}},
-{cat:"addons",price:"4.90€",unit:"30 g",t:{me:{n:"Бурата"},en:{n:"Burrata"},ru:{n:"Буррата"},fr:{n:"Burrata"},de:{n:"Burrata"},it:{n:"Burrata"},es:{n:"Burrata"}}},
+{cat:"addons",price:"3.90€",unit:"30 g",img:"images/addon-ventricina.jpg",t:{me:{n:"Вентричина салама"},en:{n:"Ventricina salami"},ru:{n:"Салями вентричина"},fr:{n:"Salami ventricina"},de:{n:"Ventricina-Salami"},it:{n:"Salame ventricina"},es:{n:"Salami ventricina"}}},
+{cat:"addons",price:"4.90€",unit:"30 g",img:"images/addon-burata.jpg",t:{me:{n:"Бурата"},en:{n:"Burrata"},ru:{n:"Буррата"},fr:{n:"Burrata"},de:{n:"Burrata"},it:{n:"Burrata"},es:{n:"Burrata"}}},
 
 /* ---------- КОЛАЧИ / CAKES ---------- */
 {cat:"cakes",price:"4.80€",unit:"200 g",img:"images/limun-tart.jpg",t:{
