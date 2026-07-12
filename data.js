@@ -218,7 +218,7 @@ const FOOD = [
   it:{n:"Frittelle al miele",d:"Frittelle fatte in casa con miele"},
   es:{n:"Buñuelos con miel",d:"Buñuelos caseros con miel"}}},
 
-{cat:"breakfast",price:"1.90€",img:"images/kroasan-badem.jpg",t:{
+{cat:"breakfast",price:"4.50€",img:"images/kroasan-badem.jpg",t:{
   me:{n:"Кроасан са бадемом и наранџом"},en:{n:"Croissant with almond & orange"},ru:{n:"Круассан с миндалём и апельсином"},
   fr:{n:"Croissant amande & orange"},de:{n:"Croissant Mandel & Orange"},it:{n:"Croissant mandorla e arancia"},es:{n:"Cruasán de almendra y naranja"}}},
 
@@ -257,7 +257,7 @@ const FOOD = [
   es:{n:"Burrata",d:"Burrata, albahaca fresca, tomates cherry, pesto genovés, aceite de oliva"}}},
 
 /* ---------- ТОПЛА ПРЕДЈЕЛА / HOT ---------- */
-{cat:"hot",price:"12.00€",unit:"200 g",img:"images/skripavac.jpg",t:{
+{cat:"hot",price:"16.00€",unit:"200 g",img:"images/skripavac.jpg",t:{
   me:{n:"Гриловани сир шкрипавац",d:"Гриловани халуми сир"},
   en:{n:"Grilled halloumi",d:"Grilled halloumi cheese"},
   ru:{n:"Сыр халуми на гриле",d:"Сыр халуми, приготовленный на гриле"},
@@ -302,7 +302,7 @@ const FOOD = [
   it:{n:"Pasta ai funghi",d:"Porcini, finferli, champignon"},
   es:{n:"Pasta con setas",d:"Boletus, rebozuelos, champiñones"}}},
 
-{cat:"hot",price:"13.00€",unit:"300 g",img:"images/pasta-piletina-kari.jpg",t:{
+{cat:"hot",price:"12.00€",unit:"300 g",img:"images/pasta-piletina-kari.jpg",t:{
   me:{n:"Паста пилетина, тиквице, кари",d:"Пилетина, тиквице, кари"},
   en:{n:"Pasta chicken, zucchini, curry",d:"Chicken, zucchini, curry"},
   ru:{n:"Паста с курицей, цукини и карри",d:"Курица, цукини, карри"},
@@ -449,7 +449,7 @@ const FOOD = [
   it:{n:"Diavola",d:"Pomodoro San Marzano, mozzarella, salame ventricina, peperoncino"},
   es:{n:"Diavolo",d:"Tomate San Marzano, mozzarella, salami ventricina, guindillas"}}},
 
-{cat:"pizza",price:"15.00€",unit:"440 g",img:"images/pizza-prsuta.jpg",t:{
+{cat:"pizza",price:"16.00€",unit:"440 g",img:"images/pizza-prsuta.jpg",t:{
   me:{n:"Пршута",d:"Сан Марцано пелат, моцарела, Парма пршут, рукола, Капуто брашно"},
   en:{n:"Prosciutto",d:"San Marzano tomato, mozzarella, Parma prosciutto, arugula, Caputo flour"},
   ru:{n:"Прошутто",d:"Томаты Сан-Марцано, моцарелла, пармская ветчина, руккола"},
@@ -495,8 +495,8 @@ const FOOD = [
   es:{n:"Vegana",d:"Tomate San Marzano, mozzarella, parmesano, calabacín, pimientos, aceitunas"}}},
 
 {cat:"pizza",price:"15.00€",unit:"440 g",img:"images/pizza-nduja.jpg",t:{
-  me:{n:"Нџуџа кобасица",d:"Сан Марцано пелат, моцарела, пармезан, нџуџа"},
-  en:{n:"Nduja sausage",d:"San Marzano tomato, mozzarella, parmesan, nduja"},
+  me:{n:"Ндуја",d:"Сан Марцано пелат, моцарела, пармезан, ндуја"},
+  en:{n:"Nduja",d:"San Marzano tomato, mozzarella, parmesan, nduja"},
   ru:{n:"Колбаса ндуйя",d:"Томаты Сан-Марцано, моцарелла, пармезан, ндуйя"},
   fr:{n:"Saucisse nduja",d:"Tomate San Marzano, mozzarella, parmesan, nduja"},
   de:{n:"Nduja-Wurst",d:"San-Marzano-Tomaten, Mozzarella, Parmesan, Nduja"},
