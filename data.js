@@ -9,38 +9,38 @@
 
 /* ---- nazivi pod-grupa (po jeziku) ---- */
 window.MENU_GROUPS = {
-  arabica:{me:"Арабика мијешана кафа",en:"Arabica blend",ru:"Арабика бленд",fr:"Mélange arabica",de:"Arabica-Mischung",it:"Miscela arabica",es:"Mezcla arábica"},
-  classic:{me:"Класичне кафе",en:"Classic coffee",ru:"Классический кофе",fr:"Cafés classiques",de:"Klassische Kaffees",it:"Caffè classici",es:"Cafés clásicos"},
-  latteflavors:{me:"Кафе лате са укусима",en:"Flavoured latte",ru:"Латте со вкусами",fr:"Lattes aromatisés",de:"Aromatisierte Latte",it:"Latte aromatizzati",es:"Lattes con sabores"},
-  tea:{me:"Чајеви",en:"Tea",ru:"Чай",fr:"Thés",de:"Tee",it:"Tè",es:"Tés"},
-  coffeeextras:{me:"Додаци",en:"Extras",ru:"Добавки",fr:"Suppléments",de:"Extras",it:"Aggiunte",es:"Extras"},
-  icetea:{me:"Домаћи ледени чајеви",en:"Homemade iced tea",ru:"Домашний холодный чай",fr:"Thé glacé maison",de:"Hausgemachter Eistee",it:"Tè freddo della casa",es:"Té helado casero"},
-  water:{me:"Вода",en:"Water",ru:"Вода",fr:"Eau",de:"Wasser",it:"Acqua",es:"Agua"},
-  fresh:{me:"Свјеже цијеђени сокови",en:"Fresh juices",ru:"Свежевыжатые соки",fr:"Jus frais",de:"Frische Säfte",it:"Succhi freschi",es:"Zumos naturales"},
-  lemonade:{me:"Лимунада са укусима",en:"Flavoured lemonade",ru:"Лимонад со вкусами",fr:"Limonades aromatisées",de:"Aromatisierte Limonade",it:"Limonate aromatizzate",es:"Limonadas con sabores"},
-  softdrinks:{me:"Сокови",en:"Soft drinks",ru:"Безалкогольные напитки",fr:"Sodas",de:"Erfrischungsgetränke",it:"Bibite",es:"Refrescos"},
-  energy:{me:"Енергетско пиће",en:"Energy drink",ru:"Энергетик",fr:"Boisson énergisante",de:"Energydrink",it:"Energy drink",es:"Bebida energética"},
-  draft:{me:"Точено пиво",en:"Draft beer",ru:"Разливное пиво",fr:"Bière pression",de:"Bier vom Fass",it:"Birra alla spina",es:"Cerveza de barril"},
-  bottlebeer:{me:"Пиво флаширано",en:"Bottled beer",ru:"Бутылочное пиво",fr:"Bière en bouteille",de:"Flaschenbier",it:"Birra in bottiglia",es:"Cerveza en botella"},
-  rakija:{me:"Ракија",en:"Rakija",ru:"Ракия",fr:"Rakija (eau-de-vie)",de:"Rakija (Obstbrand)",it:"Rakija (acquavite)",es:"Rakija (aguardiente)"},
-  premiumrakija:{me:"Премиум ракија",en:"Premium rakija",ru:"Премиум ракия",fr:"Rakija premium",de:"Premium-Rakija",it:"Rakija premium",es:"Rakija premium"},
-  whiskey:{me:"Виски",en:"Whiskey",ru:"Виски",fr:"Whisky",de:"Whiskey",it:"Whiskey",es:"Whisky"},
-  brandy:{me:"Бренди",en:"Brandy",ru:"Бренди",fr:"Brandy",de:"Brandy",it:"Brandy",es:"Brandy"},
-  cognac:{me:"Коњак",en:"Cognac",ru:"Коньяк",fr:"Cognac",de:"Cognac",it:"Cognac",es:"Coñac"},
-  vodka:{me:"Вотка",en:"Vodka",ru:"Водка",fr:"Vodka",de:"Wodka",it:"Vodka",es:"Vodka"},
-  gin:{me:"Џин",en:"Gin",ru:"Джин",fr:"Gin",de:"Gin",it:"Gin",es:"Ginebra"},
-  tequila:{me:"Текила 100% агава",en:"Tequila 100% agave",ru:"Текила 100% агава",fr:"Tequila 100% agave",de:"Tequila 100% Agave",it:"Tequila 100% agave",es:"Tequila 100% agave"},
-  digestive:{me:"Дижестиви",en:"Digestives",ru:"Дижестивы",fr:"Digestifs",de:"Digestifs",it:"Digestivi",es:"Digestivos"},
-  rum:{me:"Рум",en:"Rum",ru:"Ром",fr:"Rhum",de:"Rum",it:"Rum",es:"Ron"},
-  vermouth:{me:"Вермути",en:"Vermouth",ru:"Вермут",fr:"Vermouth",de:"Wermut",it:"Vermouth",es:"Vermut"},
-  cider:{me:"Сајдер",en:"Cider",ru:"Сидр",fr:"Cidre",de:"Cider",it:"Sidro",es:"Sidra"},
-  cocktails:{me:"Спритеви",en:"Spritz",ru:"Спритц",fr:"Spritz",de:"Spritz",it:"Spritz",es:"Spritz"},
-  glass:{me:"На чашу",en:"By the glass",ru:"Бокал",fr:"Au verre",de:"Offener Wein",it:"Al calice",es:"Por copa"},
-  sparkling:{me:"Пјенушава вина",en:"Sparkling wines",ru:"Игристые вина",fr:"Vins effervescents",de:"Schaumweine",it:"Spumanti",es:"Vinos espumosos"},
-  white:{me:"Бијела вина",en:"White wines",ru:"Белые вина",fr:"Vins blancs",de:"Weißweine",it:"Vini bianchi",es:"Vinos blancos"},
-  rose:{me:"Розе вина",en:"Rosé wines",ru:"Розовые вина",fr:"Vins rosés",de:"Roséweine",it:"Vini rosati",es:"Vinos rosados"},
-  red:{me:"Црвена вина",en:"Red wines",ru:"Красные вина",fr:"Vins rouges",de:"Rotweine",it:"Vini rossi",es:"Vinos tintos"},
-  champagne:{me:"Шампањац",en:"Champagne",ru:"Шампанское",fr:"Champagne",de:"Champagner",it:"Champagne",es:"Champán"},
+  arabica:{me:"Арабика мијешана кафа",en:"Arabica blend",ru:"Арабика бленд",fr:"Mélange arabica",de:"Arabica-Mischung",it:"Miscela arabica",es:"Mezcla arábica",tr:"Arabica karışım kahve"},
+  classic:{me:"Класичне кафе",en:"Classic coffee",ru:"Классический кофе",fr:"Cafés classiques",de:"Klassische Kaffees",it:"Caffè classici",es:"Cafés clásicos",tr:"Klasik kahveler"},
+  latteflavors:{me:"Кафе лате са укусима",en:"Flavoured latte",ru:"Латте со вкусами",fr:"Lattes aromatisés",de:"Aromatisierte Latte",it:"Latte aromatizzati",es:"Lattes con sabores",tr:"Aromalı latte"},
+  tea:{me:"Чајеви",en:"Tea",ru:"Чай",fr:"Thés",de:"Tee",it:"Tè",es:"Tés",tr:"Çay"},
+  coffeeextras:{me:"Додаци",en:"Extras",ru:"Добавки",fr:"Suppléments",de:"Extras",it:"Aggiunte",es:"Extras",tr:"Ekstralar"},
+  icetea:{me:"Домаћи ледени чајеви",en:"Homemade iced tea",ru:"Домашний холодный чай",fr:"Thé glacé maison",de:"Hausgemachter Eistee",it:"Tè freddo della casa",es:"Té helado casero",tr:"Ev yapımı buzlu çay"},
+  water:{me:"Вода",en:"Water",ru:"Вода",fr:"Eau",de:"Wasser",it:"Acqua",es:"Agua",tr:"Su"},
+  fresh:{me:"Свјеже цијеђени сокови",en:"Fresh juices",ru:"Свежевыжатые соки",fr:"Jus frais",de:"Frische Säfte",it:"Succhi freschi",es:"Zumos naturales",tr:"Taze meyve suları"},
+  lemonade:{me:"Лимунада са укусима",en:"Flavoured lemonade",ru:"Лимонад со вкусами",fr:"Limonades aromatisées",de:"Aromatisierte Limonade",it:"Limonate aromatizzate",es:"Limonadas con sabores",tr:"Aromalı limonata"},
+  softdrinks:{me:"Сокови",en:"Soft drinks",ru:"Безалкогольные напитки",fr:"Sodas",de:"Erfrischungsgetränke",it:"Bibite",es:"Refrescos",tr:"Meşrubat"},
+  energy:{me:"Енергетско пиће",en:"Energy drink",ru:"Энергетик",fr:"Boisson énergisante",de:"Energydrink",it:"Energy drink",es:"Bebida energética",tr:"Enerji içeceği"},
+  draft:{me:"Точено пиво",en:"Draft beer",ru:"Разливное пиво",fr:"Bière pression",de:"Bier vom Fass",it:"Birra alla spina",es:"Cerveza de barril",tr:"Fıçı bira"},
+  bottlebeer:{me:"Пиво флаширано",en:"Bottled beer",ru:"Бутылочное пиво",fr:"Bière en bouteille",de:"Flaschenbier",it:"Birra in bottiglia",es:"Cerveza en botella",tr:"Şişe bira"},
+  rakija:{me:"Ракија",en:"Rakija",ru:"Ракия",fr:"Rakija (eau-de-vie)",de:"Rakija (Obstbrand)",it:"Rakija (acquavite)",es:"Rakija (aguardiente)",tr:"Rakı"},
+  premiumrakija:{me:"Премиум ракија",en:"Premium rakija",ru:"Премиум ракия",fr:"Rakija premium",de:"Premium-Rakija",it:"Rakija premium",es:"Rakija premium",tr:"Premium rakı"},
+  whiskey:{me:"Виски",en:"Whiskey",ru:"Виски",fr:"Whisky",de:"Whiskey",it:"Whiskey",es:"Whisky",tr:"Viski"},
+  brandy:{me:"Бренди",en:"Brandy",ru:"Бренди",fr:"Brandy",de:"Brandy",it:"Brandy",es:"Brandy",tr:"Brendi"},
+  cognac:{me:"Коњак",en:"Cognac",ru:"Коньяк",fr:"Cognac",de:"Cognac",it:"Cognac",es:"Coñac",tr:"Konyak"},
+  vodka:{me:"Вотка",en:"Vodka",ru:"Водка",fr:"Vodka",de:"Wodka",it:"Vodka",es:"Vodka",tr:"Votka"},
+  gin:{me:"Џин",en:"Gin",ru:"Джин",fr:"Gin",de:"Gin",it:"Gin",es:"Ginebra",tr:"Cin"},
+  tequila:{me:"Текила 100% агава",en:"Tequila 100% agave",ru:"Текила 100% агава",fr:"Tequila 100% agave",de:"Tequila 100% Agave",it:"Tequila 100% agave",es:"Tequila 100% agave",tr:"Tekila %100 agav"},
+  digestive:{me:"Дижестиви",en:"Digestives",ru:"Дижестивы",fr:"Digestifs",de:"Digestifs",it:"Digestivi",es:"Digestivos",tr:"Dijestifler"},
+  rum:{me:"Рум",en:"Rum",ru:"Ром",fr:"Rhum",de:"Rum",it:"Rum",es:"Ron",tr:"Rom"},
+  vermouth:{me:"Вермути",en:"Vermouth",ru:"Вермут",fr:"Vermouth",de:"Wermut",it:"Vermouth",es:"Vermut",tr:"Vermut"},
+  cider:{me:"Сајдер",en:"Cider",ru:"Сидр",fr:"Cidre",de:"Cider",it:"Sidro",es:"Sidra",tr:"Elma şarabı"},
+  cocktails:{me:"Спритеви",en:"Spritz",ru:"Спритц",fr:"Spritz",de:"Spritz",it:"Spritz",es:"Spritz",tr:"Spritz"},
+  glass:{me:"На чашу",en:"By the glass",ru:"Бокал",fr:"Au verre",de:"Offener Wein",it:"Al calice",es:"Por copa",tr:"Kadeh"},
+  sparkling:{me:"Пјенушава вина",en:"Sparkling wines",ru:"Игристые вина",fr:"Vins effervescents",de:"Schaumweine",it:"Spumanti",es:"Vinos espumosos",tr:"Köpüklü şaraplar"},
+  white:{me:"Бијела вина",en:"White wines",ru:"Белые вина",fr:"Vins blancs",de:"Weißweine",it:"Vini bianchi",es:"Vinos blancos",tr:"Beyaz şaraplar"},
+  rose:{me:"Розе вина",en:"Rosé wines",ru:"Розовые вина",fr:"Vins rosés",de:"Roséweine",it:"Vini rosati",es:"Vinos rosados",tr:"Rose şaraplar"},
+  red:{me:"Црвена вина",en:"Red wines",ru:"Красные вина",fr:"Vins rouges",de:"Rotweine",it:"Vini rossi",es:"Vinos tintos",tr:"Kırmızı şaraplar"},
+  champagne:{me:"Шампањац",en:"Champagne",ru:"Шампанское",fr:"Champagne",de:"Champagner",it:"Champagne",es:"Champán",tr:"Şampanya"},
 };
 
 /* ============================== ХРАНА ============================== */
@@ -54,7 +54,7 @@ const FOOD = [
   fr:{n:"Petit-déjeuner « Mali Trg »",d:"Croissant, œufs brouillés, champignons, saucisse, frites, salade verte, sauce"},
   de:{n:"Frühstück „Mali Trg“",d:"Croissant, Rührei, Pilze, Wurst, Pommes, gemischter Blattsalat, Sauce"},
   it:{n:"Colazione „Mali Trg“",d:"Croissant, uova strapazzate, funghi, salsiccia, patatine fritte, insalata mista, salsa"},
-  es:{n:"Desayuno «Mali Trg»",d:"Cruasán, huevos revueltos, champiñones, salchicha, patatas fritas, ensalada verde mixta, salsa"}}},
+  es:{n:"Desayuno «Mali Trg»",d:"Cruasán, huevos revueltos, champiñones, salchicha, patatas fritas, ensalada verde mixta, salsa"},tr:{n:"Kahvaltı Mali Trg",d:"Kruvasan, çırpılmış yumurta, mantar, sosis, patates kızartması, karışık yeşil salata, sos"}}},
 
 {cat:"breakfast",price:"9.80€",img:"images/losos.jpg",t:{
   me:{n:"Доручак са димљеним лососом",d:"Кроасан, кајгана, димљени лосос, сос, шпароге, помфрит, микс зелене салате"},
@@ -63,7 +63,7 @@ const FOOD = [
   fr:{n:"Petit-déjeuner au saumon fumé",d:"Croissant, œufs brouillés, saumon fumé, asperges, frites, salade verte"},
   de:{n:"Frühstück mit Räucherlachs",d:"Croissant, Rührei, Räucherlachs, Spargel, Pommes, gemischter Blattsalat"},
   it:{n:"Colazione con salmone affumicato",d:"Croissant, uova strapazzate, salmone affumicato, asparagi, patatine, insalata mista"},
-  es:{n:"Desayuno con salmón ahumado",d:"Cruasán, huevos revueltos, salmón ahumado, espárragos, patatas fritas, ensalada mixta"}}},
+  es:{n:"Desayuno con salmón ahumado",d:"Cruasán, huevos revueltos, salmón ahumado, espárragos, patatas fritas, ensalada mixta"},tr:{n:"Füme somonlu kahvaltı",d:"Kruvasan, çırpılmış yumurta, füme somon, sos, kuşkonmaz, patates kızartması, karışık yeşil salata"}}},
 
 {cat:"breakfast",price:"8.90€",img:"images/crnogorski-dorucak.jpg",t:{
   me:{n:"Црногорски доручак",d:"Два јаја, домаћа кобасица, пршута, сир, ајвар, проја, помфрит, микс зелене салате"},
@@ -72,7 +72,7 @@ const FOOD = [
   fr:{n:"Petit-déjeuner monténégrin",d:"Deux œufs, saucisse maison, prosciutto, fromage, ajvar, pain de maïs, frites, salade verte"},
   de:{n:"Montenegrinisches Frühstück",d:"Zwei Eier, hausgemachte Wurst, Prosciutto, Käse, Ajvar, Maisbrot, Pommes, Blattsalat"},
   it:{n:"Colazione montenegrina",d:"Due uova, salsiccia fatta in casa, prosciutto, formaggio, ajvar, pane di mais, patatine, insalata mista"},
-  es:{n:"Desayuno montenegrino",d:"Dos huevos, salchicha casera, prosciutto, queso, ajvar, pan de maíz, patatas fritas, ensalada mixta"}}},
+  es:{n:"Desayuno montenegrino",d:"Dos huevos, salchicha casera, prosciutto, queso, ajvar, pan de maíz, patatas fritas, ensalada mixta"},tr:{n:"Karadağ kahvaltısı",d:"İki yumurta, ev yapımı sosis, prosciutto, peynir, ajvar, mısır ekmeği, patates kızartması, karışık yeşil salata"}}},
 
 {cat:"breakfast",price:"7.80€",img:"images/omlet-povrce.jpg",t:{
   me:{n:"Омлет са поврћем",d:"Јаја, тиквице, плави патлиџан, црвена и зелена паприка, проја, ајвар, рукола, сос"},
@@ -81,7 +81,7 @@ const FOOD = [
   fr:{n:"Omelette aux légumes",d:"Œufs, courgette, aubergine, poivrons rouge et vert, pain de maïs, ajvar, roquette, sauce"},
   de:{n:"Gemüse-Omelett",d:"Eier, Zucchini, Aubergine, rote und grüne Paprika, Maisbrot, Ajvar, Rucola, Sauce"},
   it:{n:"Omelette di verdure",d:"Uova, zucchine, melanzane, peperoni rossi e verdi, pane di mais, ajvar, rucola, salsa"},
-  es:{n:"Tortilla de verduras",d:"Huevos, calabacín, berenjena, pimientos rojo y verde, pan de maíz, ajvar, rúcula, salsa"}}},
+  es:{n:"Tortilla de verduras",d:"Huevos, calabacín, berenjena, pimientos rojo y verde, pan de maíz, ajvar, rúcula, salsa"},tr:{n:"Sebzeli omlet",d:"Yumurta, kabak, patlıcan, kırmızı ve yeşil biber, mısır ekmeği, ajvar, roka, sos"}}},
 
 {cat:"breakfast",price:"9.80€",img:"images/omlet-burger.jpg",t:{
   me:{n:"Омлет бургер",d:"Бургер лепиња, гауда, јаја, пршут, сирни намаз, домаћа кобасица, чедар, помфрит, микс салате"},
@@ -90,7 +90,7 @@ const FOOD = [
   fr:{n:"Burger-omelette",d:"Pain à burger, gouda, œufs, prosciutto, fromage frais, saucisse maison, cheddar, frites, salade"},
   de:{n:"Omelett-Burger",d:"Burgerbrötchen, Gouda, Eier, Prosciutto, Frischkäse, hausgemachte Wurst, Cheddar, Pommes, Salat"},
   it:{n:"Burger omelette",d:"Pane da burger, gouda, uova, prosciutto, formaggio spalmabile, salsiccia, cheddar, patatine, insalata"},
-  es:{n:"Hamburguesa omelette",d:"Pan de burger, gouda, huevos, prosciutto, queso crema, salchicha casera, cheddar, patatas, ensalada"}}},
+  es:{n:"Hamburguesa omelette",d:"Pan de burger, gouda, huevos, prosciutto, queso crema, salchicha casera, cheddar, patatas, ensalada"},tr:{n:"Omlet burger",d:"Burger ekmeği, gouda, yumurta, prosciutto, krem peynir, ev yapımı sosis, çedar, patates kızartması, karışık salata"}}},
 
 {cat:"breakfast",price:"6.90€",img:"images/omlet-sunka.jpg",t:{
   me:{n:"Омлет са шунком",d:"Јаја, шунка, гауда, ајвар, проја, сир, микс зелене салате"},
@@ -99,7 +99,7 @@ const FOOD = [
   fr:{n:"Omelette au jambon",d:"Œufs, jambon, gouda, ajvar, pain de maïs, fromage, salade verte"},
   de:{n:"Schinken-Omelett",d:"Eier, Schinken, Gouda, Ajvar, Maisbrot, Käse, gemischter Blattsalat"},
   it:{n:"Omelette al prosciutto cotto",d:"Uova, prosciutto cotto, gouda, ajvar, pane di mais, formaggio, insalata mista"},
-  es:{n:"Tortilla con jamón",d:"Huevos, jamón, gouda, ajvar, pan de maíz, queso, ensalada verde mixta"}}},
+  es:{n:"Tortilla con jamón",d:"Huevos, jamón, gouda, ajvar, pan de maíz, queso, ensalada verde mixta"},tr:{n:"Jambonlu omlet",d:"Yumurta, jambon, gouda, ajvar, mısır ekmeği, peynir, karışık yeşil salata"}}},
 
 {cat:"breakfast",price:"9.40€",img:"images/avokado.jpg",t:{
   me:{n:"Авокадо",d:"Кајгана, авокадо, интегрални хлеб, сирни намаз, микс салате, шери, сос"},
@@ -108,7 +108,7 @@ const FOOD = [
   fr:{n:"Avocat",d:"Œufs brouillés, avocat, pain complet, fromage frais, salade, tomates cerises, sauce"},
   de:{n:"Avocado",d:"Rührei, Avocado, Vollkornbrot, Frischkäse, Salat, Kirschtomaten, Sauce"},
   it:{n:"Avocado",d:"Uova strapazzate, avocado, pane integrale, formaggio spalmabile, insalata, pomodorini, salsa"},
-  es:{n:"Aguacate",d:"Huevos revueltos, aguacate, pan integral, queso crema, ensalada, tomates cherry, salsa"}}},
+  es:{n:"Aguacate",d:"Huevos revueltos, aguacate, pan integral, queso crema, ensalada, tomates cherry, salsa"},tr:{n:"Avokado",d:"Çırpılmış yumurta, avokado, tam tahıllı ekmek, krem peynir, salata, çeri domates, sos"}}},
 
 {cat:"breakfast",price:"9.80€",img:"images/proteinski.jpg",t:{
   me:{n:"Протеински доручак",d:"Бјеланца, пилећи филе, парадајз, моцарела, интегрални хлеб"},
@@ -117,7 +117,7 @@ const FOOD = [
   fr:{n:"Petit-déjeuner protéiné",d:"Blancs d'œufs, filet de poulet, tomate, mozzarella, pain complet"},
   de:{n:"Protein-Frühstück",d:"Eiweiß, Hähnchenfilet, Tomate, Mozzarella, Vollkornbrot"},
   it:{n:"Colazione proteica",d:"Albumi, filetto di pollo, pomodoro, mozzarella, pane integrale"},
-  es:{n:"Desayuno proteico",d:"Claras de huevo, filete de pollo, tomate, mozzarella, pan integral"}}},
+  es:{n:"Desayuno proteico",d:"Claras de huevo, filete de pollo, tomate, mozzarella, pan integral"},tr:{n:"Protein kahvaltısı",d:"Yumurta akı, tavuk fileto, domates, mozzarella, tam tahıllı ekmek"}}},
 
 {cat:"breakfast",price:"6.80€",img:"images/ovsena-kasa.jpg",t:{
   me:{n:"Овсена каша",d:"Овсене пахуљице, шумско воће, банана, мед, бадеми"},
@@ -126,7 +126,7 @@ const FOOD = [
   fr:{n:"Porridge",d:"Flocons d'avoine, fruits des bois, banane, miel, amandes"},
   de:{n:"Haferbrei",d:"Haferflocken, Waldfrüchte, Banane, Honig, Mandeln"},
   it:{n:"Porridge d'avena",d:"Fiocchi d'avena, frutti di bosco, banana, miele, mandorle"},
-  es:{n:"Avena (porridge)",d:"Copos de avena, frutos del bosque, plátano, miel, almendras"}}},
+  es:{n:"Avena (porridge)",d:"Copos de avena, frutos del bosque, plátano, miel, almendras"},tr:{n:"Yulaf lapası",d:"Yulaf ezmesi, orman meyveleri, muz, bal, badem"}}},
 
 {cat:"breakfast",price:"9.90€",img:"images/pohovane-tortilje.jpg",t:{
   me:{n:"Поховане тортиље",d:"Пилетина, гауда, чедар, тортиље, микс зелене салате, сос"},
@@ -135,7 +135,7 @@ const FOOD = [
   fr:{n:"Tortillas panées",d:"Poulet, gouda, cheddar, tortillas, salade verte, sauce"},
   de:{n:"Panierte Tortillas",d:"Hähnchen, Gouda, Cheddar, Tortillas, gemischter Blattsalat, Sauce"},
   it:{n:"Tortillas impanate",d:"Pollo, gouda, cheddar, tortillas, insalata mista, salsa"},
-  es:{n:"Tortillas empanadas",d:"Pollo, gouda, cheddar, tortillas, ensalada verde mixta, salsa"}}},
+  es:{n:"Tortillas empanadas",d:"Pollo, gouda, cheddar, tortillas, ensalada verde mixta, salsa"},tr:{n:"Paneli tortilla",d:"Tavuk, gouda, çedar, tortilla, karışık yeşil salata, sos"}}},
 
 {cat:"breakfast",price:"9.90€",img:"images/kroasan-prsut.jpg",t:{
   me:{n:"Кроасан са пршутом",d:"Кроасан, пршута, моцарела, песто, парадајз, микс зелене салате"},
@@ -144,7 +144,7 @@ const FOOD = [
   fr:{n:"Croissant au prosciutto",d:"Croissant, prosciutto, mozzarella, pesto, tomate, salade verte"},
   de:{n:"Croissant mit Prosciutto",d:"Croissant, Prosciutto, Mozzarella, Pesto, Tomate, Blattsalat"},
   it:{n:"Croissant con prosciutto",d:"Croissant, prosciutto, mozzarella, pesto, pomodoro, insalata mista"},
-  es:{n:"Cruasán con prosciutto",d:"Cruasán, prosciutto, mozzarella, pesto, tomate, ensalada verde mixta"}}},
+  es:{n:"Cruasán con prosciutto",d:"Cruasán, prosciutto, mozzarella, pesto, tomate, ensalada verde mixta"},tr:{n:"Prosciuttolu kruvasan",d:"Kruvasan, prosciutto, mozzarella, pesto, domates, karışık yeşil salata"}}},
 
 {cat:"breakfast",price:"9.90€",img:"images/sendvic-piletina.jpg",t:{
   me:{n:"Сендвич са похованом пилетином",d:"Интегрална лепиња, похована пилетина, јаја, сирни намаз, гауда, помфрит, парадајз, сос"},
@@ -153,7 +153,7 @@ const FOOD = [
   fr:{n:"Sandwich au poulet pané",d:"Pain complet, poulet pané, œufs, fromage frais, gouda, frites, tomate, sauce"},
   de:{n:"Sandwich mit paniertem Hähnchen",d:"Vollkornbrötchen, paniertes Hähnchen, Eier, Frischkäse, Gouda, Pommes, Tomate, Sauce"},
   it:{n:"Sandwich con pollo impanato",d:"Panino integrale, pollo impanato, uova, formaggio spalmabile, gouda, patatine, pomodoro, salsa"},
-  es:{n:"Sándwich de pollo empanado",d:"Pan integral, pollo empanado, huevos, queso crema, gouda, patatas, tomate, salsa"}}},
+  es:{n:"Sándwich de pollo empanado",d:"Pan integral, pollo empanado, huevos, queso crema, gouda, patatas, tomate, salsa"},tr:{n:"Kızarmış tavuklu sandviç",d:"Tam tahıllı ekmek, paneli tavuk, yumurta, krem peynir, gouda, patates kızartması, domates, sos"}}},
 
 {cat:"breakfast",price:"9.90€",img:"images/sendvic-burata.jpg",t:{
   me:{n:"Сендвич бурата",d:"Бурата, песто сос, пршута, рукола, шери, босиљак, ајвар"},
@@ -162,7 +162,7 @@ const FOOD = [
   fr:{n:"Sandwich à la burrata",d:"Burrata, sauce pesto, prosciutto, roquette, tomates cerises, basilic, ajvar"},
   de:{n:"Burrata-Sandwich",d:"Burrata, Pesto-Sauce, Prosciutto, Rucola, Kirschtomaten, Basilikum, Ajvar"},
   it:{n:"Sandwich con burrata",d:"Burrata, salsa al pesto, prosciutto, rucola, pomodorini, basilico, ajvar"},
-  es:{n:"Sándwich de burrata",d:"Burrata, salsa pesto, prosciutto, rúcula, tomates cherry, albahaca, ajvar"}}},
+  es:{n:"Sándwich de burrata",d:"Burrata, salsa pesto, prosciutto, rúcula, tomates cherry, albahaca, ajvar"},tr:{n:"Burrata sandviç",d:"Burrata, pesto sos, prosciutto, roka, çeri domates, fesleğen, ajvar"}}},
 
 {cat:"breakfast",price:"8.60€",img:"images/americke-palacinke.jpg",t:{
   me:{n:"Америчке палачинке",d:"Нутела или пистаћи"},
@@ -171,7 +171,7 @@ const FOOD = [
   fr:{n:"Pancakes américains",d:"Nutella ou pistache"},
   de:{n:"American Pancakes",d:"Nutella oder Pistazie"},
   it:{n:"Pancake americani",d:"Nutella o pistacchio"},
-  es:{n:"Tortitas americanas",d:"Nutella o pistacho"}}},
+  es:{n:"Tortitas americanas",d:"Nutella o pistacho"},tr:{n:"Amerikan pankek",d:"Nutella veya antep fıstığı"}}},
 
 {cat:"breakfast",price:"6.80€",img:"images/priganice-dzem.jpg",t:{
   me:{n:"Приганице са џемом",d:"Домаће приганице са домаћим џемом"},
@@ -180,7 +180,7 @@ const FOOD = [
   fr:{n:"Beignets à la confiture",d:"Beignets maison à la confiture"},
   de:{n:"Krapfen mit Marmelade",d:"Hausgemachte Krapfen mit Marmelade"},
   it:{n:"Frittelle con marmellata",d:"Frittelle fatte in casa con marmellata"},
-  es:{n:"Buñuelos con mermelada",d:"Buñuelos caseros con mermelada"}}},
+  es:{n:"Buñuelos con mermelada",d:"Buñuelos caseros con mermelada"},tr:{n:"Reçelli lokma",d:"Ev yapımı reçelli ev yapımı lokma"}}},
 
 {cat:"breakfast",price:"6.80€",img:"images/priganice-krem.jpg",t:{
   me:{n:"Приганице са кремом",d:"Домаће приганице са слатким кремом"},
@@ -189,7 +189,7 @@ const FOOD = [
   fr:{n:"Beignets à la crème",d:"Beignets maison à la crème sucrée"},
   de:{n:"Krapfen mit Creme",d:"Hausgemachte Krapfen mit süßer Creme"},
   it:{n:"Frittelle con crema",d:"Frittelle fatte in casa con crema dolce"},
-  es:{n:"Buñuelos con crema",d:"Buñuelos caseros con crema dulce"}}},
+  es:{n:"Buñuelos con crema",d:"Buñuelos caseros con crema dulce"},tr:{n:"Kremalı lokma",d:"Tatlı kremalı ev yapımı lokma"}}},
 
 {cat:"breakfast",price:"6.80€",img:"images/priganice-pistaci.jpg",t:{
   me:{n:"Приганице са пистаћима",d:"Домаће приганице са кремом од пистаћа"},
@@ -198,7 +198,7 @@ const FOOD = [
   fr:{n:"Beignets à la pistache",d:"Beignets maison à la crème de pistache"},
   de:{n:"Krapfen mit Pistazie",d:"Hausgemachte Krapfen mit Pistaziencreme"},
   it:{n:"Frittelle al pistacchio",d:"Frittelle fatte in casa con crema di pistacchio"},
-  es:{n:"Buñuelos con pistacho",d:"Buñuelos caseros con crema de pistacho"}}},
+  es:{n:"Buñuelos con pistacho",d:"Buñuelos caseros con crema de pistacho"},tr:{n:"Antep fıstıklı lokma",d:"Antep fıstığı kremalı ev yapımı lokma"}}},
 
 {cat:"breakfast",price:"6.80€",img:"images/priganice-sir.jpg",t:{
   me:{n:"Приганице са сиром",d:"Домаће приганице са сиром"},
@@ -207,7 +207,7 @@ const FOOD = [
   fr:{n:"Beignets au fromage",d:"Beignets maison au fromage"},
   de:{n:"Krapfen mit Käse",d:"Hausgemachte Krapfen mit Käse"},
   it:{n:"Frittelle con formaggio",d:"Frittelle fatte in casa con formaggio"},
-  es:{n:"Buñuelos con queso",d:"Buñuelos caseros con queso"}}},
+  es:{n:"Buñuelos con queso",d:"Buñuelos caseros con queso"},tr:{n:"Peynirli lokma",d:"Peynirli ev yapımı lokma"}}},
 
 {cat:"breakfast",price:"6.80€",img:"images/priganice-med.jpg",t:{
   me:{n:"Приганице са медом",d:"Домаће приганице са медом"},
@@ -216,17 +216,17 @@ const FOOD = [
   fr:{n:"Beignets au miel",d:"Beignets maison au miel"},
   de:{n:"Krapfen mit Honig",d:"Hausgemachte Krapfen mit Honig"},
   it:{n:"Frittelle al miele",d:"Frittelle fatte in casa con miele"},
-  es:{n:"Buñuelos con miel",d:"Buñuelos caseros con miel"}}},
+  es:{n:"Buñuelos con miel",d:"Buñuelos caseros con miel"},tr:{n:"Ballı lokma",d:"Ballı ev yapımı lokma"}}},
 
 {cat:"breakfast",price:"4.50€",img:"images/kroasan-badem.jpg",t:{
   me:{n:"Кроасан са бадемом и наранџом"},en:{n:"Croissant with almond & orange"},ru:{n:"Круассан с миндалём и апельсином"},
-  fr:{n:"Croissant amande & orange"},de:{n:"Croissant Mandel & Orange"},it:{n:"Croissant mandorla e arancia"},es:{n:"Cruasán de almendra y naranja"}}},
+  fr:{n:"Croissant amande & orange"},de:{n:"Croissant Mandel & Orange"},it:{n:"Croissant mandorla e arancia"},es:{n:"Cruasán de almendra y naranja"},tr:{n:"Bademli ve portakallı kruvasan"}}},
 
 {cat:"breakfast",price:"1.90€",unit:"1 ком / pc",img:"images/kroasan.jpg",t:{
-  me:{n:"Кроасан"},en:{n:"Croissant"},ru:{n:"Круассан"},fr:{n:"Croissant"},de:{n:"Croissant"},it:{n:"Croissant"},es:{n:"Cruasán"}}},
+  me:{n:"Кроасан"},en:{n:"Croissant"},ru:{n:"Круассан"},fr:{n:"Croissant"},de:{n:"Croissant"},it:{n:"Croissant"},es:{n:"Cruasán"},tr:{n:"Kruvasan"}}},
 
 {cat:"breakfast",price:"1.00€",unit:"1 ком / pc",img:"images/proja.jpg",t:{
-  me:{n:"Проја"},en:{n:"Cornbread"},ru:{n:"Кукурузный хлеб"},fr:{n:"Pain de maïs"},de:{n:"Maisbrot"},it:{n:"Pane di mais"},es:{n:"Pan de maíz"}}},
+  me:{n:"Проја"},en:{n:"Cornbread"},ru:{n:"Кукурузный хлеб"},fr:{n:"Pain de maïs"},de:{n:"Maisbrot"},it:{n:"Pane di mais"},es:{n:"Pan de maíz"},tr:{n:"Mısır ekmeği"}}},
 
 /* ---------- ХЛАДНА ПРЕДЈЕЛА / COLD ---------- */
 {cat:"cold",price:"24.00€",unit:"500 g",img:"images/veliki-trg.jpg",t:{
@@ -236,7 +236,7 @@ const FOOD = [
   fr:{n:"Plateau « Veliki Trg »",d:"Prosciutto, mortadelle, kulen, jambon cuit, olives, assortiment de fromages"},
   de:{n:"„Veliki Trg“ Platte",d:"Prosciutto, Mortadella, Kulen, Kochschinken, Oliven, Käseauswahl"},
   it:{n:"Tagliere „Veliki Trg“",d:"Prosciutto, mortadella, kulen, prosciutto cotto, olive, selezione di formaggi"},
-  es:{n:"Tabla « Veliki Trg »",d:"Prosciutto, mortadela, kulen, jamón cocido, aceitunas, selección de quesos"}}},
+  es:{n:"Tabla « Veliki Trg »",d:"Prosciutto, mortadela, kulen, jamón cocido, aceitunas, selección de quesos"},tr:{n:"Veliki Trg tabağı",d:"Prosciutto, mortadella, kulen, pişmiş jambon, zeytin, peynir çeşitleri"}}},
 
 {cat:"cold",price:"13.00€",unit:"250 g",img:"images/mali-trg-predjelo.jpg",t:{
   me:{n:"„Мали Трг“ предјело",d:"Пршут 100 г, капрезе салата"},
@@ -245,7 +245,7 @@ const FOOD = [
   fr:{n:"Plateau « Mali Trg »",d:"Prosciutto 100 g, salade caprese"},
   de:{n:"„Mali Trg“ Platte",d:"Prosciutto 100 g, Caprese-Salat"},
   it:{n:"Tagliere „Mali Trg“",d:"Prosciutto 100 g, insalata caprese"},
-  es:{n:"Tabla « Mali Trg »",d:"Prosciutto 100 g, ensalada caprese"}}},
+  es:{n:"Tabla « Mali Trg »",d:"Prosciutto 100 g, ensalada caprese"},tr:{n:"Mali Trg tabağı",d:"Prosciutto 100 g, caprese salatası"}}},
 
 {cat:"cold",price:"13.00€",unit:"250 g",img:"images/burata-cold.jpg",t:{
   me:{n:"Бурата",d:"Бурата, свјежи босиљак, шери, песто ђеновезе, маслиново уље"},
@@ -254,7 +254,7 @@ const FOOD = [
   fr:{n:"Burrata",d:"Burrata, basilic frais, tomates cerises, pesto genovese, huile d'olive"},
   de:{n:"Burrata",d:"Burrata, frisches Basilikum, Kirschtomaten, Pesto Genovese, Olivenöl"},
   it:{n:"Burrata",d:"Burrata, basilico fresco, pomodorini, pesto genovese, olio d'oliva"},
-  es:{n:"Burrata",d:"Burrata, albahaca fresca, tomates cherry, pesto genovés, aceite de oliva"}}},
+  es:{n:"Burrata",d:"Burrata, albahaca fresca, tomates cherry, pesto genovés, aceite de oliva"},tr:{n:"Burrata",d:"Burrata, taze fesleğen, çeri domates, cenova pesto, zeytinyağı"}}},
 
 /* ---------- ТОПЛА ПРЕДЈЕЛА / HOT ---------- */
 {cat:"hot",price:"16.00€",unit:"200 g",img:"images/skripavac.jpg",t:{
@@ -264,7 +264,7 @@ const FOOD = [
   fr:{n:"Halloumi grillé",d:"Fromage halloumi grillé"},
   de:{n:"Gegrillter Halloumi",d:"Gegrillter Halloumi-Käse"},
   it:{n:"Halloumi alla griglia",d:"Formaggio halloumi grigliato"},
-  es:{n:"Halloumi a la parrilla",d:"Queso halloumi a la parrilla"}}},
+  es:{n:"Halloumi a la parrilla",d:"Queso halloumi a la parrilla"},tr:{n:"Izgara hellim",d:"Izgara hellim peyniri"}}},
 
 {cat:"hot",price:"9.00€",unit:"200 g",img:"images/pohani-sir.jpg",t:{
   me:{n:"Поховани сир",d:"Сир у презлама, пржен"},
@@ -273,7 +273,7 @@ const FOOD = [
   fr:{n:"Fromage pané",d:"Fromage pané et frit"},
   de:{n:"Panierter Käse",d:"Panierter, frittierter Käse"},
   it:{n:"Formaggio impanato",d:"Formaggio impanato e fritto"},
-  es:{n:"Queso empanado",d:"Queso empanado y frito"}}},
+  es:{n:"Queso empanado",d:"Queso empanado y frito"},tr:{n:"Paneli peynir",d:"Pane edilmiş kızarmış peynir"}}},
 
 {cat:"hot",price:"16.00€",unit:"200 g",img:"images/crni-rizoto.jpg",t:{
   me:{n:"Црни рижото",d:"Сипа, рижа, црнило сипе, пармезан, зачини"},
@@ -282,7 +282,7 @@ const FOOD = [
   fr:{n:"Risotto noir",d:"Seiche, riz, encre de seiche, parmesan, épices"},
   de:{n:"Schwarzes Risotto",d:"Tintenfisch, Reis, Tintenfischtinte, Parmesan, Gewürze"},
   it:{n:"Risotto al nero di seppia",d:"Seppia, riso, nero di seppia, parmigiano, spezie"},
-  es:{n:"Risotto negro",d:"Sepia, arroz, tinta de sepia, parmesano, especias"}}},
+  es:{n:"Risotto negro",d:"Sepia, arroz, tinta de sepia, parmesano, especias"},tr:{n:"Siyah risotto",d:"Mürekkep balığı, pirinç, mürekkep balığı mürekkebi, parmesan, baharatlar"}}},
 
 {cat:"hot",price:"15.00€",unit:"200 g",img:"images/rizoto-spanac.jpg",t:{
   me:{n:"Рижото спанаћ и козји сир",d:"Козји сир, рижа, спанаћ, пармезан, зачини"},
@@ -291,7 +291,7 @@ const FOOD = [
   fr:{n:"Risotto épinards & chèvre",d:"Fromage de chèvre, riz, épinards, parmesan, épices"},
   de:{n:"Spinat-Ziegenkäse-Risotto",d:"Ziegenkäse, Reis, Spinat, Parmesan, Gewürze"},
   it:{n:"Risotto spinaci e caprino",d:"Caprino, riso, spinaci, parmigiano, spezie"},
-  es:{n:"Risotto de espinacas y queso de cabra",d:"Queso de cabra, arroz, espinacas, parmesano, especias"}}},
+  es:{n:"Risotto de espinacas y queso de cabra",d:"Queso de cabra, arroz, espinacas, parmesano, especias"},tr:{n:"Ispanaklı keçi peynirli risotto",d:"Keçi peyniri, pirinç, ıspanak, parmesan, baharatlar"}}},
 
 {cat:"hot",price:"14.00€",unit:"300 g",img:"images/pasta-pecurke.jpg",t:{
   me:{n:"Паста са печуркама",d:"Вргањ, лисичарка, шампињони"},
@@ -300,7 +300,7 @@ const FOOD = [
   fr:{n:"Pâtes aux champignons",d:"Cèpes, girolles, champignons de Paris"},
   de:{n:"Pasta mit Pilzen",d:"Steinpilze, Pfifferlinge, Champignons"},
   it:{n:"Pasta ai funghi",d:"Porcini, finferli, champignon"},
-  es:{n:"Pasta con setas",d:"Boletus, rebozuelos, champiñones"}}},
+  es:{n:"Pasta con setas",d:"Boletus, rebozuelos, champiñones"},tr:{n:"Mantarlı makarna",d:"Porçini, horoz mantarı, kültür mantarı"}}},
 
 {cat:"hot",price:"12.00€",unit:"300 g",img:"images/pasta-piletina-kari.jpg",t:{
   me:{n:"Паста пилетина, тиквице, кари",d:"Пилетина, тиквице, кари"},
@@ -309,7 +309,7 @@ const FOOD = [
   fr:{n:"Pâtes poulet, courgette, curry",d:"Poulet, courgette, curry"},
   de:{n:"Pasta Hähnchen, Zucchini, Curry",d:"Hähnchen, Zucchini, Curry"},
   it:{n:"Pasta pollo, zucchine, curry",d:"Pollo, zucchine, curry"},
-  es:{n:"Pasta pollo, calabacín, curri",d:"Pollo, calabacín, curri"}}},
+  es:{n:"Pasta pollo, calabacín, curri",d:"Pollo, calabacín, curri"},tr:{n:"Tavuklu, kabaklı, körili makarna",d:"Tavuk, kabak, köri"}}},
 
 {cat:"hot",price:"17.00€",unit:"300 g",img:"images/pasta-burata.jpg",t:{
   me:{n:"Паста бурата, шери",d:"Бурата, шери парадајз"},
@@ -318,7 +318,7 @@ const FOOD = [
   fr:{n:"Pâtes burrata, tomates cerises",d:"Burrata, tomates cerises"},
   de:{n:"Pasta Burrata, Kirschtomaten",d:"Burrata, Kirschtomaten"},
   it:{n:"Pasta burrata e pomodorini",d:"Burrata, pomodorini"},
-  es:{n:"Pasta burrata y cherry",d:"Burrata, tomates cherry"}}},
+  es:{n:"Pasta burrata y cherry",d:"Burrata, tomates cherry"},tr:{n:"Burrata ve çeri domatesli makarna",d:"Burrata, çeri domates"}}},
 
 {cat:"hot",price:"16.00€",unit:"300 g",img:"images/pasta-biftek-tartufi.jpg",t:{
   me:{n:"Паста са бифтеком и тартуфима",d:"Бифтек, тартуфи"},
@@ -327,7 +327,7 @@ const FOOD = [
   fr:{n:"Pâtes au steak et truffes",d:"Steak de bœuf, truffes"},
   de:{n:"Pasta mit Steak und Trüffeln",d:"Rindersteak, Trüffel"},
   it:{n:"Pasta con filetto e tartufo",d:"Filetto di manzo, tartufo"},
-  es:{n:"Pasta con solomillo y trufas",d:"Solomillo de ternera, trufas"}}},
+  es:{n:"Pasta con solomillo y trufas",d:"Solomillo de ternera, trufas"},tr:{n:"Biftek ve yer mantarlı makarna",d:"Dana biftek, yer mantarı"}}},
 
 /* ---------- ГЛАВНА ЈЕЛА / MAIN ---------- */
 {cat:"main",price:"22.00€",unit:"280 g",img:"images/main-tuna.jpg",t:{
@@ -337,7 +337,7 @@ const FOOD = [
   fr:{n:"Steak de thon",d:"Thon grillé, roquette, tomates cerises, sauce framboise"},
   de:{n:"Thunfischsteak",d:"Gegrillter Thunfisch, Rucola, Kirschtomaten, Himbeersauce"},
   it:{n:"Trancio di tonno",d:"Tonno grigliato, rucola, pomodorini, salsa ai lamponi"},
-  es:{n:"Steak de atún",d:"Atún a la parrilla, rúcula, tomates cherry, salsa de frambuesa"}}},
+  es:{n:"Steak de atún",d:"Atún a la parrilla, rúcula, tomates cherry, salsa de frambuesa"},tr:{n:"Ton balığı biftek",d:"Izgara ton balığı, roka, çeri domates, ahududu sos"}}},
 
 {cat:"main",price:"24.00€",unit:"280 g",img:"images/main-hobotnica.jpg",t:{
   me:{n:"Хоботница на жару",d:"Хоботница, пире, поврће, џем од лука, маслац, зачини"},
@@ -346,7 +346,7 @@ const FOOD = [
   fr:{n:"Poulpe grillé",d:"Poulpe, purée, légumes, confit d'oignon, beurre, épices"},
   de:{n:"Gegrillter Oktopus",d:"Oktopus, Kartoffelpüree, Gemüse, Zwiebelmarmelade, Butter, Gewürze"},
   it:{n:"Polpo alla griglia",d:"Polpo, purè, verdure, confettura di cipolle, burro, spezie"},
-  es:{n:"Pulpo a la parrilla",d:"Pulpo, puré, verduras, mermelada de cebolla, mantequilla, especias"}}},
+  es:{n:"Pulpo a la parrilla",d:"Pulpo, puré, verduras, mermelada de cebolla, mantequilla, especias"},tr:{n:"Izgara ahtapot",d:"Ahtapot, patates püresi, sebze, soğan reçeli, tereyağı, baharatlar"}}},
 
 {cat:"main",price:"18.00€",unit:"350 g",img:"images/burger-dry-aged.jpg",t:{
   me:{n:"Бургер Dry Aged у џему од лука",d:"Бургер, чедар сир, намаз, парадајз, џем од лука, ајсберг салата, помфрит"},
@@ -355,7 +355,7 @@ const FOOD = [
   fr:{n:"Burger Dry Aged au confit d'oignon",d:"Steak haché, cheddar, sauce, tomate, confit d'oignon, laitue iceberg, frites"},
   de:{n:"Dry Aged Burger in Zwiebelmarmelade",d:"Burger, Cheddar, Aufstrich, Tomate, Zwiebelmarmelade, Eisbergsalat, Pommes"},
   it:{n:"Burger Dry Aged con confettura di cipolle",d:"Burger, cheddar, salsa, pomodoro, confettura di cipolle, lattuga iceberg, patatine"},
-  es:{n:"Hamburguesa Dry Aged con mermelada de cebolla",d:"Hamburguesa, cheddar, salsa, tomate, mermelada de cebolla, lechuga iceberg, patatas fritas"}}},
+  es:{n:"Hamburguesa Dry Aged con mermelada de cebolla",d:"Hamburguesa, cheddar, salsa, tomate, mermelada de cebolla, lechuga iceberg, patatas fritas"},tr:{n:"Soğan reçelli Dry Aged burger",d:"Burger, çedar, sos, domates, soğan reçeli, aysberg marul, patates kızartması"}}},
 
 {cat:"main",price:"15.00€",unit:"350 g",img:"images/main-vegan-burger.jpg",t:{
   me:{n:"Веган бургер",d:"Намаз, парадајз, зелена салата, џем од лука"},
@@ -364,7 +364,7 @@ const FOOD = [
   fr:{n:"Burger végan",d:"Sauce, tomate, salade verte, confit d'oignon"},
   de:{n:"Veganer Burger",d:"Aufstrich, Tomate, grüner Salat, Zwiebelmarmelade"},
   it:{n:"Burger vegano",d:"Salsa, pomodoro, insalata verde, confettura di cipolle"},
-  es:{n:"Hamburguesa vegana",d:"Salsa, tomate, lechuga, mermelada de cebolla"}}},
+  es:{n:"Hamburguesa vegana",d:"Salsa, tomate, lechuga, mermelada de cebolla"},tr:{n:"Vegan burger",d:"Sos, domates, yeşil salata, soğan reçeli"}}},
 
 {cat:"main",price:"22.00€",unit:"250 g",img:"images/main-taljata.jpg",t:{
   me:{n:"Таљата рамстек у креми од тартуфа",d:"Рамстек, кромпир, тартуфи, зачини"},
@@ -373,7 +373,7 @@ const FOOD = [
   fr:{n:"Tagliata de faux-filet à la crème de truffe",d:"Faux-filet, pommes de terre, truffes, épices"},
   de:{n:"Tagliata Ribeye in Trüffelcreme",d:"Ribeye, Kartoffeln, Trüffel, Gewürze"},
   it:{n:"Tagliata di controfiletto in crema al tartufo",d:"Controfiletto, patate, tartufo, spezie"},
-  es:{n:"Tagliata de entrecot en crema de trufa",d:"Entrecot, patatas, trufas, especias"}}},
+  es:{n:"Tagliata de entrecot en crema de trufa",d:"Entrecot, patatas, trufas, especias"},tr:{n:"Yer mantarı kremalı tagliata antrikot",d:"Antrikot, patates, yer mantarı, baharatlar"}}},
 
 {cat:"main",price:"14.00€",unit:"200 g",img:"images/main-vegan-piletina.jpg",t:{
   me:{n:"Веганска пилетина са помфритом",d:"Биљна пилетина, помфрит"},
@@ -382,7 +382,7 @@ const FOOD = [
   fr:{n:"Poulet végan avec frites",d:"Poulet végétal, frites"},
   de:{n:"Veganes Hähnchen mit Pommes",d:"Pflanzliches Hähnchen, Pommes"},
   it:{n:"Pollo vegano con patatine",d:"Pollo vegetale, patatine fritte"},
-  es:{n:"Pollo vegano con patatas fritas",d:"Pollo vegetal, patatas fritas"}}},
+  es:{n:"Pollo vegano con patatas fritas",d:"Pollo vegetal, patatas fritas"},tr:{n:"Patates kızartmalı vegan tavuk",d:"Bitkisel tavuk, patates kızartması"}}},
 
 /* ---------- ОБРОК САЛАТЕ / SALADS ---------- */
 {cat:"salads",price:"16.00€",unit:"250 g",img:"images/tuna-salata.jpg",t:{
@@ -392,7 +392,7 @@ const FOOD = [
   fr:{n:"Salade de thon",d:"Thon, iceberg, gingembre, sésame noir"},
   de:{n:"Thunfischsalat",d:"Thunfisch, Eisberg, Ingwer, schwarzer Sesam"},
   it:{n:"Insalata di tonno",d:"Tonno, iceberg, zenzero, sesamo nero"},
-  es:{n:"Ensalada de atún",d:"Atún, iceberg, jengibre, sésamo negro"}}},
+  es:{n:"Ensalada de atún",d:"Atún, iceberg, jengibre, sésamo negro"},tr:{n:"Ton balığı salatası",d:"Ton balığı, aysberg, zencefil, siyah susam"}}},
 
 {cat:"salads",price:"10.00€",unit:"350 g",img:"images/cezar-salata.jpg",t:{
   me:{n:"Цезар салата",d:"Пилетина, панчета, крутони, шери, микс салате, пармезан, дресинг"},
@@ -401,7 +401,7 @@ const FOOD = [
   fr:{n:"Salade César",d:"Poulet, pancetta, croûtons, tomates cerises, salade mêlée, parmesan, sauce"},
   de:{n:"Caesar Salat",d:"Hähnchen, Pancetta, Croutons, Kirschtomaten, Blattsalat, Parmesan, Dressing"},
   it:{n:"Insalata Caesar",d:"Pollo, pancetta, crostini, pomodorini, insalata mista, parmigiano, salsa"},
-  es:{n:"Ensalada César",d:"Pollo, panceta, picatostes, cherry, hojas mixtas, parmesano, aderezo"}}},
+  es:{n:"Ensalada César",d:"Pollo, panceta, picatostes, cherry, hojas mixtas, parmesano, aderezo"},tr:{n:"Sezar salatası",d:"Tavuk, pancetta, kruton, çeri domates, karışık salata, parmesan, sos"}}},
 
 {cat:"salads",price:"9.00€",unit:"250 g",img:"images/grcka-salata.jpg",t:{
   me:{n:"Грчка салата",d:"Парадајз, краставац, црвена и зелена паприка, маслине, фета сир, оригано"},
@@ -410,7 +410,7 @@ const FOOD = [
   fr:{n:"Salade grecque",d:"Tomate, concombre, poivrons rouge et vert, olives, feta, origan"},
   de:{n:"Griechischer Salat",d:"Tomate, Gurke, rote und grüne Paprika, Oliven, Feta, Oregano"},
   it:{n:"Insalata greca",d:"Pomodoro, cetriolo, peperoni rossi e verdi, olive, feta, origano"},
-  es:{n:"Ensalada griega",d:"Tomate, pepino, pimientos rojo y verde, aceitunas, feta, orégano"}}},
+  es:{n:"Ensalada griega",d:"Tomate, pepino, pimientos rojo y verde, aceitunas, feta, orégano"},tr:{n:"Yunan salatası",d:"Domates, salatalık, kırmızı ve yeşil biber, zeytin, beyaz peynir, kekik"}}},
 
 {cat:"salads",price:"9.00€",unit:"200 g",img:"images/kapreze-salata.jpg",t:{
   me:{n:"Капрезе салата",d:"Моцарела, парадајз, песто"},
@@ -419,7 +419,7 @@ const FOOD = [
   fr:{n:"Salade caprese",d:"Mozzarella, tomate, pesto"},
   de:{n:"Caprese-Salat",d:"Mozzarella, Tomate, Pesto"},
   it:{n:"Insalata caprese",d:"Mozzarella, pomodoro, pesto"},
-  es:{n:"Ensalada caprese",d:"Mozzarella, tomate, pesto"}}},
+  es:{n:"Ensalada caprese",d:"Mozzarella, tomate, pesto"},tr:{n:"Caprese salatası",d:"Mozzarella, domates, pesto"}}},
 
 /* ---------- ПИЦА / PIZZA  (440 g) ---------- */
 {cat:"pizza",price:"11.00€",unit:"440 g",img:"images/pizza-margarita.jpg",t:{
@@ -429,7 +429,7 @@ const FOOD = [
   fr:{n:"Margherita",d:"Tomate San Marzano, mozzarella, basilic frais, farine Caputo"},
   de:{n:"Margherita",d:"San-Marzano-Tomaten, Mozzarella, frisches Basilikum, Caputo-Mehl"},
   it:{n:"Margherita",d:"Pomodoro San Marzano, mozzarella, basilico fresco, farina Caputo"},
-  es:{n:"Margarita",d:"Tomate San Marzano, mozzarella, albahaca fresca, harina Caputo"}}},
+  es:{n:"Margarita",d:"Tomate San Marzano, mozzarella, albahaca fresca, harina Caputo"},tr:{n:"Margherita",d:"San Marzano domates, mozzarella, taze fesleğen, Caputo unu"}}},
 
 {cat:"pizza",price:"13.50€",unit:"440 g",img:"images/pizza-kapricoza.jpg",t:{
   me:{n:"Каприћоза",d:"Сан Марцано пелат, моцарела, Гранроса кувана шунка, артичоке, босиљак, Капуто брашно"},
@@ -438,7 +438,7 @@ const FOOD = [
   fr:{n:"Capricciosa",d:"Tomate San Marzano, mozzarella, jambon cuit Granrosa, artichauts, basilic"},
   de:{n:"Capricciosa",d:"San-Marzano-Tomaten, Mozzarella, Granrosa Kochschinken, Artischocken, Basilikum"},
   it:{n:"Capricciosa",d:"Pomodoro San Marzano, mozzarella, prosciutto cotto Granrosa, carciofi, basilico"},
-  es:{n:"Capricciosa",d:"Tomate San Marzano, mozzarella, jamón cocido Granrosa, alcachofas, albahaca"}}},
+  es:{n:"Capricciosa",d:"Tomate San Marzano, mozzarella, jamón cocido Granrosa, alcachofas, albahaca"},tr:{n:"Capricciosa",d:"San Marzano domates, mozzarella, Granrosa pişmiş jambon, enginar, fesleğen, Caputo unu"}}},
 
 {cat:"pizza",price:"15.00€",unit:"440 g",img:"images/pizza-diavolo.jpg",t:{
   me:{n:"Диаволо",d:"Сан Марцано пелат, моцарела, вентричина салама, феферони, Капуто брашно"},
@@ -447,7 +447,7 @@ const FOOD = [
   fr:{n:"Diavolo",d:"Tomate San Marzano, mozzarella, salami ventricina, piments"},
   de:{n:"Diavolo",d:"San-Marzano-Tomaten, Mozzarella, Ventricina-Salami, Peperoni"},
   it:{n:"Diavola",d:"Pomodoro San Marzano, mozzarella, salame ventricina, peperoncino"},
-  es:{n:"Diavolo",d:"Tomate San Marzano, mozzarella, salami ventricina, guindillas"}}},
+  es:{n:"Diavolo",d:"Tomate San Marzano, mozzarella, salami ventricina, guindillas"},tr:{n:"Diavolo",d:"San Marzano domates, mozzarella, ventricina salam, acı biber, Caputo unu"}}},
 
 {cat:"pizza",price:"16.00€",unit:"440 g",img:"images/pizza-prsuta.jpg",t:{
   me:{n:"Пршута",d:"Сан Марцано пелат, моцарела, Парма пршут, рукола, Капуто брашно"},
@@ -456,7 +456,7 @@ const FOOD = [
   fr:{n:"Prosciutto",d:"Tomate San Marzano, mozzarella, prosciutto de Parme, roquette"},
   de:{n:"Prosciutto",d:"San-Marzano-Tomaten, Mozzarella, Parmaschinken, Rucola"},
   it:{n:"Prosciutto",d:"Pomodoro San Marzano, mozzarella, prosciutto di Parma, rucola"},
-  es:{n:"Prosciutto",d:"Tomate San Marzano, mozzarella, prosciutto de Parma, rúcula"}}},
+  es:{n:"Prosciutto",d:"Tomate San Marzano, mozzarella, prosciutto de Parma, rúcula"},tr:{n:"Prosciutto",d:"San Marzano domates, mozzarella, Parma prosciutto, roka, Caputo unu"}}},
 
 {cat:"pizza",price:"16.00€",unit:"440 g",img:"images/pizza-mortadela.jpg",t:{
   me:{n:"Мортадела",d:"Проволоне сир, песто од пистаћа, моцарела, Мортадела Болоња, страћатела, Капуто брашно"},
@@ -465,7 +465,7 @@ const FOOD = [
   fr:{n:"Mortadelle",d:"Pesto de pistache, mozzarella, mortadelle de Bologne, stracciatella"},
   de:{n:"Mortadella",d:"Pistazienpesto, Mozzarella, Mortadella Bologna, Stracciatella"},
   it:{n:"Mortadella",d:"Pesto di pistacchio, mozzarella, mortadella di Bologna, stracciatella"},
-  es:{n:"Mortadela",d:"Pesto de pistacho, mozzarella, mortadela Bolonia, stracciatella"}}},
+  es:{n:"Mortadela",d:"Pesto de pistacho, mozzarella, mortadela Bolonia, stracciatella"},tr:{n:"Mortadella",d:"Provolone peyniri, antep fıstığı pesto, mozzarella, Mortadella Bologna, stracciatella, Caputo unu"}}},
 
 {cat:"pizza",price:"16.00€",unit:"440 g",img:"images/pizza-bresaola.jpg",t:{
   me:{n:"Бресаола",d:"Сан Марцано пелат, моцарела, Грана Падано, бресаола, рукола"},
@@ -474,7 +474,7 @@ const FOOD = [
   fr:{n:"Bresaola",d:"Tomate San Marzano, mozzarella, Grana Padano, bresaola, roquette"},
   de:{n:"Bresaola",d:"San-Marzano-Tomaten, Mozzarella, Grana Padano, Bresaola, Rucola"},
   it:{n:"Bresaola",d:"Pomodoro San Marzano, mozzarella, Grana Padano, bresaola, rucola"},
-  es:{n:"Bresaola",d:"Tomate San Marzano, mozzarella, Grana Padano, bresaola, rúcula"}}},
+  es:{n:"Bresaola",d:"Tomate San Marzano, mozzarella, Grana Padano, bresaola, rúcula"},tr:{n:"Bresaola",d:"San Marzano domates, mozzarella, Grana Padano, bresaola, roka"}}},
 
 {cat:"pizza",price:"15.00€",unit:"440 g",img:"images/pizza-pesto-burata.jpg",t:{
   me:{n:"Песто бурата (бијела)",d:"Моцарела, песто, сушени шери, бурата"},
@@ -483,7 +483,7 @@ const FOOD = [
   fr:{n:"Pesto burrata (blanche)",d:"Mozzarella, pesto, tomates cerises séchées, burrata"},
   de:{n:"Pesto Burrata (weiß)",d:"Mozzarella, Pesto, getrocknete Kirschtomaten, Burrata"},
   it:{n:"Pesto burrata (bianca)",d:"Mozzarella, pesto, pomodorini secchi, burrata"},
-  es:{n:"Pesto burrata (blanca)",d:"Mozzarella, pesto, cherry secos, burrata"}}},
+  es:{n:"Pesto burrata (blanca)",d:"Mozzarella, pesto, cherry secos, burrata"},tr:{n:"Pesto burrata (beyaz)",d:"Mozzarella, pesto, güneşte kurutulmuş çeri domates, burrata"}}},
 
 {cat:"pizza",price:"12.00€",unit:"440 g",img:"images/pizza-vegan.jpg",t:{
   me:{n:"Веган",d:"Сан Марцано пелат, моцарела, пармезан, тиквице, патлиџан, црвена и зелена паприка, маслине"},
@@ -492,7 +492,7 @@ const FOOD = [
   fr:{n:"Végan",d:"Tomate San Marzano, mozzarella, parmesan, courgette, poivrons, olives"},
   de:{n:"Vegan",d:"San-Marzano-Tomaten, Mozzarella, Parmesan, Zucchini, Paprika, Oliven"},
   it:{n:"Vegana",d:"Pomodoro San Marzano, mozzarella, parmigiano, zucchine, peperoni, olive"},
-  es:{n:"Vegana",d:"Tomate San Marzano, mozzarella, parmesano, calabacín, pimientos, aceitunas"}}},
+  es:{n:"Vegana",d:"Tomate San Marzano, mozzarella, parmesano, calabacín, pimientos, aceitunas"},tr:{n:"Vegan",d:"San Marzano domates, mozzarella, parmesan, kabak, patlıcan, kırmızı ve yeşil biber, zeytin"}}},
 
 {cat:"pizza",price:"15.00€",unit:"440 g",img:"images/pizza-nduja.jpg",t:{
   me:{n:"Ндуја",d:"Сан Марцано пелат, моцарела, пармезан, ндуја"},
@@ -501,7 +501,7 @@ const FOOD = [
   fr:{n:"Saucisse nduja",d:"Tomate San Marzano, mozzarella, parmesan, nduja"},
   de:{n:"Nduja-Wurst",d:"San-Marzano-Tomaten, Mozzarella, Parmesan, Nduja"},
   it:{n:"Nduja",d:"Pomodoro San Marzano, mozzarella, parmigiano, nduja"},
-  es:{n:"Salchicha nduja",d:"Tomate San Marzano, mozzarella, parmesano, nduja"}}},
+  es:{n:"Salchicha nduja",d:"Tomate San Marzano, mozzarella, parmesano, nduja"},tr:{n:"Nduja",d:"San Marzano domates, mozzarella, parmesan, nduja"}}},
 
 {cat:"pizza",price:"14.00€",unit:"440 g",img:"images/pizza-sremus.jpg",t:{
   me:{n:"Сремуш",d:"Сремуш, неутрална павлака, моцарела, пармезан, страћатела"},
@@ -510,7 +510,7 @@ const FOOD = [
   fr:{n:"Ail des ours",d:"Crème d'ail des ours, mozzarella, parmesan, stracciatella"},
   de:{n:"Bärlauch",d:"Bärlauchcreme, Mozzarella, Parmesan, Stracciatella"},
   it:{n:"Aglio orsino",d:"Crema di aglio orsino, mozzarella, parmigiano, stracciatella"},
-  es:{n:"Ajo de oso",d:"Crema de ajo de oso, mozzarella, parmesano, stracciatella"}}},
+  es:{n:"Ajo de oso",d:"Crema de ajo de oso, mozzarella, parmesano, stracciatella"},tr:{n:"Yabani sarımsak",d:"Yabani sarımsak, nötr krema, mozzarella, parmesan, stracciatella"}}},
 
 /* ---------- ПИЦА СЕНДВИЧИ / PIZZA SANDWICHES (370 g) ---------- */
 {cat:"pizzasand",price:"10.00€",unit:"370 g",img:"images/pizzasand-sunka.jpg",t:{
@@ -520,7 +520,7 @@ const FOOD = [
   fr:{n:"Jambon",d:"Jambon cuit Granrosa, gouda, mozzarella, salade mêlée, huile d'olive"},
   de:{n:"Schinken",d:"Granrosa Kochschinken, Gouda, Mozzarella, Blattsalat, Olivenöl"},
   it:{n:"Prosciutto cotto",d:"Prosciutto cotto Granrosa, gouda, mozzarella, insalata mista, olio d'oliva"},
-  es:{n:"Jamón",d:"Jamón cocido Granrosa, gouda, mozzarella, ensalada mixta, aceite de oliva"}}},
+  es:{n:"Jamón",d:"Jamón cocido Granrosa, gouda, mozzarella, ensalada mixta, aceite de oliva"},tr:{n:"Jambon",d:"Granrosa pişmiş jambon, gouda, mozzarella, karışık salata, zeytinyağı"}}},
 
 {cat:"pizzasand",price:"13.50€",unit:"370 g",img:"images/pizzasand-prsuta.jpg",t:{
   me:{n:"Пршута",d:"Пршута, гауда, моцарела, парадајз, рукола, маслиново уље"},
@@ -529,7 +529,7 @@ const FOOD = [
   fr:{n:"Prosciutto",d:"Prosciutto, gouda, mozzarella, tomate, roquette, huile d'olive"},
   de:{n:"Prosciutto",d:"Prosciutto, Gouda, Mozzarella, Tomate, Rucola, Olivenöl"},
   it:{n:"Prosciutto",d:"Prosciutto, gouda, mozzarella, pomodoro, rucola, olio d'oliva"},
-  es:{n:"Prosciutto",d:"Prosciutto, gouda, mozzarella, tomate, rúcula, aceite de oliva"}}},
+  es:{n:"Prosciutto",d:"Prosciutto, gouda, mozzarella, tomate, rúcula, aceite de oliva"},tr:{n:"Prosciutto",d:"Prosciutto, gouda, mozzarella, domates, roka, zeytinyağı"}}},
 
 {cat:"pizzasand",price:"12.00€",unit:"370 g",img:"images/pizzasand-mortadela.jpg",t:{
   me:{n:"Мортадела",d:"Мортадела Болоња, гауда, проволоне, песто од пистаћа, страћатела, маслиново уље"},
@@ -538,7 +538,7 @@ const FOOD = [
   fr:{n:"Mortadelle",d:"Mortadelle de Bologne, gouda, provolone, pesto de pistache, stracciatella, huile d'olive"},
   de:{n:"Mortadella",d:"Mortadella Bologna, Gouda, Provolone, Pistazienpesto, Stracciatella, Olivenöl"},
   it:{n:"Mortadella",d:"Mortadella di Bologna, gouda, provolone, pesto di pistacchio, stracciatella, olio d'oliva"},
-  es:{n:"Mortadela",d:"Mortadela Bolonia, gouda, provolone, pesto de pistacho, stracciatella, aceite de oliva"}}},
+  es:{n:"Mortadela",d:"Mortadela Bolonia, gouda, provolone, pesto de pistacho, stracciatella, aceite de oliva"},tr:{n:"Mortadella",d:"Mortadella Bologna, gouda, provolone, antep fıstığı pesto, stracciatella, zeytinyağı"}}},
 
 {cat:"pizzasand",price:"13.00€",unit:"370 g",img:"images/pizzasand-diavolo.jpg",t:{
   me:{n:"Диаволо",d:"Вентричина салама, моцарела, гауда, микс зелене салате, маслиново уље"},
@@ -547,7 +547,7 @@ const FOOD = [
   fr:{n:"Diavolo",d:"Salami ventricina, mozzarella, gouda, salade mêlée, huile d'olive"},
   de:{n:"Diavolo",d:"Ventricina-Salami, Mozzarella, Gouda, Blattsalat, Olivenöl"},
   it:{n:"Diavola",d:"Salame ventricina, mozzarella, gouda, insalata mista, olio d'oliva"},
-  es:{n:"Diavolo",d:"Salami ventricina, mozzarella, gouda, ensalada mixta, aceite de oliva"}}},
+  es:{n:"Diavolo",d:"Salami ventricina, mozzarella, gouda, ensalada mixta, aceite de oliva"},tr:{n:"Diavolo",d:"Ventricina salam, mozzarella, gouda, karışık yeşil salata, zeytinyağı"}}},
 
 {cat:"pizzasand",price:"15.00€",unit:"370 g",img:"images/pizzasand-burata.jpg",t:{
   me:{n:"Бурата",d:"Бурата, моцарела, песто, шери, свјежи босиљак, маслиново уље"},
@@ -556,15 +556,15 @@ const FOOD = [
   fr:{n:"Burrata",d:"Burrata, mozzarella, pesto, tomates cerises, basilic frais, huile d'olive"},
   de:{n:"Burrata",d:"Burrata, Mozzarella, Pesto, Kirschtomaten, frisches Basilikum, Olivenöl"},
   it:{n:"Burrata",d:"Burrata, mozzarella, pesto, pomodorini, basilico fresco, olio d'oliva"},
-  es:{n:"Burrata",d:"Burrata, mozzarella, pesto, cherry, albahaca fresca, aceite de oliva"}}},
+  es:{n:"Burrata",d:"Burrata, mozzarella, pesto, cherry, albahaca fresca, aceite de oliva"},tr:{n:"Burrata",d:"Burrata, mozzarella, pesto, çeri domates, taze fesleğen, zeytinyağı"}}},
 
 /* ---------- ДОДАЦИ / ADD-ONS ---------- */
-{cat:"addons",price:"4.40€",unit:"30 g",img:"images/addon-parma.jpg",t:{me:{n:"Парма пршут"},en:{n:"Parma prosciutto"},ru:{n:"Пармская ветчина"},fr:{n:"Prosciutto de Parme"},de:{n:"Parmaschinken"},it:{n:"Prosciutto di Parma"},es:{n:"Prosciutto de Parma"}}},
-{cat:"addons",price:"3.70€",unit:"30 g",img:"images/addon-granrosa.jpg",t:{me:{n:"Гранроса шунка"},en:{n:"Granrosa ham"},ru:{n:"Ветчина Granrosa"},fr:{n:"Jambon Granrosa"},de:{n:"Granrosa Schinken"},it:{n:"Prosciutto cotto Granrosa"},es:{n:"Jamón Granrosa"}}},
-{cat:"addons",price:"3.50€",unit:"250 g",t:{me:{n:"Фокача"},en:{n:"Focaccia"},ru:{n:"Фокачча"},fr:{n:"Focaccia"},de:{n:"Focaccia"},it:{n:"Focaccia"},es:{n:"Focaccia"}}},
-{cat:"addons",price:"3.90€",unit:"30 g",img:"images/addon-ventricina.jpg",t:{me:{n:"Вентричина салама"},en:{n:"Ventricina salami"},ru:{n:"Салями вентричина"},fr:{n:"Salami ventricina"},de:{n:"Ventricina-Salami"},it:{n:"Salame ventricina"},es:{n:"Salami ventricina"}}},
-{cat:"addons",price:"3.90€",unit:"30 g",img:"images/addon-mortadela.jpg",t:{me:{n:"Мортадела"},en:{n:"Mortadella"},ru:{n:"Мортаделла"},fr:{n:"Mortadelle"},de:{n:"Mortadella"},it:{n:"Mortadella"},es:{n:"Mortadela"}}},
-{cat:"addons",price:"4.90€",unit:"30 g",img:"images/addon-burata.jpg",t:{me:{n:"Бурата"},en:{n:"Burrata"},ru:{n:"Буррата"},fr:{n:"Burrata"},de:{n:"Burrata"},it:{n:"Burrata"},es:{n:"Burrata"}}},
+{cat:"addons",price:"4.40€",unit:"30 g",img:"images/addon-parma.jpg",t:{me:{n:"Парма пршут"},en:{n:"Parma prosciutto"},ru:{n:"Пармская ветчина"},fr:{n:"Prosciutto de Parme"},de:{n:"Parmaschinken"},it:{n:"Prosciutto di Parma"},es:{n:"Prosciutto de Parma"},tr:{n:"Parma prosciutto"}}},
+{cat:"addons",price:"3.70€",unit:"30 g",img:"images/addon-granrosa.jpg",t:{me:{n:"Гранроса шунка"},en:{n:"Granrosa ham"},ru:{n:"Ветчина Granrosa"},fr:{n:"Jambon Granrosa"},de:{n:"Granrosa Schinken"},it:{n:"Prosciutto cotto Granrosa"},es:{n:"Jamón Granrosa"},tr:{n:"Granrosa jambon"}}},
+{cat:"addons",price:"3.50€",unit:"250 g",t:{me:{n:"Фокача"},en:{n:"Focaccia"},ru:{n:"Фокачча"},fr:{n:"Focaccia"},de:{n:"Focaccia"},it:{n:"Focaccia"},es:{n:"Focaccia"},tr:{n:"Focaccia"}}},
+{cat:"addons",price:"3.90€",unit:"30 g",img:"images/addon-ventricina.jpg",t:{me:{n:"Вентричина салама"},en:{n:"Ventricina salami"},ru:{n:"Салями вентричина"},fr:{n:"Salami ventricina"},de:{n:"Ventricina-Salami"},it:{n:"Salame ventricina"},es:{n:"Salami ventricina"},tr:{n:"Ventricina salam"}}},
+{cat:"addons",price:"3.90€",unit:"30 g",img:"images/addon-mortadela.jpg",t:{me:{n:"Мортадела"},en:{n:"Mortadella"},ru:{n:"Мортаделла"},fr:{n:"Mortadelle"},de:{n:"Mortadella"},it:{n:"Mortadella"},es:{n:"Mortadela"},tr:{n:"Mortadella"}}},
+{cat:"addons",price:"4.90€",unit:"30 g",img:"images/addon-burata.jpg",t:{me:{n:"Бурата"},en:{n:"Burrata"},ru:{n:"Буррата"},fr:{n:"Burrata"},de:{n:"Burrata"},it:{n:"Burrata"},es:{n:"Burrata"},tr:{n:"Burrata"}}},
 
 /* ---------- КОЛАЧИ / CAKES ---------- */
 {cat:"cakes",price:"4.80€",unit:"200 g",img:"images/limun-tart.jpg",t:{
@@ -574,7 +574,7 @@ const FOOD = [
   fr:{n:"Tarte au citron",d:"Pâte au pavot, citron, meringue"},
   de:{n:"Zitronentarte",d:"Mohnboden, Zitrone, Baiser"},
   it:{n:"Crostata al limone",d:"Base ai semi di papavero, limone, meringa"},
-  es:{n:"Tarta de limón",d:"Base de amapola, limón, merengue"}}},
+  es:{n:"Tarta de limón",d:"Base de amapola, limón, merengue"},tr:{n:"Limon tart",d:"Haşhaşlı taban, limon, beze"}}},
 
 {cat:"cakes",price:"4.80€",unit:"180 g",img:"images/coko-ljesnik.jpg",t:{
   me:{n:"Чоко љешник тарт",d:"Домаћа љешник паста, кекс, ганаж, млијечна чоколада, чоколадни крем"},
@@ -583,7 +583,7 @@ const FOOD = [
   fr:{n:"Tarte chocolat-noisette",d:"Pâte de noisette maison, biscuit, chocolat au lait, crème au chocolat, ganache"},
   de:{n:"Schoko-Haselnuss-Tarte",d:"Hausgemachte Haselnusspaste, Keks, Milchschokolade, Schokocreme, Ganache"},
   it:{n:"Crostata cioccolato e nocciola",d:"Pasta di nocciole fatta in casa, biscotto, cioccolato al latte, crema al cioccolato, ganache"},
-  es:{n:"Tarta de chocolate y avellana",d:"Pasta de avellana casera, galleta, chocolate con leche, crema de chocolate, ganache"}}},
+  es:{n:"Tarta de chocolate y avellana",d:"Pasta de avellana casera, galleta, chocolate con leche, crema de chocolate, ganache"},tr:{n:"Çikolata fındık tart",d:"Ev yapımı fındık ezmesi, bisküvi, sütlü çikolata, çikolata kreması, ganaj"}}},
 
 {cat:"cakes",price:"3.00€",unit:"90 g",img:"images/su.jpg",t:{
   me:{n:"Шу",d:"Домаћи џем од малина, ванила крем"},
@@ -592,7 +592,7 @@ const FOOD = [
   fr:{n:"Chou",d:"Confiture de framboise maison, crème vanille"},
   de:{n:"Windbeutel",d:"Hausgemachte Himbeermarmelade, Vanillecreme"},
   it:{n:"Bignè",d:"Marmellata di lamponi fatta in casa, crema alla vaniglia"},
-  es:{n:"Petisú",d:"Mermelada de frambuesa casera, crema de vainilla"}}},
+  es:{n:"Petisú",d:"Mermelada de frambuesa casera, crema de vainilla"},tr:{n:"Şu",d:"Ev yapımı ahududu reçeli, vanilya kreması"}}},
 
 {cat:"cakes",price:"5.80€",unit:"180 g",img:"images/pistac-malina.jpg",t:{
   me:{n:"Пистаћ малина тарт",d:"Пистаћ франгипана, домаћи џем од малина, пистаћ ганаж"},
@@ -601,7 +601,7 @@ const FOOD = [
   fr:{n:"Tarte pistache-framboise",d:"Frangipane à la pistache, confiture de framboise maison, ganache pistache"},
   de:{n:"Pistazien-Himbeer-Tarte",d:"Pistazien-Frangipane, hausgemachte Himbeermarmelade, Pistazienganache"},
   it:{n:"Crostata pistacchio e lampone",d:"Frangipane al pistacchio, marmellata di lamponi fatta in casa, ganache al pistacchio"},
-  es:{n:"Tarta de pistacho y frambuesa",d:"Frangipane de pistacho, mermelada de frambuesa casera, ganache de pistacho"}}},
+  es:{n:"Tarta de pistacho y frambuesa",d:"Frangipane de pistacho, mermelada de frambuesa casera, ganache de pistacho"},tr:{n:"Antep fıstığı ahududu tart",d:"Antep fıstığı frangipane, ev yapımı ahududu reçeli, antep fıstığı ganaj"}}},
 
 {cat:"cakes",price:"3.90€",unit:"140 g",img:"images/ekler-kikiriki.jpg",t:{
   me:{n:"Сникерс еклер",d:"Карамел крем, карамел сос, слани кикирики, млијечна чоколада"},
@@ -610,7 +610,7 @@ const FOOD = [
   fr:{n:"Éclair Snickers",d:"Crème caramel, sauce caramel, cacahuètes salées, chocolat au lait"},
   de:{n:"Snickers-Éclair",d:"Karamellcreme, Karamellsauce, gesalzene Erdnüsse, Milchschokolade"},
   it:{n:"Éclair Snickers",d:"Crema al caramello, salsa al caramello, arachidi salate, cioccolato al latte"},
-  es:{n:"Éclair Snickers",d:"Crema de caramelo, salsa de caramelo, cacahuetes salados, chocolate con leche"}}},
+  es:{n:"Éclair Snickers",d:"Crema de caramelo, salsa de caramelo, cacahuetes salados, chocolate con leche"},tr:{n:"Snickers ekler",d:"Karamel kreması, karamel sos, tuzlu yer fıstığı, sütlü çikolata"}}},
 
 {cat:"cakes",price:"3.90€",unit:"140 g",img:"images/ekler-vanila.jpg",t:{
   me:{n:"Ванила еклер",d:"Ванила крем, бијела чоколада, домаћи џем од малина"},
@@ -619,7 +619,7 @@ const FOOD = [
   fr:{n:"Éclair vanille",d:"Crème vanille, chocolat blanc, confiture de framboise maison"},
   de:{n:"Vanille-Éclair",d:"Vanillecreme, weiße Schokolade, hausgemachte Himbeermarmelade"},
   it:{n:"Éclair alla vaniglia",d:"Crema alla vaniglia, cioccolato bianco, marmellata di lamponi fatta in casa"},
-  es:{n:"Éclair de vainilla",d:"Crema de vainilla, chocolate blanco, mermelada de frambuesa casera"}}},
+  es:{n:"Éclair de vainilla",d:"Crema de vainilla, chocolate blanco, mermelada de frambuesa casera"},tr:{n:"Vanilya ekler",d:"Vanilya kreması, beyaz çikolata, ev yapımı ahududu reçeli"}}},
 
 {cat:"cakes",price:"5.00€",unit:"200 g",img:"images/san-sebastian-pistaci.jpg",t:{
   me:{n:"Сан Себастиан – пистаћ",d:"Крем сир, павлака, јаја, пистаћ крем"},
@@ -628,7 +628,7 @@ const FOOD = [
   fr:{n:"San Sebastián – pistache",d:"Fromage frais, crème, œufs, crème de pistache"},
   de:{n:"San Sebastián – Pistazie",d:"Frischkäse, Sahne, Eier, Pistaziencreme"},
   it:{n:"San Sebastián – pistacchio",d:"Formaggio spalmabile, panna, uova, crema al pistacchio"},
-  es:{n:"San Sebastián – pistacho",d:"Queso crema, nata, huevos, crema de pistacho"}}},
+  es:{n:"San Sebastián – pistacho",d:"Queso crema, nata, huevos, crema de pistacho"},tr:{n:"San Sebastián – antep fıstığı",d:"Krem peynir, krema, yumurta, antep fıstığı kreması"}}},
 
 {cat:"cakes",price:"5.00€",unit:"200 g",img:"images/san-sebastian-ljesnik.jpg",t:{
   me:{n:"Сан Себастиан – љешник",d:"Крем сир, павлака, јаја, домаћи љешник крем"},
@@ -637,7 +637,7 @@ const FOOD = [
   fr:{n:"San Sebastián – noisette",d:"Fromage frais, crème, œufs, crème de noisette maison"},
   de:{n:"San Sebastián – Haselnuss",d:"Frischkäse, Sahne, Eier, hausgemachte Haselnusscreme"},
   it:{n:"San Sebastián – nocciola",d:"Formaggio spalmabile, panna, uova, crema di nocciola fatta in casa"},
-  es:{n:"San Sebastián – avellana",d:"Queso crema, nata, huevos, crema de avellana casera"}}},
+  es:{n:"San Sebastián – avellana",d:"Queso crema, nata, huevos, crema de avellana casera"},tr:{n:"San Sebastián – fındık",d:"Krem peynir, krema, yumurta, ev yapımı fındık kreması"}}},
 
 {cat:"cakes",price:"5.00€",unit:"200 g",img:"images/san-sebastian-malina.jpg",t:{
   me:{n:"Сан Себастиан – малина",d:"Крем сир, павлака, јаја, домаћи сос од малина"},
@@ -646,7 +646,7 @@ const FOOD = [
   fr:{n:"San Sebastián – framboise",d:"Fromage frais, crème, œufs, sauce framboise maison"},
   de:{n:"San Sebastián – Himbeere",d:"Frischkäse, Sahne, Eier, hausgemachte Himbeersauce"},
   it:{n:"San Sebastián – lampone",d:"Formaggio spalmabile, panna, uova, salsa di lamponi fatta in casa"},
-  es:{n:"San Sebastián – frambuesa",d:"Queso crema, nata, huevos, salsa de frambuesa casera"}}},
+  es:{n:"San Sebastián – frambuesa",d:"Queso crema, nata, huevos, salsa de frambuesa casera"},tr:{n:"San Sebastián – ahududu",d:"Krem peynir, krema, yumurta, ev yapımı ahududu sosu"}}},
 ];
 
 /* ============================== ПИЋА ============================== */

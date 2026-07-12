@@ -417,26 +417,27 @@
 <script src="data.js"></script>
 <script>
 /* ===================== JEZICI ===================== */
-const LANGS=[{code:"me",lab:"ME"},{code:"en",lab:"EN"},{code:"ru",lab:"RU"},{code:"fr",lab:"FR"},{code:"de",lab:"DE"},{code:"it",lab:"IT"},{code:"es",lab:"ES"}];
+const LANGS=[{code:"me",lab:"ME"},{code:"en",lab:"EN"},{code:"ru",lab:"RU"},{code:"fr",lab:"FR"},{code:"de",lab:"DE"},{code:"it",lab:"IT"},{code:"es",lab:"ES"},{code:"tr",lab:"TR"}];
 const UI={
   me:{loc:"Црна Гора",items:"ставки"},en:{loc:"Montenegro",items:"items"},ru:{loc:"Черногория",items:"позиций"},
   fr:{loc:"Monténégro",items:"plats"},de:{loc:"Montenegro",items:"Gerichte"},it:{loc:"Montenegro",items:"piatti"},es:{loc:"Montenegro",items:"platos"},
+  tr:{loc:"Karadağ",items:"öğe"},
 };
 const CATEGORIES=[
-  {id:"breakfast",icon:"coffee",t:{me:"Доручак",en:"Breakfast",ru:"Завтрак",fr:"Petit-déjeuner",de:"Frühstück",it:"Colazione",es:"Desayuno"}},
-  {id:"cold",icon:"leaf",t:{me:"Хладна предјела",en:"Cold starters",ru:"Холодные закуски",fr:"Entrées froides",de:"Kalte Vorspeisen",it:"Antipasti freddi",es:"Entrantes fríos"}},
-  {id:"hot",icon:"flame",t:{me:"Топла предјела",en:"Hot starters",ru:"Горячие закуски",fr:"Entrées chaudes",de:"Warme Vorspeisen",it:"Antipasti caldi",es:"Entrantes calientes"}},
-  {id:"main",icon:"cutlery",t:{me:"Главна јела",en:"Main dishes",ru:"Основные блюда",fr:"Plats principaux",de:"Hauptgerichte",it:"Secondi",es:"Platos principales"}},
-  {id:"salads",icon:"salad",t:{me:"Оброк салате",en:"Meal salads",ru:"Салаты",fr:"Salades repas",de:"Salate",it:"Insalate",es:"Ensaladas"}},
-  {id:"pizza",icon:"pizza",t:{me:"Пица",en:"Pizza",ru:"Пицца",fr:"Pizza",de:"Pizza",it:"Pizza",es:"Pizza"}},
-  {id:"pizzasand",icon:"sandwich",t:{me:"Пица сендвичи",en:"Pizza sandwiches",ru:"Пицца-сэндвичи",fr:"Sandwichs pizza",de:"Pizza-Sandwiches",it:"Panini pizza",es:"Sándwiches de pizza"}},
-  {id:"addons",icon:"plus",t:{me:"Додаци",en:"Add-ons",ru:"Добавки",fr:"Suppléments",de:"Beilagen",it:"Aggiunte",es:"Extras"}},
-  {id:"cakes",icon:"cake",t:{me:"Колачи",en:"Cakes",ru:"Десерты",fr:"Pâtisseries",de:"Kuchen",it:"Dolci",es:"Pasteles"}},
-  {id:"kokteli",icon:"cocktail",t:{me:"Коктели",en:"Cocktails",ru:"Коктейли",fr:"Cocktails",de:"Cocktails",it:"Cocktail",es:"Cócteles"}},
-  {id:"coffee",icon:"cup",t:{me:"Кафа",en:"Coffee",ru:"Кофе",fr:"Café",de:"Kaffee",it:"Caffè",es:"Café"}},
-  {id:"drinks",icon:"glass",t:{me:"Сокови и пића",en:"Drinks",ru:"Напитки",fr:"Boissons",de:"Getränke",it:"Bevande",es:"Bebidas"}},
-  {id:"spirits",icon:"bottle",t:{me:"Жестока пића",en:"Spirits",ru:"Крепкие напитки",fr:"Spiritueux",de:"Spirituosen",it:"Superalcolici",es:"Licores"}},
-  {id:"wine",icon:"wine",t:{me:"Винска карта",en:"Wine list",ru:"Винная карта",fr:"Carte des vins",de:"Weinkarte",it:"Carta dei vini",es:"Carta de vinos"}},
+  {id:"breakfast",icon:"coffee",t:{me:"Доручак",en:"Breakfast",ru:"Завтрак",fr:"Petit-déjeuner",de:"Frühstück",it:"Colazione",es:"Desayuno",tr:"Kahvaltı"}},
+  {id:"cold",icon:"leaf",t:{me:"Хладна предјела",en:"Cold starters",ru:"Холодные закуски",fr:"Entrées froides",de:"Kalte Vorspeisen",it:"Antipasti freddi",es:"Entrantes fríos",tr:"Soğuk başlangıçlar"}},
+  {id:"hot",icon:"flame",t:{me:"Топла предјела",en:"Hot starters",ru:"Горячие закуски",fr:"Entrées chaudes",de:"Warme Vorspeisen",it:"Antipasti caldi",es:"Entrantes calientes",tr:"Sıcak başlangıçlar"}},
+  {id:"main",icon:"cutlery",t:{me:"Главна јела",en:"Main dishes",ru:"Основные блюда",fr:"Plats principaux",de:"Hauptgerichte",it:"Secondi",es:"Platos principales",tr:"Ana yemekler"}},
+  {id:"salads",icon:"salad",t:{me:"Оброк салате",en:"Meal salads",ru:"Салаты",fr:"Salades repas",de:"Salate",it:"Insalate",es:"Ensaladas",tr:"Salatalar"}},
+  {id:"pizza",icon:"pizza",t:{me:"Пица",en:"Pizza",ru:"Пицца",fr:"Pizza",de:"Pizza",it:"Pizza",es:"Pizza",tr:"Pizza"}},
+  {id:"pizzasand",icon:"sandwich",t:{me:"Пица сендвичи",en:"Pizza sandwiches",ru:"Пицца-сэндвичи",fr:"Sandwichs pizza",de:"Pizza-Sandwiches",it:"Panini pizza",es:"Sándwiches de pizza",tr:"Pizza sandviç"}},
+  {id:"addons",icon:"plus",t:{me:"Додаци",en:"Add-ons",ru:"Добавки",fr:"Suppléments",de:"Beilagen",it:"Aggiunte",es:"Extras",tr:"Ekstralar"}},
+  {id:"cakes",icon:"cake",t:{me:"Колачи",en:"Cakes",ru:"Десерты",fr:"Pâtisseries",de:"Kuchen",it:"Dolci",es:"Pasteles",tr:"Tatlılar"}},
+  {id:"kokteli",icon:"cocktail",t:{me:"Коктели",en:"Cocktails",ru:"Коктейли",fr:"Cocktails",de:"Cocktails",it:"Cocktail",es:"Cócteles",tr:"Kokteyller"}},
+  {id:"coffee",icon:"cup",t:{me:"Кафа",en:"Coffee",ru:"Кофе",fr:"Café",de:"Kaffee",it:"Caffè",es:"Café",tr:"Kahve"}},
+  {id:"drinks",icon:"glass",t:{me:"Сокови и пића",en:"Drinks",ru:"Напитки",fr:"Boissons",de:"Getränke",it:"Bevande",es:"Bebidas",tr:"İçecekler"}},
+  {id:"spirits",icon:"bottle",t:{me:"Жестока пића",en:"Spirits",ru:"Крепкие напитки",fr:"Spiritueux",de:"Spirituosen",it:"Superalcolici",es:"Licores",tr:"Sert içkiler"}},
+  {id:"wine",icon:"wine",t:{me:"Винска карта",en:"Wine list",ru:"Винная карта",fr:"Carte des vins",de:"Weinkarte",it:"Carta dei vini",es:"Carta de vinos",tr:"Şarap listesi"}},
 ];
 const GROUPS=(window.MENU_GROUPS)||{};
 const ICONS={
