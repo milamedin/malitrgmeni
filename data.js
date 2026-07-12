@@ -58,7 +58,7 @@ const FOOD = [
 
 {cat:"breakfast",price:"9.80€",img:"images/losos.jpg",t:{
   me:{n:"Доручак са димљеним лососом",d:"Кроасан, кајгана, димљени лосос, сос, шпароге, помфрит, микс зелене салате"},
-  en:{n:"Breakfast with smoked salmon",d:"Croissant, scrambled eggs, smoked salmon, asparagus, fries, mixed green salad"},
+  en:{n:"Breakfast with smoked salmon",d:"Croissant, scrambled eggs, smoked salmon, sauce, asparagus, fries, mixed green salad"},
   ru:{n:"Завтрак с копчёным лососем",d:"Круассан, яичница-болтунья, копчёный лосось, спаржа, картофель фри, микс салата"},
   fr:{n:"Petit-déjeuner au saumon fumé",d:"Croissant, œufs brouillés, saumon fumé, asperges, frites, salade verte"},
   de:{n:"Frühstück mit Räucherlachs",d:"Croissant, Rührei, Räucherlachs, Spargel, Pommes, gemischter Blattsalat"},
@@ -66,7 +66,7 @@ const FOOD = [
   es:{n:"Desayuno con salmón ahumado",d:"Cruasán, huevos revueltos, salmón ahumado, espárragos, patatas fritas, ensalada mixta"}}},
 
 {cat:"breakfast",price:"8.90€",img:"images/crnogorski-dorucak.jpg",t:{
-  me:{n:"Црногорски доручак",d:"Два јаја, домаћа кобасица, пршут, сир, ајвар, проја, помфрит, микс зелене салате"},
+  me:{n:"Црногорски доручак",d:"Два јаја, домаћа кобасица, пршута, сир, ајвар, проја, помфрит, микс зелене салате"},
   en:{n:"Montenegrin breakfast",d:"Two eggs, homemade sausage, prosciutto, cheese, ajvar, cornbread, fries, mixed green salad"},
   ru:{n:"Черногорский завтрак",d:"Два яйца, домашняя колбаса, прошутто, сыр, айвар, кукурузный хлеб, картофель фри, микс салата"},
   fr:{n:"Petit-déjeuner monténégrin",d:"Deux œufs, saucisse maison, prosciutto, fromage, ajvar, pain de maïs, frites, salade verte"},
@@ -138,7 +138,7 @@ const FOOD = [
   es:{n:"Tortillas empanadas",d:"Pollo, gouda, cheddar, tortillas, ensalada verde mixta, salsa"}}},
 
 {cat:"breakfast",price:"9.90€",img:"images/kroasan-prsut.jpg",t:{
-  me:{n:"Кроасан са пршутом",d:"Кросан, пршут, моцарела, песто, парадајз, микс зелене салате"},
+  me:{n:"Кроасан са пршутом",d:"Кроасан, пршута, моцарела, песто, парадајз, микс зелене салате"},
   en:{n:"Croissant with prosciutto",d:"Croissant, prosciutto, mozzarella, pesto, tomato, mixed green salad"},
   ru:{n:"Круассан с прошутто",d:"Круассан, прошутто, моцарелла, песто, помидор, микс салата"},
   fr:{n:"Croissant au prosciutto",d:"Croissant, prosciutto, mozzarella, pesto, tomate, salade verte"},
@@ -147,7 +147,7 @@ const FOOD = [
   es:{n:"Cruasán con prosciutto",d:"Cruasán, prosciutto, mozzarella, pesto, tomate, ensalada verde mixta"}}},
 
 {cat:"breakfast",price:"9.90€",img:"images/sendvic-piletina.jpg",t:{
-  me:{n:"Сендвич са похованом пилетином",d:"Интегрална лепиња, похана пилетина, јаја, сирни намаз, гауда, помфрит, парадајз, сос"},
+  me:{n:"Сендвич са похованом пилетином",d:"Интегрална лепиња, похована пилетина, јаја, сирни намаз, гауда, помфрит, парадајз, сос"},
   en:{n:"Fried chicken sandwich",d:"Whole grain bun, fried chicken, eggs, cream cheese, gouda, fries, tomato, sauce"},
   ru:{n:"Сэндвич с курицей в панировке",d:"Цельнозерновая булочка, курица в панировке, яйца, сливочный сыр, гауда, картофель фри, помидор, соус"},
   fr:{n:"Sandwich au poulet pané",d:"Pain complet, poulet pané, œufs, fromage frais, gouda, frites, tomate, sauce"},
@@ -156,7 +156,7 @@ const FOOD = [
   es:{n:"Sándwich de pollo empanado",d:"Pan integral, pollo empanado, huevos, queso crema, gouda, patatas, tomate, salsa"}}},
 
 {cat:"breakfast",price:"9.90€",img:"images/sendvic-burata.jpg",t:{
-  me:{n:"Сендвич бурата",d:"Бурата, песто сос, пршут, рукола, шери, босиљак, ајвар"},
+  me:{n:"Сендвич бурата",d:"Бурата, песто сос, пршута, рукола, шери, босиљак, ајвар"},
   en:{n:"Burrata sandwich",d:"Burrata, pesto sauce, prosciutto, arugula, cherry tomatoes, basil, ajvar"},
   ru:{n:"Сэндвич с бурратой",d:"Буррата, соус песто, прошутто, руккола, черри, базилик, айвар"},
   fr:{n:"Sandwich à la burrata",d:"Burrata, sauce pesto, prosciutto, roquette, tomates cerises, basilic, ajvar"},
@@ -330,7 +330,7 @@ const FOOD = [
   es:{n:"Pasta con solomillo y trufas",d:"Solomillo de ternera, trufas"}}},
 
 /* ---------- ГЛАВНА ЈЕЛА / MAIN ---------- */
-{cat:"main",price:"22.00€",unit:"280 g",t:{
+{cat:"main",price:"22.00€",unit:"280 g",img:"images/main-tuna.jpg",t:{
   me:{n:"Туна стек",d:"Гриловани туна, рукола, шери, сос од малине"},
   en:{n:"Tuna steak",d:"Grilled tuna, arugula, cherry tomatoes, raspberry sauce"},
   ru:{n:"Стейк из тунца",d:"Тунец на гриле, руккола, черри, малиновый соус"},
@@ -339,7 +339,7 @@ const FOOD = [
   it:{n:"Trancio di tonno",d:"Tonno grigliato, rucola, pomodorini, salsa ai lamponi"},
   es:{n:"Steak de atún",d:"Atún a la parrilla, rúcula, tomates cherry, salsa de frambuesa"}}},
 
-{cat:"main",price:"24.00€",unit:"280 g",t:{
+{cat:"main",price:"24.00€",unit:"280 g",img:"images/main-hobotnica.jpg",t:{
   me:{n:"Хоботница на жару",d:"Хоботница, пире, поврће, џем од лука, маслац, зачини"},
   en:{n:"Grilled octopus",d:"Octopus, mashed potatoes, vegetables, onion jam, butter, spices"},
   ru:{n:"Осьминог на гриле",d:"Осьминог, картофельное пюре, овощи, луковый джем, масло, специи"},
@@ -349,7 +349,7 @@ const FOOD = [
   es:{n:"Pulpo a la parrilla",d:"Pulpo, puré, verduras, mermelada de cebolla, mantequilla, especias"}}},
 
 {cat:"main",price:"18.00€",unit:"350 g",img:"images/burger-dry-aged.jpg",t:{
-  me:{n:"Бургер Dry Aged у џему од лука",d:"Бургер, чедар, намаз, парадајз, џем од лука, ајсберг салата, помфрит"},
+  me:{n:"Бургер Dry Aged у џему од лука",d:"Бургер, чедар сир, намаз, парадајз, џем од лука, ајсберг салата, помфрит"},
   en:{n:"Dry aged burger in onion jam",d:"Burger, cheddar, spread, tomato, onion jam, iceberg lettuce, fries"},
   ru:{n:"Бургер Dry Aged в луковом джеме",d:"Котлета, чеддер, соус, помидор, луковый джем, айсберг, картофель фри"},
   fr:{n:"Burger Dry Aged au confit d'oignon",d:"Steak haché, cheddar, sauce, tomate, confit d'oignon, laitue iceberg, frites"},
@@ -366,7 +366,7 @@ const FOOD = [
   it:{n:"Burger vegano",d:"Salsa, pomodoro, insalata verde, confettura di cipolle"},
   es:{n:"Hamburguesa vegana",d:"Salsa, tomate, lechuga, mermelada de cebolla"}}},
 
-{cat:"main",price:"22.00€",unit:"250 g",t:{
+{cat:"main",price:"22.00€",unit:"250 g",img:"images/main-taljata.jpg",t:{
   me:{n:"Таљата рамстек у креми од тартуфа",d:"Рамстек, кромпир, тартуфи, зачини"},
   en:{n:"Tagliata ribeye in truffle cream",d:"Ribeye, potatoes, truffles, spices"},
   ru:{n:"Тальята рибай в трюфельном креме",d:"Рибай, картофель, трюфели, специи"},
@@ -375,7 +375,7 @@ const FOOD = [
   it:{n:"Tagliata di controfiletto in crema al tartufo",d:"Controfiletto, patate, tartufo, spezie"},
   es:{n:"Tagliata de entrecot en crema de trufa",d:"Entrecot, patatas, trufas, especias"}}},
 
-{cat:"main",price:"14.00€",unit:"200 g",t:{
+{cat:"main",price:"14.00€",unit:"200 g",img:"images/main-vegan-piletina.jpg",t:{
   me:{n:"Веганска пилетина са помфритом",d:"Биљна пилетина, помфрит"},
   en:{n:"Vegan chicken with fries",d:"Plant-based chicken, fries"},
   ru:{n:"Веган-курица с картофелем фри",d:"Растительная курица, картофель фри"},
@@ -386,7 +386,7 @@ const FOOD = [
 
 /* ---------- ОБРОК САЛАТЕ / SALADS ---------- */
 {cat:"salads",price:"16.00€",unit:"250 g",img:"images/tuna-salata.jpg",t:{
-  me:{n:"Туна салата",d:"Туна, ајсберг, ђумбир, црни сусам"},
+  me:{n:"Туна салата",d:"Туна, iceberg салата, ђумбир, црни сусам"},
   en:{n:"Tuna salad",d:"Tuna, iceberg, ginger, black sesame"},
   ru:{n:"Салат с тунцом",d:"Тунец, айсберг, имбирь, чёрный кунжут"},
   fr:{n:"Salade de thon",d:"Thon, iceberg, gingembre, sésame noir"},
@@ -404,7 +404,7 @@ const FOOD = [
   es:{n:"Ensalada César",d:"Pollo, panceta, picatostes, cherry, hojas mixtas, parmesano, aderezo"}}},
 
 {cat:"salads",price:"9.00€",unit:"250 g",img:"images/grcka-salata.jpg",t:{
-  me:{n:"Грчка салата",d:"Парадајз, краставац, црвена и зелена паприка, маслине, фета, оригано"},
+  me:{n:"Грчка салата",d:"Парадајз, краставац, црвена и зелена паприка, маслине, фета сир, оригано"},
   en:{n:"Greek salad",d:"Tomato, cucumber, red and green peppers, olives, feta, oregano"},
   ru:{n:"Греческий салат",d:"Помидор, огурец, красный и зелёный перец, оливки, фета, орегано"},
   fr:{n:"Salade grecque",d:"Tomate, concombre, poivrons rouge et vert, olives, feta, origan"},
@@ -433,7 +433,7 @@ const FOOD = [
 
 {cat:"pizza",price:"13.50€",unit:"440 g",img:"images/pizza-kapricoza.jpg",t:{
   me:{n:"Каприћоза",d:"Сан Марцано пелат, моцарела, Гранроса кувана шунка, артичоке, босиљак, Капуто брашно"},
-  en:{n:"Capricciosa",d:"San Marzano tomato, mozzarella, Granrosa cooked ham, artichokes, basil"},
+  en:{n:"Capricciosa",d:"San Marzano tomato, mozzarella, Granrosa cooked ham, artichokes, basil, Caputo flour"},
   ru:{n:"Капричоза",d:"Томаты Сан-Марцано, моцарелла, варёная ветчина Granrosa, артишоки, базилик"},
   fr:{n:"Capricciosa",d:"Tomate San Marzano, mozzarella, jambon cuit Granrosa, artichauts, basilic"},
   de:{n:"Capricciosa",d:"San-Marzano-Tomaten, Mozzarella, Granrosa Kochschinken, Artischocken, Basilikum"},
@@ -442,7 +442,7 @@ const FOOD = [
 
 {cat:"pizza",price:"15.00€",unit:"440 g",img:"images/pizza-diavolo.jpg",t:{
   me:{n:"Диаволо",d:"Сан Марцано пелат, моцарела, вентричина салама, феферони, Капуто брашно"},
-  en:{n:"Diavolo",d:"San Marzano tomato, mozzarella, ventricina salami, hot peppers"},
+  en:{n:"Diavolo",d:"San Marzano tomato, mozzarella, ventricina salami, hot peppers, Caputo flour"},
   ru:{n:"Дьяволо",d:"Томаты Сан-Марцано, моцарелла, салями вентричина, острый перец"},
   fr:{n:"Diavolo",d:"Tomate San Marzano, mozzarella, salami ventricina, piments"},
   de:{n:"Diavolo",d:"San-Marzano-Tomaten, Mozzarella, Ventricina-Salami, Peperoni"},
@@ -451,7 +451,7 @@ const FOOD = [
 
 {cat:"pizza",price:"15.00€",unit:"440 g",img:"images/pizza-prsuta.jpg",t:{
   me:{n:"Пршута",d:"Сан Марцано пелат, моцарела, Парма пршут, рукола, Капуто брашно"},
-  en:{n:"Prosciutto",d:"San Marzano tomato, mozzarella, Parma prosciutto, arugula"},
+  en:{n:"Prosciutto",d:"San Marzano tomato, mozzarella, Parma prosciutto, arugula, Caputo flour"},
   ru:{n:"Прошутто",d:"Томаты Сан-Марцано, моцарелла, пармская ветчина, руккола"},
   fr:{n:"Prosciutto",d:"Tomate San Marzano, mozzarella, prosciutto de Parme, roquette"},
   de:{n:"Prosciutto",d:"San-Marzano-Tomaten, Mozzarella, Parmaschinken, Rucola"},
@@ -460,7 +460,7 @@ const FOOD = [
 
 {cat:"pizza",price:"16.00€",unit:"440 g",img:"images/pizza-mortadela.jpg",t:{
   me:{n:"Мортадела",d:"Проволоне сир, песто од пистаћа, моцарела, Мортадела Болоња, страћатела, Капуто брашно"},
-  en:{n:"Mortadella",d:"Pistachio pesto, mozzarella, Mortadella Bologna, stracciatella"},
+  en:{n:"Mortadella",d:"Provolone, pistachio pesto, mozzarella, Mortadella Bologna, stracciatella, Caputo flour"},
   ru:{n:"Мортаделла",d:"Фисташковый песто, моцарелла, мортаделла Болонья, страчателла"},
   fr:{n:"Mortadelle",d:"Pesto de pistache, mozzarella, mortadelle de Bologne, stracciatella"},
   de:{n:"Mortadella",d:"Pistazienpesto, Mozzarella, Mortadella Bologna, Stracciatella"},
@@ -487,7 +487,7 @@ const FOOD = [
 
 {cat:"pizza",price:"12.00€",unit:"440 g",img:"images/pizza-vegan.jpg",t:{
   me:{n:"Веган",d:"Сан Марцано пелат, моцарела, пармезан, тиквице, патлиџан, црвена и зелена паприка, маслине"},
-  en:{n:"Vegan",d:"San Marzano tomato, mozzarella, parmesan, zucchini, peppers, olives"},
+  en:{n:"Vegan",d:"San Marzano tomato, mozzarella, parmesan, zucchini, eggplant, red and green peppers, olives"},
   ru:{n:"Веган",d:"Томаты Сан-Марцано, моцарелла, пармезан, цукини, перец, оливки"},
   fr:{n:"Végan",d:"Tomate San Marzano, mozzarella, parmesan, courgette, poivrons, olives"},
   de:{n:"Vegan",d:"San-Marzano-Tomaten, Mozzarella, Parmesan, Zucchini, Paprika, Oliven"},
@@ -505,7 +505,7 @@ const FOOD = [
 
 {cat:"pizza",price:"14.00€",unit:"440 g",img:"images/pizza-sremus.jpg",t:{
   me:{n:"Сремуш",d:"Сремуш, неутрална павлака, моцарела, пармезан, страћатела"},
-  en:{n:"Wild garlic",d:"Wild garlic cream, mozzarella, parmesan, stracciatella"},
+  en:{n:"Wild garlic",d:"Wild garlic, neutral cream, mozzarella, parmesan, stracciatella"},
   ru:{n:"Черемша",d:"Крем из черемши, моцарелла, пармезан, страчателла"},
   fr:{n:"Ail des ours",d:"Crème d'ail des ours, mozzarella, parmesan, stracciatella"},
   de:{n:"Bärlauch",d:"Bärlauchcreme, Mozzarella, Parmesan, Stracciatella"},
@@ -523,7 +523,7 @@ const FOOD = [
   es:{n:"Jamón",d:"Jamón cocido Granrosa, gouda, mozzarella, ensalada mixta, aceite de oliva"}}},
 
 {cat:"pizzasand",price:"13.50€",unit:"370 g",img:"images/pizzasand-prsuta.jpg",t:{
-  me:{n:"Пршута",d:"Пршут, гауда, моцарела, парадајз, рукола, маслиново уље"},
+  me:{n:"Пршута",d:"Пршута, гауда, моцарела, парадајз, рукола, маслиново уље"},
   en:{n:"Prosciutto",d:"Prosciutto, gouda, mozzarella, tomato, arugula, olive oil"},
   ru:{n:"Прошутто",d:"Прошутто, гауда, моцарелла, помидор, руккола, оливковое масло"},
   fr:{n:"Prosciutto",d:"Prosciutto, gouda, mozzarella, tomate, roquette, huile d'olive"},
@@ -532,7 +532,7 @@ const FOOD = [
   es:{n:"Prosciutto",d:"Prosciutto, gouda, mozzarella, tomate, rúcula, aceite de oliva"}}},
 
 {cat:"pizzasand",price:"12.00€",unit:"370 g",img:"images/pizzasand-mortadela.jpg",t:{
-  me:{n:"Мортадела",d:"Мортадела Болоња, гауда, проволоне, песто од пистаћа, страчатела, маслиново уље"},
+  me:{n:"Мортадела",d:"Мортадела Болоња, гауда, проволоне, песто од пистаћа, страћатела, маслиново уље"},
   en:{n:"Mortadella",d:"Mortadella Bologna, gouda, provolone, pistachio pesto, stracciatella, olive oil"},
   ru:{n:"Мортаделла",d:"Мортаделла Болонья, гауда, проволоне, фисташковый песто, страчателла, оливковое масло"},
   fr:{n:"Mortadelle",d:"Mortadelle de Bologne, gouda, provolone, pesto de pistache, stracciatella, huile d'olive"},
@@ -541,7 +541,7 @@ const FOOD = [
   es:{n:"Mortadela",d:"Mortadela Bolonia, gouda, provolone, pesto de pistacho, stracciatella, aceite de oliva"}}},
 
 {cat:"pizzasand",price:"13.00€",unit:"370 g",img:"images/pizzasand-diavolo.jpg",t:{
-  me:{n:"Диаволо",d:"Вентричина салама, моцарела, гауда, микс салате, маслиново уље"},
+  me:{n:"Диаволо",d:"Вентричина салама, моцарела, гауда, микс зелене салате, маслиново уље"},
   en:{n:"Diavolo",d:"Ventricina salami, mozzarella, gouda, mixed greens, olive oil"},
   ru:{n:"Дьяволо",d:"Салями вентричина, моцарелла, гауда, микс салата, оливковое масло"},
   fr:{n:"Diavolo",d:"Salami ventricina, mozzarella, gouda, salade mêlée, huile d'olive"},
@@ -563,6 +563,7 @@ const FOOD = [
 {cat:"addons",price:"3.70€",unit:"30 g",img:"images/addon-granrosa.jpg",t:{me:{n:"Гранроса шунка"},en:{n:"Granrosa ham"},ru:{n:"Ветчина Granrosa"},fr:{n:"Jambon Granrosa"},de:{n:"Granrosa Schinken"},it:{n:"Prosciutto cotto Granrosa"},es:{n:"Jamón Granrosa"}}},
 {cat:"addons",price:"3.50€",unit:"250 g",t:{me:{n:"Фокача"},en:{n:"Focaccia"},ru:{n:"Фокачча"},fr:{n:"Focaccia"},de:{n:"Focaccia"},it:{n:"Focaccia"},es:{n:"Focaccia"}}},
 {cat:"addons",price:"3.90€",unit:"30 g",img:"images/addon-ventricina.jpg",t:{me:{n:"Вентричина салама"},en:{n:"Ventricina salami"},ru:{n:"Салями вентричина"},fr:{n:"Salami ventricina"},de:{n:"Ventricina-Salami"},it:{n:"Salame ventricina"},es:{n:"Salami ventricina"}}},
+{cat:"addons",price:"3.90€",unit:"30 g",img:"images/addon-mortadela.jpg",t:{me:{n:"Мортадела"},en:{n:"Mortadella"},ru:{n:"Мортаделла"},fr:{n:"Mortadelle"},de:{n:"Mortadella"},it:{n:"Mortadella"},es:{n:"Mortadela"}}},
 {cat:"addons",price:"4.90€",unit:"30 g",img:"images/addon-burata.jpg",t:{me:{n:"Бурата"},en:{n:"Burrata"},ru:{n:"Буррата"},fr:{n:"Burrata"},de:{n:"Burrata"},it:{n:"Burrata"},es:{n:"Burrata"}}},
 
 /* ---------- КОЛАЧИ / CAKES ---------- */
@@ -820,21 +821,21 @@ const COCKTAILS=[
 {cat:"kokteli",price:"15.00 €",t:{me:{n:"WHISKY SPECTACULOOS",d:"Богат и баршунаст коктел са балансом топлих зачина, цитруса и орашасте слаткоће."},en:{n:"WHISKY SPECTACULOOS",d:"Rich and velvety, with a balance of warming spice, bright citrus and nutty sweetness."}}},
 {cat:"kokteli",price:"9.90 €",t:{me:{n:"PAPA DOBLE",d:"Свијетао, сув и цитрусан коктел, инспирисан Hemingway стилом. Лагани рум, свјежи грејп, лимета, мараскино ликер и сируп од грејпа."},en:{n:"PAPA DOBLE",d:"Bright, dry and citrus-forward, Hemingway-inspired. Light rum, fresh grapefruit, lime, maraschino liqueur and grapefruit syrup."}}},
 {cat:"kokteli",price:"12.00 €",t:{me:{n:"MARGOT",d:"Свијетао и структуриран коктел са класичном margarita свјежином, слојевит уз labdanum cordial и premium ликер од наранџе."},en:{n:"MARGOT",d:"Bright and structured, with classic margarita-style freshness, layered with labdanum cordial and premium orange liqueur."}}},
-{cat:"kokteli",price:"12.00 €",t:{me:{n:"MINT TO BE GREEN",d:"Хрскав и расхлађујући микс џина, свјеже менте, краставца и цитруса, подигнут нотама зове и завршен пјенушавом лимунадом."},en:{n:"MINT TO BE GREEN",d:"A crisp and cooling mix of gin, fresh mint, cucumber and citrus, lifted with elderflower and a sparkling lemonade finish."}}},
-{cat:"kokteli",price:"13.00 €",t:{me:{n:"BREAKFAST MARTINI",d:"Наша верзија класика Breakfast Martini: џин, цитруси и кућни џем од шипка, послужена уз сладолед са стране."},en:{n:"BREAKFAST MARTINI",d:"Our twist on the classic Breakfast Martini: gin, citrus and house rosehip marmalade, served with ice cream on the side."}}},
+{cat:"kokteli",price:"12.00 €",img:"images/koktel-mint.jpg",t:{me:{n:"MINT TO BE GREEN",d:"Хрскав и расхлађујући микс џина, свјеже менте, краставца и цитруса, подигнут нотама зове и завршен пјенушавом лимунадом."},en:{n:"MINT TO BE GREEN",d:"A crisp and cooling mix of gin, fresh mint, cucumber and citrus, lifted with elderflower and a sparkling lemonade finish."}}},
+{cat:"kokteli",price:"13.00 €",img:"images/koktel-breakfast-martini.jpg",t:{me:{n:"BREAKFAST MARTINI",d:"Наша верзија класика Breakfast Martini: џин, цитруси и кућни џем од шипка, послужена уз сладолед са стране."},en:{n:"BREAKFAST MARTINI",d:"Our twist on the classic Breakfast Martini: gin, citrus and house rosehip marmalade, served with ice cream on the side."}}},
 {cat:"kokteli",price:"10.90 €",t:{me:{n:"MOSCOW MULE",d:"Тропска интерпретација класичног Mule коктела: свјежа, пикантна и хрскава, са кућним додиром."},en:{n:"MOSCOW MULE",d:"A tropical take on the classic Mule: crisp and spicy with a signature house touch."}}},
 {cat:"kokteli",price:"9.90 €",t:{me:{n:"LA SUCCETTE",d:"Освјежавајућа комбинација вотке инфузиране малином, џина, свјежих малина и менте, балансирана нотама зове."},en:{n:"LA SUCCETTE",d:"A refreshing blend of raspberry-infused vodka, gin, fresh raspberries and mint, balanced with elderflower."}}},
-{cat:"kokteli",price:"9.90 €",t:{me:{n:"GIN BASIL SMASH",d:"Свјеж и цитрусан коктел који спаја џин, кућну есенцију босиљка и свјеже цитрусне сокове."},en:{n:"GIN BASIL SMASH",d:"A fresh, citrus-forward cocktail combining gin, house basil essence and fresh citrus juices."}}},
+{cat:"kokteli",price:"9.90 €",img:"images/koktel-gin-basil.jpg",t:{me:{n:"GIN BASIL SMASH",d:"Свјеж и цитрусан коктел који спаја џин, кућну есенцију босиљка и свјеже цитрусне сокове."},en:{n:"GIN BASIL SMASH",d:"A fresh, citrus-forward cocktail combining gin, house basil essence and fresh citrus juices."}}},
 {cat:"kokteli",price:"12.00 €",t:{me:{n:"MARGOT GOES PINK AGAIN",d:"Лаган, пјенушав и цитрусан Paloma twist са освјежавајућом горко-слатком ивицом."},en:{n:"MARGOT GOES PINK AGAIN",d:"Light, sparkling and citrus-driven Paloma twist with a refreshing bittersweet edge."}}},
 {cat:"kokteli",price:"12.00 €",t:{me:{n:"BRUJA DORADA",d:"Тропски и цитрусан коктел са хербално-цвјетном комплексношћу. Текила, свјежа лимета и ананас, есенција лаванде и ноте вермута."},en:{n:"BRUJA DORADA",d:"Tropical and citrus-forward, with soft herbal floral complexity. Tequila, fresh lime and pineapple, lavender essence and vermouth notes."}}},
-{cat:"kokteli",price:"11.00 €",t:{me:{n:"SEXPRESSO RUMTINI",d:"Кућни twist на Espresso Martini, обогаћен есенцијом speculoos бисквита — цимет, смеђи шећер и печени зачини."},en:{n:"SEXPRESSO RUMTINI",d:"A house twist on Espresso Martini, elevated with speculoos biscuit essence — cinnamon, brown sugar and baked spice."}}},
+{cat:"kokteli",price:"11.00 €",img:"images/koktel-sexpresso.jpg",t:{me:{n:"SEXPRESSO RUMTINI",d:"Кућни twist на Espresso Martini, обогаћен есенцијом speculoos бисквита — цимет, смеђи шећер и печени зачини."},en:{n:"SEXPRESSO RUMTINI",d:"A house twist on Espresso Martini, elevated with speculoos biscuit essence — cinnamon, brown sugar and baked spice."}}},
 {cat:"kokteli",price:"12.00 €",t:{me:{n:"ERROR 404: MARTINI NOT FOUND",d:"Структуриран и ароматичан коктел на бази џина. Blood orange gin, premium ликер од наранџе, supasawa, кућни рузмарин и слатки вермут."},en:{n:"ERROR 404: MARTINI NOT FOUND",d:"A structured, aromatic gin-based cocktail. Blood orange gin, premium orange liqueur, supasawa, house rosemary and sweet vermouth."}}},
-{cat:"kokteli",price:"11.00 €",t:{me:{n:"MONTENEGRONI",d:"Медитерански, barrel-aged twist на класични Negroni, са хербалном и цитрусном комплексношћу и дугим завршетком."},en:{n:"MONTENEGRONI",d:"A Mediterranean barrel-aged twist on the classic Negroni, with layered herbal and citrus complexity and a long finish."}}},
+{cat:"kokteli",price:"11.00 €",img:"images/koktel-montenegroni.jpg",t:{me:{n:"MONTENEGRONI",d:"Медитерански, barrel-aged twist на класични Negroni, са хербалном и цитрусном комплексношћу и дугим завршетком."},en:{n:"MONTENEGRONI",d:"A Mediterranean barrel-aged twist on the classic Negroni, with layered herbal and citrus complexity and a long finish."}}},
 {cat:"kokteli",price:"9.90 €",t:{me:{n:"MIND GAMES",d:"Лаган, ароматичан и освјежавајући коктел на бази вина, са медитеранским хербалним профилом (лаванда и labdanum)."},en:{n:"MIND GAMES",d:"Light, aromatic and refreshing wine-based cocktail, with a Mediterranean herbal profile of lavender and labdanum."}}},
 {cat:"kokteli",price:"9.90 €",t:{me:{n:"PEAR PUNCH",d:"Лаган, хрскав и воћан коктел. Вотка инфузирана крушком, свјежи сок од крушке, Sauvignon, лимун и цвјетна арома јасмина."},en:{n:"PEAR PUNCH",d:"Light, crisp and fruity. Pear-infused vodka, fresh pear juice, Sauvignon, lemon and delicate jasmine aromatics."}}},
 {cat:"kokteli",price:"9.90 €",t:{me:{n:"LIMONCELLO SPRITZ",d:"Свијетао, пјенушав и интензивно цитрусан класик, подигнут cordialom од Timur бобица."},en:{n:"LIMONCELLO SPRITZ",d:"Bright, sparkling and intensely citrus-forward classic, elevated with a touch of Timur berry cordial."}}},
-{cat:"kokteli",price:"9.00 €",t:{me:{n:"PAINTED PINK",d:"Безалкохолно. Освјежавајућа комбинација маракује, свјежих малина, сока од боровнице и црног чаја, са аромом рузмарина."},en:{n:"PAINTED PINK",d:"Non-alcoholic. A refreshing blend of passion fruit, fresh raspberries, blueberry juice and black tea, with rosemary aroma."}}},
-{cat:"kokteli",price:"9.00 €",t:{me:{n:"STRAWBERRY BASIL LEMONADE",d:"Безалкохолно. Свјеже јагоде, босиљак и цитрусни сок, допуњени содом — лагано љетње пиће."},en:{n:"STRAWBERRY BASIL LEMONADE",d:"Non-alcoholic. Fresh strawberries, basil and citrus juice, topped with soda — a light summer drink."}}},
+{cat:"kokteli",price:"9.00 €",img:"images/koktel-painted-pink.jpg",t:{me:{n:"PAINTED PINK",d:"Безалкохолно. Освјежавајућа комбинација маракује, свјежих малина, сока од боровнице и црног чаја, са аромом рузмарина."},en:{n:"PAINTED PINK",d:"Non-alcoholic. A refreshing blend of passion fruit, fresh raspberries, blueberry juice and black tea, with rosemary aroma."}}},
+{cat:"kokteli",price:"9.00 €",img:"images/koktel-strawberry-basil.jpg",t:{me:{n:"STRAWBERRY BASIL LEMONADE",d:"Безалкохолно. Свјеже јагоде, босиљак и цитрусни сок, допуњени содом — лагано љетње пиће."},en:{n:"STRAWBERRY BASIL LEMONADE",d:"Non-alcoholic. Fresh strawberries, basil and citrus juice, topped with soda — a light summer drink."}}},
 ];
 
 window.MENU = FOOD.concat(COCKTAILS, DRINKS);
