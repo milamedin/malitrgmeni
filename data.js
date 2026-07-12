@@ -357,7 +357,7 @@ const FOOD = [
   it:{n:"Burger Dry Aged con confettura di cipolle",d:"Burger, cheddar, salsa, pomodoro, confettura di cipolle, lattuga iceberg, patatine"},
   es:{n:"Hamburguesa Dry Aged con mermelada de cebolla",d:"Hamburguesa, cheddar, salsa, tomate, mermelada de cebolla, lechuga iceberg, patatas fritas"}}},
 
-{cat:"main",price:"15.00€",unit:"350 g",t:{
+{cat:"main",price:"15.00€",unit:"350 g",img:"images/main-vegan-burger.jpg",t:{
   me:{n:"Веган бургер",d:"Намаз, парадајз, зелена салата, џем од лука"},
   en:{n:"Vegan burger",d:"Spread, tomato, green lettuce, onion jam"},
   ru:{n:"Веган-бургер",d:"Соус, помидор, зелёный салат, луковый джем"},
