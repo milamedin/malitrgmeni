@@ -379,6 +379,102 @@
   .eventshow .es-media{position:absolute; inset:0; display:flex; align-items:center; justify-content:center; background:#000;}
   .eventshow .es-img{width:100%; height:100%; background-size:contain; background-repeat:no-repeat; background-position:center;
     animation:kenburns 7s linear both;}
+
+  /* ============================================================
+     SVIJETLA TEMA (preklopnik) — scoped pod html.light
+     ============================================================ */
+  html.light{
+    --paper:#F5EDD8; --paper-2:#EDE1C5; --paper-3:#FBF6E8;
+    --ink:#2E3540; --ink-2:#4A4038; --ink-3:#7A6B5C;
+    --sage:#7E8C5F; --sage-d:#5C6B45; --clay:#C77746; --clay-d:#A05A2E;
+  }
+  html.light body{background:var(--paper); color:var(--ink);}
+  html.light ::selection{background:var(--sage); color:var(--paper);}
+  html.light .app{
+    background:
+      radial-gradient(140% 90% at 100% -10%, rgba(126,140,95,.10), transparent 55%),
+      radial-gradient(120% 80% at -10% 110%, rgba(199,119,70,.08), transparent 50%),
+      var(--paper);
+  }
+  html.light /* header */
+  header{border-bottom:1px solid rgba(46,53,64,.12);}
+  html.light header::after{background:linear-gradient(90deg,transparent,var(--clay),transparent); opacity:.35;}
+  html.light .brand .logo-img{filter:drop-shadow(0 4px 12px rgba(46,53,64,.18));}
+  html.light .brand .word .nm{color:var(--ink);}
+  html.light .brand .word .sub{color:var(--clay);}
+  html.light /* language buttons */
+  .lang-btn{color:var(--ink-3);}
+  html.light .lang-btn:hover{color:var(--ink); background:var(--paper-2);}
+  html.light .lang-btn.active{color:var(--paper);
+    background:linear-gradient(160deg,var(--sage),var(--sage-d));
+    box-shadow:0 6px 18px rgba(126,140,95,.28);}
+  html.light /* header icon buttons */
+  .hbtn{border:1px solid rgba(46,53,64,.14); color:var(--ink-3);}
+  html.light .hbtn:hover{color:var(--ink); background:var(--paper-2); border-color:var(--sage);}
+  html.light /* category chips */
+  .cats{border-bottom:1px solid rgba(46,53,64,.12);}
+  html.light .cat{border:1px solid rgba(46,53,64,.14); background:var(--paper-3); color:var(--ink-3);}
+  html.light .cat:hover{color:var(--ink); background:var(--paper-2); border-color:var(--sage);}
+  html.light .cat.active{color:var(--paper); border-color:var(--sage-d);
+    background:linear-gradient(160deg,var(--sage),var(--sage-d));
+    box-shadow:0 8px 26px rgba(126,140,95,.24);}
+  html.light /* section head + ornaments */
+  .section-head h2{color:var(--ink);}
+  html.light .ornament{color:var(--clay);}
+  html.light .ornament .dot{border-color:var(--clay);}
+  html.light .ornament .ln{background:linear-gradient(90deg,transparent,var(--clay));}
+  html.light .ornament .ln.r{background:linear-gradient(90deg,var(--clay),transparent);}
+  html.light .section-head .txt{color:var(--clay);}
+  html.light /* scrollbar */
+  .scroll::-webkit-scrollbar-thumb{background:var(--paper-2); border:3px solid var(--paper);}
+  html.light .scroll::-webkit-scrollbar-thumb:hover{background:var(--sage);}
+  html.light /* subheads */
+  .subhead{color:var(--sage-d);}
+  html.light .subhead .dot{border-color:var(--clay);}
+  html.light .subhead::after{background:linear-gradient(90deg,rgba(46,53,64,.2),transparent);}
+  html.light /* cards */
+  .card{background:var(--paper-3); border:1px solid rgba(46,53,64,.12);}
+  html.light .card:hover{border-color:var(--sage);
+    box-shadow:0 22px 44px rgba(46,53,64,.14), 0 0 0 1px rgba(126,140,95,.25);}
+  html.light .card .photo{border-bottom:1px solid rgba(46,53,64,.10);}
+  html.light .card .photo.placeholder .imgz{
+    background:radial-gradient(90% 120% at 50% -20%, rgba(126,140,95,.18), transparent 65%),
+      linear-gradient(160deg,#E7DDC4,#EDE1C5);}
+  html.light .card .photo .glyph svg{stroke:var(--sage);}
+  html.light .card .photo::after{background:linear-gradient(180deg,transparent 50%,rgba(46,53,64,.32));}
+  html.light .card .photo .price{
+    background:rgba(46,53,64,.55); color:var(--paper);
+    border:1px solid rgba(245,237,216,.3); backdrop-filter:blur(6px);}
+  html.light .card:hover .photo .price{background:var(--clay); color:var(--paper); border-color:var(--clay);}
+  html.light .card .body h3{color:var(--ink);}
+  html.light .card .body .desc{color:var(--ink-3);}
+  html.light .card .body .unit{color:var(--clay);}
+  html.light .zoom-ic{background:rgba(46,53,64,.4); color:var(--paper); border:1px solid rgba(245,237,216,.3);}
+  html.light /* list mode (drinks) */
+  .list .card{background:var(--paper-3);}
+  html.light .list .card .body .desc{border-bottom:1px dotted rgba(46,53,64,.22); color:var(--ink-3);}
+  html.light .list .card .body .foot::after{color:var(--clay);}
+  html.light .note{color:var(--ink-3);}
+  html.light /* lightbox */
+  .lightbox{background:rgba(245,237,216,.86); backdrop-filter:blur(14px);}
+  html.light .lb-imgwrap{border:1px solid rgba(46,53,64,.16); box-shadow:0 34px 80px rgba(46,53,64,.28);}
+  html.light .lb-imgwrap::after{background:linear-gradient(180deg,transparent 55%,rgba(46,53,64,.35));}
+  html.light .lb-price{background:var(--clay); color:var(--paper);}
+  html.light .lb-cat{color:var(--clay);}
+  html.light .lb-name{color:var(--ink); font-family:var(--font-display);}
+  html.light .lb-desc{color:var(--ink-2);}
+  html.light .lb-unit{color:var(--sage-d);}
+  html.light .lb-count{color:var(--ink-3);}
+  html.light .lb-nav, html.light .lb-close{border:1px solid rgba(46,53,64,.16); background:rgba(251,246,232,.7); color:var(--ink);}
+  html.light .lb-nav:hover, html.light .lb-close:hover{background:var(--sage); color:var(--paper); border-color:var(--sage);}
+  html.light /* slideshow — keep a soft dark stage so photos pop, html.light brand-tinted */
+  .slideshow{background:#20262E;}
+  html.light .show-grad{background:linear-gradient(0deg, rgba(24,28,34,.92) 0%, rgba(24,28,34,.5) 26%, rgba(24,28,34,0) 52%);}
+  html.light .show-cat{color:var(--clay);}
+  html.light .show-name{color:var(--paper);}
+  html.light .show-desc{color:#E7DFCB;}
+  html.light .show-price{color:var(--clay);}
+  html.light .show-hint{color:#9a978f;}
 </style>
 </head>
 <body>
@@ -415,6 +511,7 @@
             <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M8 5.14v13.72a1 1 0 0 0 1.54.84l10.29-6.86a1 1 0 0 0 0-1.68L9.54 4.3A1 1 0 0 0 8 5.14z"/></svg>
           </button>
           <button class="hbtn" id="fsBtn" onclick="toggleFS()" aria-label="Fullscreen"></button>
+          <button class="hbtn" id="themeBtn" onclick="toggleTheme()" aria-label="Tema" title="Tema"></button>
         </div>
       </div>
     </header>
@@ -645,6 +742,19 @@ function updateFSIcon(){
   b.innerHTML=on?FS_EXIT:FS_ENTER;
   b.title=on?"Izađi iz fullscreen-a":"Fullscreen";
 }
+/* ===================== TEMA (tamna/svijetla) ===================== */
+const TH_SUN='<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7"/></svg>';
+const TH_MOON='<svg viewBox="0 0 24 24"><path d="M20.6 13.2A8.6 8.6 0 1 1 10.8 3.4a6.9 6.9 0 0 0 9.8 9.8z"/></svg>';
+function updateThemeIcon(){const b=document.getElementById("themeBtn"); if(!b)return;
+  const light=document.documentElement.classList.contains("light");
+  b.innerHTML=light?TH_MOON:TH_SUN;
+  b.title=light?"Tamna tema":"Svijetla tema";}
+function applyTheme(t){document.documentElement.classList.toggle("light",t==="light");
+  try{localStorage.setItem("mt-theme",t);}catch(e){}
+  updateThemeIcon();}
+function toggleTheme(){applyTheme(document.documentElement.classList.contains("light")?"dark":"light");}
+try{applyTheme(localStorage.getItem("mt-theme")||"dark");}catch(e){updateThemeIcon();}
+
 document.addEventListener("fullscreenchange",updateFSIcon);
 document.addEventListener("webkitfullscreenchange",updateFSIcon);
 updateFSIcon();
