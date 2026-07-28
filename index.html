@@ -431,11 +431,6 @@
 <!-- ============ EVENT SLIDESHOW (odvojen od menija) ============ -->
 <div class="slideshow eventshow" id="eventshow" onclick="stopEventShow()">
   <div class="es-media" id="esMedia"></div>
-  <div class="show-grad"></div>
-  <div class="show-info" id="esInfo">
-    <div class="show-name" id="esName"></div>
-    <div class="show-desc" id="esDesc"></div>
-  </div>
   <div class="show-hint">Додирните за излаз &middot; Tap to exit</div>
 </div>
 
@@ -450,7 +445,6 @@ const UI={
   tr:{loc:"Karadağ",items:"öğe"},
 };
 const CATEGORIES=[
-  {id:"events",icon:"music",t:{me:"Догађаји",en:"Events",ru:"События",fr:"Événements",de:"Events",it:"Eventi",es:"Eventos",tr:"Etkinlikler"}},
   {id:"breakfast",icon:"coffee",t:{me:"Доручак",en:"Breakfast",ru:"Завтрак",fr:"Petit-déjeuner",de:"Frühstück",it:"Colazione",es:"Desayuno",tr:"Kahvaltı"}},
   {id:"cold",icon:"leaf",t:{me:"Хладна предјела",en:"Cold starters",ru:"Холодные закуски",fr:"Entrées froides",de:"Kalte Vorspeisen",it:"Antipasti freddi",es:"Entrantes fríos",tr:"Soğuk başlangıçlar"}},
   {id:"hot",icon:"flame",t:{me:"Топла предјела",en:"Hot starters",ru:"Горячие закуски",fr:"Entrées chaudes",de:"Warme Vorspeisen",it:"Antipasti caldi",es:"Entrantes calientes",tr:"Sıcak başlangıçlar"}},
@@ -461,6 +455,7 @@ const CATEGORIES=[
   {id:"addons",icon:"plus",t:{me:"Додаци",en:"Add-ons",ru:"Добавки",fr:"Suppléments",de:"Beilagen",it:"Aggiunte",es:"Extras",tr:"Ekstralar"}},
   {id:"cakes",icon:"cake",t:{me:"Колачи",en:"Cakes",ru:"Десерты",fr:"Pâtisseries",de:"Kuchen",it:"Dolci",es:"Pasteles",tr:"Tatlılar"}},
   {id:"kokteli",icon:"cocktail",t:{me:"Коктели",en:"Cocktails",ru:"Коктейли",fr:"Cocktails",de:"Cocktails",it:"Cocktail",es:"Cócteles",tr:"Kokteyller"}},
+  {id:"events",icon:"music",t:{me:"Догађаји",en:"Events",ru:"События",fr:"Événements",de:"Events",it:"Eventi",es:"Eventos",tr:"Etkinlikler"}},
   {id:"coffee",icon:"cup",t:{me:"Кафа",en:"Coffee",ru:"Кофе",fr:"Café",de:"Kaffee",it:"Caffè",es:"Café",tr:"Kahve"}},
   {id:"drinks",icon:"glass",t:{me:"Сокови и пића",en:"Drinks",ru:"Напитки",fr:"Boissons",de:"Getränke",it:"Bevande",es:"Bebidas",tr:"İçecekler"}},
   {id:"spirits",icon:"bottle",t:{me:"Жестока пића",en:"Spirits",ru:"Крепкие напитки",fr:"Spiritueux",de:"Spirituosen",it:"Superalcolici",es:"Licores",tr:"Sert içkiler"}},
@@ -700,6 +695,7 @@ function fillEvent(){
   const m=document.getElementById("evbMedia");
   if(x.type==="video"){
     m.innerHTML=`<video class="evb-swap" src="${x.src}" poster="${x.poster||''}" controls autoplay playsinline></video>`;
+    const _v=m.querySelector("video"); const _p=_v.play(); if(_p&&_p.catch)_p.catch(()=>{ _v.muted=true; _v.play().catch(()=>{}); });
   }else{
     m.innerHTML=`<div class="evb-img evb-swap" style="background-image:url('${x.poster||x.src}')"></div>`;
   }
@@ -739,14 +735,11 @@ function showEventSlide(){
     v.onended=()=>{ if(document.getElementById("eventshow").classList.contains("on")) nextEventSlide(); };
     // sigurnosni tajmer (ako video ne krene): pređi nakon 130s
     evShowTimer=setTimeout(()=>{ if(document.getElementById("eventshow").classList.contains("on")) nextEventSlide(); },130000);
-    const p=v.play(); if(p&&p.catch)p.catch(()=>{}); // ako auto-zvuk blokiran, i dalje ide
+    const p=v.play(); if(p&&p.catch)p.catch(()=>{ v.muted=true; v.play().catch(()=>{}); });
   }else{
     m.innerHTML=`<div class="es-img" style="background-image:url('${x.poster||x.src}')"></div>`;
     evShowTimer=setTimeout(()=>{ if(document.getElementById("eventshow").classList.contains("on")) nextEventSlide(); },IMG_SECONDS*1000);
   }
-  document.getElementById("esName").textContent=t.n||"";
-  const sd=document.getElementById("esDesc"); sd.textContent=t.d||""; sd.style.display=t.d?"block":"none";
-  const info=document.getElementById("esInfo"); info.classList.remove("anim"); void info.offsetWidth; info.classList.add("anim");
 }
 function stopEventShow(){
   if(evShowTimer){clearTimeout(evShowTimer); evShowTimer=null;}
