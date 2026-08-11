@@ -486,13 +486,13 @@ const FOOD = [
   es:{n:"Pesto burrata (blanca)",d:"Mozzarella, pesto, cherry secos, burrata"},tr:{n:"Pesto burrata (beyaz)",d:"Mozzarella, pesto, güneşte kurutulmuş çeri domates, burrata"}}},
 
 {cat:"pizza",price:"12.00€",unit:"440 g",img:"images/pizza-vegan.jpg",t:{
-  me:{n:"Веган",d:"Сан Марцано пелат, моцарела, пармезан, тиквице, патлиџан, црвена и зелена паприка, маслине"},
-  en:{n:"Vegan",d:"San Marzano tomato, mozzarella, parmesan, zucchini, eggplant, red and green peppers, olives"},
-  ru:{n:"Веган",d:"Томаты Сан-Марцано, моцарелла, пармезан, цукини, перец, оливки"},
-  fr:{n:"Végan",d:"Tomate San Marzano, mozzarella, parmesan, courgette, poivrons, olives"},
-  de:{n:"Vegan",d:"San-Marzano-Tomaten, Mozzarella, Parmesan, Zucchini, Paprika, Oliven"},
-  it:{n:"Vegana",d:"Pomodoro San Marzano, mozzarella, parmigiano, zucchine, peperoni, olive"},
-  es:{n:"Vegana",d:"Tomate San Marzano, mozzarella, parmesano, calabacín, pimientos, aceitunas"},tr:{n:"Vegan",d:"San Marzano domates, mozzarella, parmesan, kabak, patlıcan, kırmızı ve yeşil biber, zeytin"}}},
+  me:{n:"Веган",d:"Сан Марцано пелат, тиквице, патлиџан, црвена и зелена паприка, маслине"},
+  en:{n:"Vegan",d:"San Marzano tomato, zucchini, eggplant, red and green peppers, olives"},
+  ru:{n:"Веган",d:"Томаты Сан-Марцано, цукини, перец, оливки"},
+  fr:{n:"Végan",d:"Tomate San Marzano, courgette, poivrons, olives"},
+  de:{n:"Vegan",d:"San-Marzano-Tomaten, Zucchini, Paprika, Oliven"},
+  it:{n:"Vegana",d:"Pomodoro San Marzano, zucchine, peperoni, olive"},
+  es:{n:"Vegana",d:"Tomate San Marzano, calabacín, pimientos, aceitunas"},tr:{n:"Vegan",d:"San Marzano domates, kabak, patlıcan, kırmızı ve yeşil biber, zeytin"}}},
 
 {cat:"pizza",price:"15.00€",unit:"440 g",img:"images/pizza-nduja.jpg",t:{
   me:{n:"Ндуја",d:"Сан Марцано пелат, моцарела, пармезан, ндуја"},
