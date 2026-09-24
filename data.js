@@ -375,6 +375,24 @@ const FOOD = [
   it:{n:"Tagliata di controfiletto in crema al tartufo",d:"Controfiletto, patate, tartufo, spezie"},
   es:{n:"Tagliata de entrecot en crema de trufa",d:"Entrecot, patatas, trufas, especias"},tr:{n:"Yer mantarı kremalı tagliata antrikot",d:"Antrikot, patates, yer mantarı, baharatlar"}}},
 
+{cat:"main",price:"11.00€",unit:"200 g",t:{
+  me:{n:"Похована пилетина са помфритом",d:"Похована пилетина, помфрит"},
+  en:{n:"Breaded chicken with fries",d:"Breaded chicken, fries"},
+  ru:{n:"Курица в панировке с картофелем фри",d:"Курица в панировке, картофель фри"},
+  fr:{n:"Poulet pané avec frites",d:"Poulet pané, frites"},
+  de:{n:"Paniertes Hähnchen mit Pommes",d:"Paniertes Hähnchen, Pommes"},
+  it:{n:"Pollo impanato con patatine",d:"Pollo impanato, patatine fritte"},
+  es:{n:"Pollo empanado con patatas fritas",d:"Pollo empanado, patatas fritas"},tr:{n:"Patates kızartmalı pane tavuk",d:"Pane tavuk, patates kızartması"}}},
+
+{cat:"main",price:"11.00€",unit:"200 g",t:{
+  me:{n:"Грилована пилетина са помфритом",d:"Грилована пилетина, помфрит"},
+  en:{n:"Grilled chicken with fries",d:"Grilled chicken, fries"},
+  ru:{n:"Курица гриль с картофелем фри",d:"Курица гриль, картофель фри"},
+  fr:{n:"Poulet grillé avec frites",d:"Poulet grillé, frites"},
+  de:{n:"Gegrilltes Hähnchen mit Pommes",d:"Gegrilltes Hähnchen, Pommes"},
+  it:{n:"Pollo alla griglia con patatine",d:"Pollo alla griglia, patatine fritte"},
+  es:{n:"Pollo a la parrilla con patatas fritas",d:"Pollo a la parrilla, patatas fritas"},tr:{n:"Patates kızartmalı ızgara tavuk",d:"Izgara tavuk, patates kızartması"}}},
+
 {cat:"main",price:"14.00€",unit:"200 g",img:"images/main-vegan-piletina.jpg",t:{
   me:{n:"Веганска пилетина са помфритом",d:"Биљна пилетина, помфрит"},
   en:{n:"Vegan chicken with fries",d:"Plant-based chicken, fries"},
@@ -565,6 +583,7 @@ const FOOD = [
 {cat:"addons",price:"3.90€",unit:"30 g",img:"images/addon-ventricina.jpg",t:{me:{n:"Вентричина салама"},en:{n:"Ventricina salami"},ru:{n:"Салями вентричина"},fr:{n:"Salami ventricina"},de:{n:"Ventricina-Salami"},it:{n:"Salame ventricina"},es:{n:"Salami ventricina"},tr:{n:"Ventricina salam"}}},
 {cat:"addons",price:"3.90€",unit:"30 g",img:"images/addon-mortadela.jpg",t:{me:{n:"Мортадела"},en:{n:"Mortadella"},ru:{n:"Мортаделла"},fr:{n:"Mortadelle"},de:{n:"Mortadella"},it:{n:"Mortadella"},es:{n:"Mortadela"},tr:{n:"Mortadella"}}},
 {cat:"addons",price:"4.90€",unit:"30 g",img:"images/addon-burata.jpg",t:{me:{n:"Бурата"},en:{n:"Burrata"},ru:{n:"Буррата"},fr:{n:"Burrata"},de:{n:"Burrata"},it:{n:"Burrata"},es:{n:"Burrata"},tr:{n:"Burrata"}}},
+{cat:"addons",price:"4.00€",unit:"100 g",t:{me:{n:"Помфрит"},en:{n:"Fries"},ru:{n:"Картофель фри"},fr:{n:"Frites"},de:{n:"Pommes frites"},it:{n:"Patatine fritte"},es:{n:"Patatas fritas"},tr:{n:"Patates kızartması"}}},
 
 /* ---------- КОЛАЧИ / CAKES ---------- */
 {cat:"cakes",price:"4.80€",unit:"200 g",img:"images/limun-tart.jpg",t:{
@@ -781,8 +800,10 @@ D("wine","glass","7.50€","0.15 l","Pet Nat Pinot Noir — Vinčić, Fruška go
 D("wine","glass","6.00€","0.15 l","Paradigma — Milović, Briska Gora, ME (Chardonnay)","Paradigma — Milović, Briska Gora, ME (Chardonnay)"),
 D("wine","glass","6.50€","0.15 l","Malvasia — Patrimonio, Bobija, ME","Malvasia — Patrimonio, Bobija, ME"),
 D("wine","glass","6.50€","0.15 l","Pinot Grigio — Cesari, Venezie, IT","Pinot Grigio — Cesari, Venezie, IT"),
+D("wine","glass","7.50€","0.15 l","Fantazija — Četiri Gracije, Dahna, ME (Malvazija, Tamjanika)","Fantazija — Četiri Gracije, Dahna, ME (Malvazija, Tamjanika)"),
 D("wine","glass","6.00€","0.15 l","Arhonto Rose — Krgović, Rogami, ME (Cab. Sauvignon, Sangiovese)","Arhonto Rose — Krgović, Rogami, ME (Cab. Sauvignon, Sangiovese)"),
 D("wine","glass","6.50€","0.15 l","Alie Rose — Frescobaldi, Toscana, IT (Syrah, Vermentino)","Alie Rose — Frescobaldi, Toscana, IT (Syrah, Vermentino)"),
+D("wine","glass","7.50€","0.15 l","Gracija — Četiri Gracije, Dahna, ME (Marselan, Merlot, Muscat Hamburg)","Gracija — Četiri Gracije, Dahna, ME (Marselan, Merlot, Muscat Hamburg)"),
 D("wine","glass","7.00€","0.15 l","Status Barrique — Milović, Briska Gora, ME (Vranac)","Status Barrique — Milović, Briska Gora, ME (Vranac)"),
 D("wine","glass","6.50€","0.15 l","Barbera d'Asti — Scanavino, Piemonte, IT (Barbera)","Barbera d'Asti — Scanavino, Piemonte, IT (Barbera)"),
 D("wine","sparkling","28.50€","0.75 l","Prosecco Extra Dry — Scanavino, Piemonte, IT (Glera)","Prosecco Extra Dry — Scanavino, Piemonte, IT (Glera)"),
